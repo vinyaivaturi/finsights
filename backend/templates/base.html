@@ -7,14 +7,15 @@
 <body>
     <div class="full-body-container">
         <div class="top-text">
-            <div class="title">
-                <h1>FinSights</h1>
+            <div class="google-colors">
+                <h1 id="google-4">4</h1>
+                <h1 id="google-3">3</h1>
+                <h1 id="google-0-1">0</h1>
+                <h1 id="google-0-2">0</h1>
             </div>
-            <p>Tell us about your investment preferences!</p>
-            <p class="example">Example query: I want to invest $1000 in a low-risk ETF in the technology sector for the long-term.</p>
             <div class="input-box" onclick="sendFocus()">
                 <img src="{{ url_for('static', filename='images/mag.png') }}" />
-                <input placeholder="Enter your risk appetite, investment horizon, desired sectors, and investment amount." id="filter-text-val" onkeyup="filterText()">
+                <input placeholder="Search for a Keeping up with the Kardashians episode" id="filter-text-val" onkeyup="filterText()">
             </div>
         </div>
         <div id="answer-box">
@@ -25,11 +26,11 @@
     <script>
 
         function answerBoxTemplate(title,titleDesc,rating){
-            return `<div class=''>
-                <h3 class='episode-title'>${title}</h3>
-                <p class='episode-desc'>${titleDesc}</p>
-                <p class='episode-rating'>IMDB Rating: ${rating}</p>
-            </div>`
+            return `<div class='sector-card'>
+                <h3 class='sector-name'>${sector}</h3>
+                <p class='sector-weight'><strong>Weight:</strong> ${weight}</p>
+                <hr>
+            </div>`;
         }
 
         function sendFocus(){
@@ -39,10 +40,9 @@
         function filterText(){
             document.getElementById("answer-box").innerHTML = ""
             console.log(document.getElementById("filter-text-val").value)
-            fetch("/episodes?" + new URLSearchParams({ title: document.getElementById("filter-text-val").value }).toString())
+            fetch("/sectors?" + new URLSearchParams({ query: document.getElementById("filter-text-val").value }).toString())
             .then((response) => response.json())
             .then((data) => data.forEach(row => {
-                
                 let tempDiv = document.createElement("div")
                 tempDiv.innerHTML = answerBoxTemplate(row.title,row.descr,row.imdb_rating)
                 document.getElementById("answer-box").appendChild(tempDiv)

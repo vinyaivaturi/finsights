@@ -18,18 +18,22 @@ json_file_path = os.path.join(current_directory, 'init.json')
 # Assuming your JSON data is stored in a file named 'init.json'
 with open(json_file_path, 'r') as file:
     data = json.load(file)
-    episodes_df = pd.DataFrame(data['episodes'])
-    reviews_df = pd.DataFrame(data['reviews'])
+
+if 'sectors' not in data:
+    raise ValueError("Expected 'sectors' field in JSON data")
+
+sectors_df = pd.DataFrame(data['sectors'])
+print(sectors_df.head())
 
 app = Flask(__name__)
 CORS(app)
 
 # Sample search using json with pandas
 def json_search(query):
+    query = query.lower()
     matches = []
-    merged_df = pd.merge(episodes_df, reviews_df, left_on='id', right_on='id', how='inner')
-    matches = merged_df[merged_df['title'].str.lower().str.contains(query.lower())]
-    matches_filtered = matches[['title', 'descr', 'imdb_rating']]
+    matches = sectors_df[sectors_df['sector'].str.lower().str.contains(query, na=False)]
+    matches_filtered = matches[['sector', 'weight']]
     matches_filtered_json = matches_filtered.to_json(orient='records')
     return matches_filtered_json
 
