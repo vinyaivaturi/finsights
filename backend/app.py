@@ -24,6 +24,7 @@ if 'sectors' not in data:
 
 sectors_df = pd.DataFrame(data['sectors'])
 print(sectors_df.head())
+holdings_df = pd.DataFrame(data.get('holdings', []))
 
 app = Flask(__name__)
 CORS(app)
@@ -44,6 +45,14 @@ def sector_search(query):
     matches_filtered = matches[['sector', 'weight']]
     return matches_filtered.to_json(orient='records')
 
+def holdings_search(query):
+    query = query.lower()
+    matches = holdings_df[
+        (holdings_df['symbol'].str.lower().str.contains(query, na=False)) | 
+        (holdings_df['description'].str.lower().str.contains(query, na=False))
+    ]
+    return matches[['symbol', 'description', 'weight']].to_json(orient='records')
+
 @app.route("/")
 def home():
     return render_template('base.html',title="sample html")
@@ -53,5 +62,10 @@ def sectors_search():
     text = request.args.get("sector", "")
     return sector_search(text)
 
+@app.route("/holdings")
+def holdings_search_api():
+    text = request.args.get("holding", "")
+    return holdings_search(text)
+    
 if 'DB_NAME' not in os.environ:
     app.run(debug=True,host="0.0.0.0",port=5000)
