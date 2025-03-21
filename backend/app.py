@@ -29,22 +29,29 @@ app = Flask(__name__)
 CORS(app)
 
 # Sample search using json with pandas
-def json_search(query):
+# def json_search(query):
+#     query = query.lower()
+#     matches = []
+#     matches = sectors_df[sectors_df['sector'].str.lower().str.contains(query, na=False)]
+#     matches_filtered = matches[['sector', 'weight']]
+#     matches_filtered_json = matches_filtered.to_json(orient='records')
+#     return matches_filtered_json
+
+# Search function to retrieve sectors - added by vinya
+def sector_search(query):
     query = query.lower()
-    matches = []
     matches = sectors_df[sectors_df['sector'].str.lower().str.contains(query, na=False)]
     matches_filtered = matches[['sector', 'weight']]
-    matches_filtered_json = matches_filtered.to_json(orient='records')
-    return matches_filtered_json
+    return matches_filtered.to_json(orient='records')
 
 @app.route("/")
 def home():
     return render_template('base.html',title="sample html")
 
-@app.route("/episodes")
-def episodes_search():
-    text = request.args.get("title")
-    return json_search(text)
+@app.route("/sectors")
+def sectors_search():
+    text = request.args.get("sector", "")
+    return sector_search(text)
 
 if 'DB_NAME' not in os.environ:
     app.run(debug=True,host="0.0.0.0",port=5000)
