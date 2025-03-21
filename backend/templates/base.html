@@ -7,15 +7,14 @@
 <body>
     <div class="full-body-container">
         <div class="top-text">
-            <div class="google-colors">
-                <h1 id="google-4">4</h1>
-                <h1 id="google-3">3</h1>
-                <h1 id="google-0-1">0</h1>
-                <h1 id="google-0-2">0</h1>
+            <div class="title">
+                <h1>FinSights</h1>
             </div>
+            <p>Tell us about your investment preferences!</p>
+            <p class="example">Example query: I want to invest $1000 in a low-risk ETF in the technology sector for the long-term.</p>
             <div class="input-box" onclick="sendFocus()">
                 <img src="{{ url_for('static', filename='images/mag.png') }}" />
-                <input placeholder="Search for a Keeping up with the Kardashians episode" id="filter-text-val" onkeyup="filterText()">
+                <input placeholder="Enter your risk appetite, investment horizon, desired sectors, and investment amount." id="filter-text-val" onkeyup="filterText()">
             </div>
         </div>
         <div id="answer-box">
