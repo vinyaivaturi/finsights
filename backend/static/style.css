@@ -24,6 +24,10 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+.example {
+    font-style: italic;
+}
+
 .google-colors h1{
     margin-bottom: 0;
     margin-right: 3px;
