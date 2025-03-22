@@ -52,6 +52,7 @@
         function filterText() {
             document.getElementById("answer-box").innerHTML = "";
             let query = document.getElementById("filter-text-val").value;
+            let etf = document.getElementById("etf-select").value;
             
             fetch("/sectors?" + new URLSearchParams({ sector: query }).toString())
             .then((response) => response.json())
