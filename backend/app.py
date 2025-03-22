@@ -2,48 +2,42 @@ import json
 import os
 from flask import Flask, render_template, request
 from flask_cors import CORS
-from helpers.MySQLDatabaseHandler import MySQLDatabaseHandler
 import pandas as pd
 
-# ROOT_PATH for linking with all your files. 
-# Feel free to use a config.py or settings.py with a global export variable
-os.environ['ROOT_PATH'] = os.path.abspath(os.path.join("..",os.curdir))
+# ROOT_PATH for linking with all your files.
+os.environ['ROOT_PATH'] = os.path.abspath(os.path.join("..", os.curdir))
 
 # Get the directory of the current script
 current_directory = os.path.dirname(os.path.abspath(__file__))
-
-# Specify the path to the JSON file relative to the current script
 json_file_path = os.path.join(current_directory, 'init.json')
 
-# Assuming your JSON data is stored in a file named 'init.json'
+# Load JSON data
 with open(json_file_path, 'r') as file:
     data = json.load(file)
 
-if 'sectors' not in data:
-    raise ValueError("Expected 'sectors' field in JSON data")
+# Combine sectors and holdings across all ETFs
+sectors_list = []
+holdings_list = []
 
-sectors_df = pd.DataFrame(data['sectors'])
-print(sectors_df.head())
-holdings_df = pd.DataFrame(data.get('holdings', []))
+for etf, etf_data in data.items():
+    for sector in etf_data.get("sectors", []):
+        sector["ETF"] = etf  # Add ETF name to the sector
+        sectors_list.append(sector)
+    for holding in etf_data.get("holdings", []):
+        holding["ETF"] = etf  # Add ETF name to the holding
+        holdings_list.append(holding)
+
+# Create DataFrames
+sectors_df = pd.DataFrame(sectors_list)
+holdings_df = pd.DataFrame(holdings_list)
 
 app = Flask(__name__)
 CORS(app)
 
-# Sample search using json with pandas
-# def json_search(query):
-#     query = query.lower()
-#     matches = []
-#     matches = sectors_df[sectors_df['sector'].str.lower().str.contains(query, na=False)]
-#     matches_filtered = matches[['sector', 'weight']]
-#     matches_filtered_json = matches_filtered.to_json(orient='records')
-#     return matches_filtered_json
-
-# Search function to retrieve sectors - added by vinya
 def sector_search(query):
     query = query.lower()
     matches = sectors_df[sectors_df['sector'].str.lower().str.contains(query, na=False)]
-    matches_filtered = matches[['sector', 'weight']]
-    return matches_filtered.to_json(orient='records')
+    return matches[['ETF', 'sector', 'weight']].to_json(orient='records')
 
 def holdings_search(query):
     query = query.lower()
@@ -51,11 +45,11 @@ def holdings_search(query):
         (holdings_df['symbol'].str.lower().str.contains(query, na=False)) | 
         (holdings_df['description'].str.lower().str.contains(query, na=False))
     ]
-    return matches[['symbol', 'description', 'weight']].to_json(orient='records')
+    return matches[['ETF', 'symbol', 'description', 'weight']].to_json(orient='records')
 
 @app.route("/")
 def home():
-    return render_template('base.html',title="sample html")
+    return render_template('base.html', title="ETF Data Search")
 
 @app.route("/sectors")
 def sectors_search():
@@ -66,6 +60,6 @@ def sectors_search():
 def holdings_search_api():
     text = request.args.get("holding", "")
     return holdings_search(text)
-    
+
 if 'DB_NAME' not in os.environ:
-    app.run(debug=True,host="0.0.0.0",port=5000)
+    app.run(debug=True, host="0.0.0.0", port=5000)
