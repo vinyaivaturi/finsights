@@ -52,9 +52,16 @@
         function filterText() {
             document.getElementById("answer-box").innerHTML = "";
             let query = document.getElementById("filter-text-val").value;
-            let etf = document.getElementById("etf-select").value; // Dropdown for ETF selection
-            
-            // Fetch and display sector matches
+}
+function searchETF() {
+            let query = document.getElementById("filter-text-val").value.trim();
+            document.getElementById("result").innerHTML = "";
+
+            if (query === "") {
+                document.getElementById("result").innerHTML = "<p>Please enter a search term.</p>";
+                return;
+            }
+
             // Search sectors
             fetch(`/sectors?sector=${query}`)
                 .then(response => response.json())
@@ -83,8 +90,6 @@
                         });
                     }
                     document.getElementById("result").innerHTML += html;
-                });
-}
-            
+                });}
     </script>
 </body>
