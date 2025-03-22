@@ -41,6 +41,7 @@
         function holdingsBoxTemplate(symbol, description, weight) {
             return `<div class='holding-item'>
                 <h3 class='holding-symbol'>${symbol} - ${description}</h3>
+                <p class ='holding-details'>Details: ${details}</p>
                 <p class='holding-weight'>Weight: ${weight}</p>
             </div>`;
 }
@@ -65,7 +66,7 @@
             .then((response) => response.json())
             .then((data) => data.forEach(row => {
                 let tempDiv = document.createElement("div");
-                tempDiv.innerHTML = holdingsBoxTemplate(row.symbol, row.description, row.weight);
+                tempDiv.innerHTML = holdingsBoxTemplate(row.symbol, row.description, row.details, row.weight);
                 document.getElementById("answer-box").appendChild(tempDiv);
             }));
 }
