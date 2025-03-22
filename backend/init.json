@@ -1516,159 +1516,83 @@
             }
         ]
     },
-    "XLY": {
-        "net_assets": "22400000000",
-        "net_expense_ratio": "0.0008",
-        "portfolio_turnover": "0.26",
-        "dividend_yield": "0.0081",
-        "inception_date": "1998-12-16",
-        "leveraged": "NO",
-        "sectors": [
+        "XLY": {
+          "net_assets": "22400000000",
+          "net_expense_ratio": "0.0008",
+          "portfolio_turnover": "0.26",
+          "dividend_yield": "0.0081",
+          "inception_date": "1998-12-16",
+          "leveraged": "NO",
+          "sectors": [
+            { "sector": "CONSUMER DISCRETIONARY", "weight": "0.989" },
+            { "sector": "FINANCIALS", "weight": "0.01" }
+          ],
+          "holdings": [
             {
-                "sector": "CONSUMER DISCRETIONARY",
-                "weight": "0.989"
+              "symbol": "AMZN",
+              "description": "AMAZON.COM INC",
+              "details": "Amazon is a multinational technology company focused on e-commerce, cloud computing, digital streaming, and artificial intelligence.",
+              "weight": "0.2076"
             },
             {
-                "sector": "FINANCIALS",
-                "weight": "0.01"
+              "symbol": "TSLA",
+              "description": "TESLA INC",
+              "details": "Tesla is a leading electric vehicle and clean energy company known for its innovative cars, battery storage, and solar products.",
+              "weight": "0.1312"
             },
             {
-                "sector": "INFORMATION TECHNOLOGY",
-                "weight": "0.00"
+              "symbol": "HD",
+              "description": "THE HOME DEPOT INC",
+              "details": "Home Depot is the largest home improvement retailer in the U.S., supplying tools, construction products, and services.",
+              "weight": "0.0655"
             },
             {
-                "sector": "COMMUNICATION SERVICES",
-                "weight": "0.00"
+              "symbol": "MCD",
+              "description": "MCDONALD'S CORP",
+              "details": "McDonald's is the world's largest fast-food restaurant chain, serving millions of customers daily across the globe.",
+              "weight": "0.0529"
             },
             {
-                "sector": "HEALTHCARE",
-                "weight": "0.00"
+              "symbol": "BKNG",
+              "description": "BOOKING HOLDINGS INC",
+              "details": "Booking Holdings is a global leader in online travel services, operating brands such as Booking.com, Priceline, and Kayak.",
+              "weight": "0.0474"
             },
             {
-                "sector": "CONSUMER STAPLES",
-                "weight": "0.00"
+              "symbol": "TJX",
+              "description": "TJX COMPANIES INC",
+              "details": "TJX Companies is an off-price apparel and home goods retailer, operating stores such as TJ Maxx, Marshalls, and HomeGoods.",
+              "weight": "0.0409"
             },
             {
-                "sector": "INDUSTRIALS",
-                "weight": "0.00"
+              "symbol": "LOW",
+              "description": "LOWE'S COMPANIES INC",
+              "details": "Lowe's is a leading home improvement retailer, offering products for home construction, maintenance, and repair.",
+              "weight": "0.0405"
             },
             {
-                "sector": "MATERIALS",
-                "weight": "0.00"
+              "symbol": "SBUX",
+              "description": "STARBUCKS CORP",
+              "details": "Starbucks is a global coffeehouse chain known for its premium coffee, beverages, and food offerings.",
+              "weight": "0.0378"
             },
             {
-                "sector": "UTILITIES",
-                "weight": "0.00"
+              "symbol": "NKE",
+              "description": "NIKE INC CLASS B",
+              "details": "Nike is a multinational corporation that designs, manufactures, and markets athletic footwear, apparel, and accessories.",
+              "weight": "0.0274"
             },
             {
-                "sector": "ENERGY",
-                "weight": "0.00"
+              "symbol": "ORLY",
+              "description": "O'REILLY AUTOMOTIVE INC",
+              "details": "O'Reilly Automotive is a retailer of automotive aftermarket parts, tools, and accessories in the U.S.",
+              "weight": "0.0233"
             }
-        ],
-        "holdings": [
-            {
-                "symbol": "AMZN",
-                "description": "AMAZON.COM INC",
-                "weight": "0.2076"
-            },
-            {
-                "symbol": "TSLA",
-                "description": "TESLA INC",
-                "weight": "0.1312"
-            },
-            {
-                "symbol": "HD",
-                "description": "THE HOME DEPOT INC",
-                "weight": "0.0655"
-            },
-            {
-                "symbol": "MCD",
-                "description": "MCDONALD'S CORP",
-                "weight": "0.0529"
-            },
-            {
-                "symbol": "BKNG",
-                "description": "BOOKING HOLDINGS INC",
-                "weight": "0.0474"
-            },
-            {
-                "symbol": "TJX",
-                "description": "TJX COMPANIES INC",
-                "weight": "0.0409"
-            },
-            {
-                "symbol": "LOW",
-                "description": "LOWE'S COMPANIES INC",
-                "weight": "0.0405"
-            },
-            {
-                "symbol": "SBUX",
-                "description": "STARBUCKS CORP",
-                "weight": "0.0378"
-            },
-            {
-                "symbol": "NKE",
-                "description": "NIKE INC CLASS B",
-                "weight": "0.0274"
-            },
-            {
-                "symbol": "ORLY",
-                "description": "O'REILLY AUTOMOTIVE INC",
-                "weight": "0.0233"
-            },
-            {
-                "symbol": "CMG",
-                "description": "CHIPOTLE MEXICAN GRILL INC",
-                "weight": "0.0215"
-            },
-            {
-                "symbol": "HLT",
-                "description": "HILTON WORLDWIDE HOLDINGS INC",
-                "weight": "0.0188"
-            },
-            {
-                "symbol": "MAR",
-                "description": "MARRIOTT INTERNATIONAL INC CLASS A",
-                "weight": "0.0185"
-            },
-            {
-                "symbol": "ABNB",
-                "description": "AIRBNB INC ORDINARY SHARES CLASS A",
-                "weight": "0.0182"
-            },
-            {
-                "symbol": "AZO",
-                "description": "AUTOZONE INC",
-                "weight": "0.0174"
-            },
-            {
-                "symbol": "RCL",
-                "description": "ROYAL CARIBBEAN GROUP",
-                "weight": "0.0167"
-            },
-            {
-                "symbol": "GM",
-                "description": "GENERAL MOTORS CO",
-                "weight": "0.0148"
-            },
-            {
-                "symbol": "ROST",
-                "description": "ROSS STORES INC",
-                "weight": "0.0134"
-            },
-            {
-                "symbol": "YUM",
-                "description": "YUM BRANDS INC",
-                "weight": "0.0131"
-            },
-            {
-                "symbol": "LULU",
-                "description": "LULULEMON ATHLETICA INC",
-                "weight": "0.0116"
-            }
-        ]
-    },
-    "QQQ": {
+          ]
+        
+      }
+    
+    ,"QQQ": {
         "net_assets": "323800000000",
         "net_expense_ratio": "0.002",
         "portfolio_turnover": "0.08",
