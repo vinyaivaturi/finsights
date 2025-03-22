@@ -52,8 +52,9 @@
         function filterText() {
             document.getElementById("answer-box").innerHTML = "";
             let query = document.getElementById("filter-text-val").value;
-            let etf = document.getElementById("etf-select").value;
+            let etf = document.getElementById("etf-select").value; // Dropdown for ETF selection
             
+            // Fetch and display sector matches
             fetch("/sectors?" + new URLSearchParams({ etf: etf, sector: query }).toString())
             .then((response) => response.json())
             .then((data) => data.forEach(row => {
@@ -62,13 +63,14 @@
                 document.getElementById("answer-box").appendChild(tempDiv);
             }));
 
+            // Fetch and display holdings matches
             fetch("/holdings?" + new URLSearchParams({ etf: etf, holding: query }).toString())
             .then((response) => response.json())
             .then((data) => data.forEach(row => {
                 let tempDiv = document.createElement("div");
                 tempDiv.innerHTML = holdingsBoxTemplate(row.symbol, row.description, row.weight);
                 document.getElementById("answer-box").appendChild(tempDiv);
-            }));
+    }));
 }
             
     </script>
