@@ -52,44 +52,23 @@
         function filterText() {
             document.getElementById("answer-box").innerHTML = "";
             let query = document.getElementById("filter-text-val").value;
+            
+            fetch("/sectors?" + new URLSearchParams({ sector: query }).toString())
+            .then((response) => response.json())
+            .then((data) => data.forEach(row => {
+                let tempDiv = document.createElement("div");
+                tempDiv.innerHTML = sectorBoxTemplate(row.sector, row.weight);
+                document.getElementById("answer-box").appendChild(tempDiv);
+            }));
+
+            fetch("/holdings?" + new URLSearchParams({ holding: query }).toString())
+            .then((response) => response.json())
+            .then((data) => data.forEach(row => {
+                let tempDiv = document.createElement("div");
+                tempDiv.innerHTML = holdingsBoxTemplate(row.symbol, row.description, row.weight);
+                document.getElementById("answer-box").appendChild(tempDiv);
+            }));
 }
-function searchETF() {
-            let query = document.getElementById("filter-text-val").value.trim();
-            document.getElementById("result").innerHTML = "";
-
-            if (query === "") {
-                document.getElementById("result").innerHTML = "<p>Please enter a search term.</p>";
-                return;
-            }
-
-            // Search sectors
-            fetch(`/sectors?sector=${query}`)
-                .then(response => response.json())
-                .then(data => {
-                    let html = "<h2>Sectors</h2>";
-                    if (data.length === 0) {
-                        html += "<p>No sectors found.</p>";
-                    } else {
-                        data.forEach(sector => {
-                            html += `<p><strong>${sector.etf}:</strong> ${sector.sector} (Weight: ${sector.weight})</p>`;
-                        });
-                    }
-                    document.getElementById("result").innerHTML += html;
-                });
-
-            // Search holdings
-            fetch(`/holdings?holding=${query}`)
-                .then(response => response.json())
-                .then(data => {
-                    let html = "<h2>Holdings</h2>";
-                    if (data.length === 0) {
-                        html += "<p>No holdings found.</p>";
-                    } else {
-                        data.forEach(holding => {
-                            html += `<p><strong>${holding.etf}:</strong> ${holding.symbol} - ${holding.description} (Weight: ${holding.weight})</p>`;
-                        });
-                    }
-                    document.getElementById("result").innerHTML += html;
-                });}
+            
     </script>
 </body>
