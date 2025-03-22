@@ -54,7 +54,7 @@
             let query = document.getElementById("filter-text-val").value;
             let etf = document.getElementById("etf-select").value;
             
-            fetch("/sectors?" + new URLSearchParams({ sector: query }).toString())
+            fetch("/sectors?" + new URLSearchParams({ etf: etf, sector: query }).toString())
             .then((response) => response.json())
             .then((data) => data.forEach(row => {
                 let tempDiv = document.createElement("div");
@@ -62,7 +62,7 @@
                 document.getElementById("answer-box").appendChild(tempDiv);
             }));
 
-            fetch("/holdings?" + new URLSearchParams({ holding: query }).toString())
+            fetch("/holdings?" + new URLSearchParams({ etf: etf, holding: query }).toString())
             .then((response) => response.json())
             .then((data) => data.forEach(row => {
                 let tempDiv = document.createElement("div");
