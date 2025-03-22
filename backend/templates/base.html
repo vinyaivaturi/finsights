@@ -55,22 +55,35 @@
             let etf = document.getElementById("etf-select").value; // Dropdown for ETF selection
             
             // Fetch and display sector matches
-            fetch("/sectors?" + new URLSearchParams({ etf: etf, sector: query }).toString())
-            .then((response) => response.json())
-            .then((data) => data.forEach(row => {
-                let tempDiv = document.createElement("div");
-                tempDiv.innerHTML = sectorBoxTemplate(row.sector, row.weight);
-                document.getElementById("answer-box").appendChild(tempDiv);
-            }));
+            // Search sectors
+            fetch(`/sectors?sector=${query}`)
+                .then(response => response.json())
+                .then(data => {
+                    let html = "<h2>Sectors</h2>";
+                    if (data.length === 0) {
+                        html += "<p>No sectors found.</p>";
+                    } else {
+                        data.forEach(sector => {
+                            html += `<p><strong>${sector.etf}:</strong> ${sector.sector} (Weight: ${sector.weight})</p>`;
+                        });
+                    }
+                    document.getElementById("result").innerHTML += html;
+                });
 
-            // Fetch and display holdings matches
-            fetch("/holdings?" + new URLSearchParams({ etf: etf, holding: query }).toString())
-            .then((response) => response.json())
-            .then((data) => data.forEach(row => {
-                let tempDiv = document.createElement("div");
-                tempDiv.innerHTML = holdingsBoxTemplate(row.symbol, row.description, row.weight);
-                document.getElementById("answer-box").appendChild(tempDiv);
-    }));
+            // Search holdings
+            fetch(`/holdings?holding=${query}`)
+                .then(response => response.json())
+                .then(data => {
+                    let html = "<h2>Holdings</h2>";
+                    if (data.length === 0) {
+                        html += "<p>No holdings found.</p>";
+                    } else {
+                        data.forEach(holding => {
+                            html += `<p><strong>${holding.etf}:</strong> ${holding.symbol} - ${holding.description} (Weight: ${holding.weight})</p>`;
+                        });
+                    }
+                    document.getElementById("result").innerHTML += html;
+                });
 }
             
     </script>
