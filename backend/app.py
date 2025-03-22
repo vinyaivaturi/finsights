@@ -45,7 +45,7 @@ def holdings_search(query):
         (holdings_df['symbol'].str.lower().str.contains(query, na=False)) | 
         (holdings_df['description'].str.lower().str.contains(query, na=False))
     ]
-    return matches[['ETF', 'symbol', 'description', 'weight']].to_json(orient='records')
+    return matches[['ETF', 'symbol', 'description', 'details', 'weight']].to_json(orient='records')
 
 @app.route("/")
 def home():
