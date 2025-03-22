@@ -2078,367 +2078,440 @@
             {
                 "symbol": "BRK-B",
                 "description": "BERKSHIRE HATHAWAY INC CLASS B",
+                "details": "Berkshire Hathaway is a multinational conglomerate that invests in a wide range of industries including insurance, rail transportation, and energy. It is renowned for its long-term value investing approach under the leadership of Warren Buffett.",
                 "weight": "0.1293"
             },
             {
                 "symbol": "JPM",
                 "description": "JPMORGAN CHASE & CO",
+                "details": "JPMorgan Chase is one of the world’s largest financial institutions, offering investment banking, asset management, and retail banking services. It plays a significant role in global finance with a diversified service portfolio.",
                 "weight": "0.1003"
             },
             {
                 "symbol": "V",
                 "description": "VISA INC CLASS A",
+                "details": "Visa Inc is a global payments technology company that facilitates electronic funds transfers worldwide. It operates one of the largest and most secure electronic payment networks.",
                 "weight": "0.0866"
             },
             {
                 "symbol": "MA",
                 "description": "MASTERCARD INC CLASS A",
+                "details": "Mastercard Inc is a leading global payments and technology company that connects consumers, financial institutions, and merchants. It offers innovative payment solutions and secure transaction processing.",
                 "weight": "0.0647"
             },
             {
                 "symbol": "BAC",
                 "description": "BANK OF AMERICA CORP",
+                "details": "Bank of America is a major U.S. banking institution providing a broad range of financial services including consumer banking, wealth management, and corporate finance. It is a key player in the domestic and global financial markets.",
                 "weight": "0.0405"
             },
             {
                 "symbol": "WFC",
                 "description": "WELLS FARGO & CO",
+                "details": "Wells Fargo is a diversified financial services company known for its extensive branch network and broad array of banking products. It offers consumer, commercial, and wealth management services across the United States.",
                 "weight": "0.0347"
             },
             {
                 "symbol": "GS",
                 "description": "THE GOLDMAN SACHS GROUP INC",
+                "details": "Goldman Sachs is a leading global investment banking and securities firm that provides financial advisory, asset management, and other financial services. It is widely recognized for its expertise in market strategies and capital management.",
                 "weight": "0.0259"
             },
             {
                 "symbol": "PGR",
                 "description": "PROGRESSIVE CORP",
+                "details": "Progressive Corporation is a major provider of auto insurance in the U.S. and is known for its innovative approach to underwriting and claims management. It also offers a range of other insurance products and financial services.",
                 "weight": "0.0236"
             },
             {
-                "symbol": "SPGI",
-                "description": "S&P GLOBAL INC",
-                "weight": "0.0233"
+              "symbol": "SPGI",
+              "description": "S&P GLOBAL INC",
+              "details": "S&P Global is a leading provider of financial information and analytics, best known for its credit ratings and market indices such as the S&P 500. Its data and insights are crucial for investors and financial institutions worldwide.",
+              "weight": "0.0233"
             },
             {
-                "symbol": "AXP",
-                "description": "AMERICAN EXPRESS CO",
-                "weight": "0.0224"
+              "symbol": "AXP",
+              "description": "AMERICAN EXPRESS CO",
+              "details": "American Express is a multinational financial services company famous for its charge and credit card products. It also offers travel-related and other financial services to consumers and businesses globally.",
+              "weight": "0.0224"
             },
             {
-                "symbol": "MS",
-                "description": "MORGAN STANLEY",
-                "weight": "0.0215"
+              "symbol": "MS",
+              "description": "MORGAN STANLEY",
+              "details": "Morgan Stanley is a global financial services firm offering investment banking, wealth management, and institutional securities services. It is known for its expertise in capital markets and long-term investment strategies.",
+              "weight": "0.0215"
             },
             {
-                "symbol": "BLK",
-                "description": "BLACKROCK INC",
-                "weight": "0.0197"
+              "symbol": "BLK",
+              "description": "BLACKROCK INC",
+              "details": "BlackRock is the world’s largest asset management firm, providing a variety of investment management, risk management, and advisory services. It is especially known for its iShares ETF lineup and broad market influence.",
+              "weight": "0.0197"
             },
             {
-                "symbol": "C",
-                "description": "CITIGROUP INC",
-                "weight": "0.0194"
+              "symbol": "C",
+              "description": "CITIGROUP INC",
+              "details": "Citigroup is a global diversified financial services company that offers a wide range of products including banking, credit, and investment services. It serves millions of consumers, corporations, and institutions worldwide.",
+              "weight": "0.0194"
             },
             {
-                "symbol": "FI",
-                "description": "FISERV INC",
-                "weight": "0.0182"
+              "symbol": "FI",
+              "description": "FISERV INC",
+              "details": "Fiserv Inc is a global provider of financial services technology, offering solutions for payment processing, digital banking, and risk management. It helps financial institutions enhance their operational efficiency and customer experience.",
+              "weight": "0.0182"
             },
             {
-                "symbol": "SCHW",
-                "description": "CHARLES SCHWAB CORP",
-                "weight": "0.0182"
+              "symbol": "SCHW",
+              "description": "CHARLES SCHWAB CORP",
+              "details": "Charles Schwab is a leading brokerage and financial services firm that offers investment, advisory, and banking services. It is widely recognized for its low-cost trading options and client-focused service model.",
+              "weight": "0.0182"
             },
             {
-                "symbol": "MMC",
-                "description": "MARSH & MCLENNAN COMPANIES INC",
-                "weight": "0.0166"
+              "symbol": "MMC",
+              "description": "MARSH & MCLENNAN COMPANIES INC",
+              "details": "Marsh & McLennan Companies is a global professional services firm specializing in risk management, insurance brokerage, and consulting services. It operates through several subsidiaries that are leaders in the insurance and risk advisory industries.",
+              "weight": "0.0166"
             },
             {
-                "symbol": "BX",
-                "description": "BLACKSTONE INC",
-                "weight": "0.0155"
+              "symbol": "BX",
+              "description": "BLACKSTONE INC",
+              "details": "Blackstone Inc is a prominent global investment firm that specializes in alternative asset management, including private equity, real estate, and credit. It is known for its strategic investments and significant influence across multiple markets.",
+              "weight": "0.0155"
             },
             {
-                "symbol": "CB",
-                "description": "CHUBB LTD",
-                "weight": "0.0152"
+              "symbol": "CB",
+              "description": "CHUBB LTD",
+              "details": "Chubb Ltd is a major property and casualty insurance company offering a wide range of commercial and personal insurance products. It is well-regarded for its underwriting expertise and robust risk management solutions.",
+              "weight": "0.0152"
             },
             {
-                "symbol": "ICE",
-                "description": "INTERCONTINENTAL EXCHANGE INC",
-                "weight": "0.0139"
+              "symbol": "ICE",
+              "description": "INTERCONTINENTAL EXCHANGE INC",
+              "details": "Intercontinental Exchange is a leading operator of global financial exchanges and clearing houses, facilitating trading in futures, options, and other financial instruments. Its market infrastructure and data services are critical to modern finance.",
+              "weight": "0.0139"
             },
             {
-                "symbol": "CME",
-                "description": "CME GROUP INC CLASS A",
-                "weight": "0.013"
+              "symbol": "CME",
+              "description": "CME GROUP INC CLASS A",
+              "details": "CME Group is one of the world’s largest derivatives marketplaces, offering futures and options across various asset classes. It provides essential trading infrastructure and market data services to participants globally.",
+              "weight": "0.013"
             },
             {
-                "symbol": "AON",
-                "description": "AON PLC CLASS A",
-                "weight": "0.0125"
+              "symbol": "AON",
+              "description": "AON PLC CLASS A",
+              "details": "Aon plc is a global professional services firm that offers risk management, insurance brokerage, and consulting solutions. It helps businesses navigate complex challenges with tailored strategies and expert advice.",
+              "weight": "0.0125"
             },
             {
-                "symbol": "AJG",
-                "description": "ARTHUR J. GALLAGHER & CO",
-                "weight": "0.012"
+              "symbol": "AJG",
+              "description": "ARTHUR J. GALLAGHER & CO",
+              "details": "Arthur J. Gallagher & Co is a global insurance brokerage and risk management firm providing comprehensive solutions to mitigate risk. It is known for its personalized service and broad range of insurance products.",
+              "weight": "0.012"
             },
             {
-                "symbol": "KKR",
-                "description": "KKR & CO INC ORDINARY SHARES",
-                "weight": "0.0116"
+              "symbol": "KKR",
+              "description": "KKR & CO INC ORDINARY SHARES",
+              "details": "KKR & Co is a global investment firm renowned for its private equity investments and alternative asset management strategies. It leverages deep industry expertise to drive growth and value in its portfolio companies.",
+              "weight": "0.0116"
             },
             {
-                "symbol": "MCO",
-                "description": "MOODYS CORP",
-                "weight": "0.0107"
+              "symbol": "MCO",
+              "description": "MOODYS CORP",
+              "details": "Moody’s Corporation provides credit ratings, research, and risk analysis that are essential for investors and financial institutions. Its insights help shape investment decisions across global markets.",
+              "weight": "0.0107"
             },
             {
-                "symbol": "PNC",
-                "description": "PNC FINANCIAL SERVICES GROUP INC",
-                "weight": "0.0102"
+              "symbol": "PNC",
+              "description": "PNC FINANCIAL SERVICES GROUP INC",
+              "details": "PNC Financial Services Group is a diversified financial institution offering retail banking, corporate finance, and asset management services. It is known for its strong regional presence and customer-focused approach.",
+              "weight": "0.0102"
             },
             {
-                "symbol": "COF",
-                "description": "CAPITAL ONE FINANCIAL CORP",
-                "weight": "0.0101"
+              "symbol": "COF",
+              "description": "CAPITAL ONE FINANCIAL CORP",
+              "details": "Capital One Financial is a major bank holding company that provides a broad range of financial products including credit cards, auto loans, and deposit accounts. It is recognized for its innovative use of technology in consumer finance.",
+              "weight": "0.0101"
             },
             {
-                "symbol": "USB",
-                "description": "U.S. BANCORP",
-                "weight": "0.0099"
+              "symbol": "USB",
+              "description": "U.S. BANCORP",
+              "details": "U.S. Bancorp is a leading regional bank in the United States that offers a wide range of consumer and business banking services. It is noted for its strong financial performance and commitment to customer service.",
+              "weight": "0.0099"
             },
             {
-                "symbol": "PYPL",
-                "description": "PAYPAL HOLDINGS INC",
-                "weight": "0.0096"
+              "symbol": "PYPL",
+              "description": "PAYPAL HOLDINGS INC",
+              "details": "PayPal Holdings is a global leader in digital payments, facilitating secure online money transfers and e-commerce transactions. It is widely used by both consumers and merchants around the world.",
+              "weight": "0.0096"
             },
             {
-                "symbol": "BK",
-                "description": "BANK OF NEW YORK MELLON CORP",
-                "weight": "0.0089"
+              "symbol": "BK",
+              "description": "BANK OF NEW YORK MELLON CORP",
+              "details": "Bank of New York Mellon is a global investments company that provides asset management, custody, and wealth management services. It has a long history of serving institutional investors and financial institutions.",
+              "weight": "0.0089"
             },
             {
-                "symbol": "APO",
-                "description": "APOLLO GLOBAL MANAGEMENT INC CLASS A",
-                "weight": "0.0088"
+              "symbol": "APO",
+              "description": "APOLLO GLOBAL MANAGEMENT INC CLASS A",
+              "details": "Apollo Global Management is a leading global alternative investment manager specializing in private equity, credit, and real assets. It is known for its opportunistic investment strategies and robust portfolio performance.",
+              "weight": "0.0088"
             },
             {
-                "symbol": "TRV",
-                "description": "THE TRAVELERS COMPANIES INC",
-                "weight": "0.0083"
+              "symbol": "TRV",
+              "description": "THE TRAVELERS COMPANIES INC",
+              "details": "The Travelers Companies is a major U.S. provider of property and casualty insurance, offering a wide array of insurance products for individuals and businesses. It is recognized for its comprehensive coverage and risk management expertise.",
+              "weight": "0.0083"
             },
             {
-                "symbol": "TFC",
-                "description": "TRUIST FINANCIAL CORP",
-                "weight": "0.0083"
+              "symbol": "TFC",
+              "description": "TRUIST FINANCIAL CORP",
+              "details": "Truist Financial Corporation is a leading financial services company formed from a merger, offering banking, investment, and wealth management services. It aims to deliver comprehensive solutions tailored to customer needs.",
+              "weight": "0.0083"
             },
             {
-                "symbol": "AFL",
-                "description": "AFLAC INC",
-                "weight": "0.0077"
+              "symbol": "AFL",
+              "description": "AFLAC INC",
+              "details": "Aflac Inc is a supplemental insurance provider well known for its innovative insurance policies and strong brand recognition. It primarily offers products that help cover unexpected expenses in addition to traditional insurance.",
+              "weight": "0.0077"
             },
             {
-                "symbol": "ALL",
-                "description": "ALLSTATE CORP",
-                "weight": "0.0075"
+              "symbol": "ALL",
+              "description": "ALLSTATE CORP",
+              "details": "Allstate Corporation is one of the largest insurance providers in the United States, offering a wide range of products including auto, home, and life insurance. It is noted for its extensive network and commitment to customer service.",
+              "weight": "0.0075"
             },
             {
-                "symbol": "AIG",
-                "description": "AMERICAN INTERNATIONAL GROUP INC",
-                "weight": "0.0071"
+              "symbol": "AIG",
+              "description": "AMERICAN INTERNATIONAL GROUP INC",
+              "details": "American International Group (AIG) is a multinational insurance corporation providing a broad spectrum of insurance and financial services. It is known for its global reach and comprehensive risk management solutions.",
+              "weight": "0.0071"
             },
             {
-                "symbol": "AMP",
-                "description": "AMERIPRISE FINANCIAL INC",
-                "weight": "0.0069"
+              "symbol": "AMP",
+              "description": "AMERIPRISE FINANCIAL INC",
+              "details": "Ameriprise Financial is a diversified financial services company offering wealth management, asset management, and insurance solutions. It is recognized for its personalized financial planning and advisory services.",
+              "weight": "0.0069"
             },
             {
-                "symbol": "MET",
-                "description": "METLIFE INC",
-                "weight": "0.0068"
+              "symbol": "MET",
+              "description": "METLIFE INC",
+              "details": "MetLife is one of the world’s largest providers of insurance, annuities, and employee benefit programs. It serves millions of customers with a diverse range of financial products and services.",
+              "weight": "0.0068"
             },
             {
-                "symbol": "DFS",
-                "description": "DISCOVER FINANCIAL SERVICES",
-                "weight": "0.0064"
+              "symbol": "DFS",
+              "description": "DISCOVER FINANCIAL SERVICES",
+              "details": "Discover Financial Services is known for its credit card products and direct banking services, including personal loans and online banking. It focuses on delivering innovative financial solutions to consumers.",
+              "weight": "0.0064"
             },
             {
-                "symbol": "MSCI",
-                "description": "MSCI INC",
-                "weight": "0.0063"
+              "symbol": "MSCI",
+              "description": "MSCI INC",
+              "details": "MSCI Inc is a leading provider of investment decision support tools, including indices and risk analytics. Its products are widely used by institutional investors to assess and manage portfolio risk.",
+              "weight": "0.0063"
             },
             {
-                "symbol": "PRU",
-                "description": "PRUDENTIAL FINANCIAL INC",
-                "weight": "0.0056"
+              "symbol": "PRU",
+              "description": "PRUDENTIAL FINANCIAL INC",
+              "details": "Prudential Financial is a major provider of insurance, annuities, and asset management services, with a focus on long-term financial stability. It is well-regarded for its comprehensive range of financial products.",
+              "weight": "0.0056"
             },
             {
-                "symbol": "FIS",
-                "description": "n/a",
-                "weight": "0.0054"
+              "symbol": "FIS",
+              "description": "n/a",
+              "details": "FIS is a global leader in financial technology solutions, specializing in banking software, payment processing, and risk management systems. It serves a wide range of financial institutions with innovative technology.",
+              "weight": "0.0054"
             },
             {
-                "symbol": "ACGL",
-                "description": "ARCH CAPITAL GROUP LTD",
-                "weight": "0.0049"
+              "symbol": "ACGL",
+              "description": "ARCH CAPITAL GROUP LTD",
+              "details": "Arch Capital Group is a global provider of insurance, reinsurance, and mortgage insurance solutions. It operates across various risk segments with a focus on specialized coverage.",
+              "weight": "0.0049"
             },
             {
-                "symbol": "HIG",
-                "description": "HARTFORD INSURANCE GROUP INC",
-                "weight": "0.0048"
+              "symbol": "HIG",
+              "description": "HARTFORD INSURANCE GROUP INC",
+              "details": "The Hartford Insurance Group is a leading insurance provider offering property, casualty, and group benefits insurance products. It is known for its focus on risk management and tailored solutions for its clients.",
+              "weight": "0.0048"
             },
             {
-                "symbol": "WTW",
-                "description": "WILLIS TOWERS WATSON PLC",
-                "weight": "0.0048"
+              "symbol": "WTW",
+              "description": "WILLIS TOWERS WATSON PLC",
+              "details": "Willis Towers Watson is a global advisory and brokerage firm that helps companies manage risk and optimize benefits. It offers consulting services and innovative solutions in insurance and human capital.",
+              "weight": "0.0048"
             },
             {
-                "symbol": "NDAQ",
-                "description": "NASDAQ INC",
-                "weight": "0.0046"
+              "symbol": "NDAQ",
+              "description": "NASDAQ INC",
+              "details": "Nasdaq Inc is a global financial technology company that operates securities exchanges and provides market technology solutions. It is known for its advanced electronic trading platforms and data services.",
+              "weight": "0.0046"
             },
             {
-                "symbol": "MTB",
-                "description": "M&T BANK CORP",
-                "weight": "0.0043"
+              "symbol": "MTB",
+              "description": "M&T BANK CORP",
+              "details": "M&T Bank is a regional financial institution offering a wide range of banking services, including retail and commercial banking as well as wealth management. It is recognized for its community-focused approach and stable performance.",
+              "weight": "0.0043"
             },
             {
-                "symbol": "FITB",
-                "description": "FIFTH THIRD BANCORP",
-                "weight": "0.004"
+              "symbol": "FITB",
+              "description": "FIFTH THIRD BANCORP",
+              "details": "Fifth Third Bancorp is a diversified financial services company offering banking, lending, and investment products. It is known for its strong regional presence and commitment to customer service.",
+              "weight": "0.004"
             },
             {
-                "symbol": "BRO",
-                "description": "BROWN & BROWN INC",
-                "weight": "0.004"
+              "symbol": "BRO",
+              "description": "BROWN & BROWN INC",
+              "details": "Brown & Brown Inc is an insurance brokerage firm that provides risk management and insurance solutions to a wide range of industries. It is recognized for its client-centric approach and comprehensive service offerings.",
+              "weight": "0.004"
             },
             {
-                "symbol": "RJF",
-                "description": "RAYMOND JAMES FINANCIAL INC",
-                "weight": "0.0038"
+              "symbol": "RJF",
+              "description": "RAYMOND JAMES FINANCIAL INC",
+              "details": "Raymond James Financial is a diversified financial services firm offering investment banking, asset management, and wealth management services. It is well-known for its client-focused philosophy and strong presence in wealth management.",
+              "weight": "0.0038"
             },
             {
-                "symbol": "STT",
-                "description": "STATE STREET CORP",
-                "weight": "0.0038"
+              "symbol": "STT",
+              "description": "STATE STREET CORP",
+              "details": "State Street Corporation is a global financial services provider specializing in asset management, custody, and data analytics. It is a trusted partner for institutional investors and financial institutions worldwide.",
+              "weight": "0.0038"
             },
             {
-                "symbol": "GPN",
-                "description": "GLOBAL PAYMENTS INC",
-                "weight": "0.0036"
+              "symbol": "GPN",
+              "description": "GLOBAL PAYMENTS INC",
+              "details": "Global Payments Inc is a leading provider of payment technology solutions that help businesses process transactions securely. It supports merchants worldwide with innovative payment and software services.",
+              "weight": "0.0036"
             },
             {
-                "symbol": "CPAY",
-                "description": "CORPAY INC",
-                "weight": "0.0035"
+              "symbol": "CPAY",
+              "description": "CORPAY INC",
+              "details": "Corpay Inc is a financial technology company specializing in payment processing and expense management solutions. It aims to simplify global transactions and financial operations for businesses.",
+              "weight": "0.0035"
             },
             {
-                "symbol": "HBAN",
-                "description": "HUNTINGTON BANCSHARES INC",
-                "weight": "0.0032"
+              "symbol": "HBAN",
+              "description": "HUNTINGTON BANCSHARES INC",
+              "details": "Huntington Bancshares is a regional bank holding company offering a variety of consumer and commercial banking services. It is known for its strong community ties and focus on personalized banking solutions.",
+              "weight": "0.0032"
             },
             {
-                "symbol": "CINF",
-                "description": "CINCINNATI FINANCIAL CORP",
-                "weight": "0.0032"
+              "symbol": "CINF",
+              "description": "CINCINNATI FINANCIAL CORP",
+              "details": "Cincinnati Financial is an insurance company that offers property and casualty products across the United States. It is recognized for its strong underwriting performance and commitment to customer service.",
+              "weight": "0.0032"
             },
             {
-                "symbol": "CBOE",
-                "description": "CBOE GLOBAL MARKETS INC",
-                "weight": "0.0032"
+              "symbol": "CBOE",
+              "description": "CBOE GLOBAL MARKETS INC",
+              "details": "Cboe Global Markets is a leading operator of financial exchanges, providing trading, clearing, and market data services. It is known for its innovative derivatives products and robust market infrastructure.",
+              "weight": "0.0032"
             },
             {
-                "symbol": "TROW",
-                "description": "T. ROWE PRICE GROUP INC",
-                "weight": "0.0032"
+              "symbol": "TROW",
+              "description": "T. ROWE PRICE GROUP INC",
+              "details": "T. Rowe Price is a globally recognized investment management firm offering mutual funds, retirement, and advisory services. It is known for its disciplined investment approach and long-term client focus.",
+              "weight": "0.0032"
             },
             {
-                "symbol": "SYF",
-                "description": "SYNCHRONY FINANCIAL",
-                "weight": "0.0031"
+              "symbol": "SYF",
+              "description": "SYNCHRONY FINANCIAL",
+              "details": "Synchrony Financial is a consumer finance company providing credit products, installment loans, and retail financing solutions. It is widely recognized for its strong partnerships with major retailers and financial institutions.",
+              "weight": "0.0031"
             },
             {
-                "symbol": "NTRS",
-                "description": "NORTHERN TRUST CORP",
-                "weight": "0.003"
+              "symbol": "NTRS",
+              "description": "NORTHERN TRUST CORP",
+              "details": "Northern Trust is a leading financial services firm specializing in wealth management, asset servicing, and investment management solutions. It is known for its commitment to serving institutional and high-net-worth clients.",
+              "weight": "0.003"
             },
             {
-                "symbol": "RF",
-                "description": "REGIONS FINANCIAL CORP",
-                "weight": "0.0029"
+              "symbol": "RF",
+              "description": "REGIONS FINANCIAL CORP",
+              "details": "Regions Financial Corporation is a regional bank offering a broad range of banking and financial services. It is known for its community banking focus and steady regional market presence.",
+              "weight": "0.0029"
             },
             {
-                "symbol": "CFG",
-                "description": "CITIZENS FINANCIAL GROUP INC",
-                "weight": "0.0027"
+              "symbol": "CFG",
+              "description": "CITIZENS FINANCIAL GROUP INC",
+              "details": "Citizens Financial Group is a regional bank that provides a comprehensive range of banking products and services to individuals and businesses. It is recognized for its customer-centric approach and deep community roots.",
+              "weight": "0.0027"
             },
             {
-                "symbol": "WRB",
-                "description": "WR BERKLEY CORP",
-                "weight": "0.0027"
+              "symbol": "WRB",
+              "description": "WR BERKLEY CORP",
+              "details": "WR Berkley Corporation is a commercial lines insurance holding company offering property and casualty insurance solutions. It is known for its strong underwriting capabilities and risk management expertise.",
+              "weight": "0.0027"
             },
             {
-                "symbol": "PFG",
-                "description": "PRINCIPAL FINANCIAL GROUP INC",
-                "weight": "0.0026"
+              "symbol": "PFG",
+              "description": "PRINCIPAL FINANCIAL GROUP INC",
+              "details": "Principal Financial Group is a global financial services company providing insurance, retirement, and asset management solutions. It is focused on long-term growth and helping clients achieve financial security.",
+              "weight": "0.0026"
             },
             {
-                "symbol": "FDS",
-                "description": "FACTSET RESEARCH SYSTEMS INC",
-                "weight": "0.0024"
+              "symbol": "FDS",
+              "description": "FACTSET RESEARCH SYSTEMS INC",
+              "details": "FactSet Research Systems provides integrated financial data and analytical tools to investment professionals worldwide. Its comprehensive solutions help clients make informed investment decisions.",
+              "weight": "0.0024"
             },
             {
-                "symbol": "KEY",
-                "description": "KEYCORP",
-                "weight": "0.0023"
+              "symbol": "KEY",
+              "description": "KEYCORP",
+              "details": "KeyCorp is a regional bank offering a diverse array of financial services including personal, commercial, and investment banking. It is known for its strong community ties and commitment to customer service.",
+              "weight": "0.0023"
             },
             {
-                "symbol": "EG",
-                "description": "EVEREST GROUP LTD",
-                "weight": "0.0022"
+              "symbol": "EG",
+              "description": "EVEREST GROUP LTD",
+              "details": "Everest Group is a global consulting and research firm that specializes in business process and IT services. It provides insights and advisory services to help organizations optimize their operations.",
+              "weight": "0.0022"
             },
             {
-                "symbol": "L",
-                "description": "LOEWS CORP",
-                "weight": "0.0022"
+              "symbol": "L",
+              "description": "LOEWS CORP",
+              "details": "Loewe Corp is a diversified financial services company with interests in asset management and consumer finance. It is known for its strategic investments and focus on long-term value creation.",
+              "weight": "0.0022"
             },
             {
-                "symbol": "JKHY",
-                "description": "JACK HENRY & ASSOCIATES INC",
-                "weight": "0.0018"
+              "symbol": "JKHY",
+              "description": "JACK HENRY & ASSOCIATES INC",
+              "details": "Jack Henry & Associates is a technology company that provides software solutions for the financial services industry. It is known for its reliable and innovative banking technology services.",
+              "weight": "0.0018"
             },
             {
-                "symbol": "ERIE",
-                "description": "ERIE INDEMNITY CO CLASS A",
-                "weight": "0.0016"
+              "symbol": "ERIE",
+              "description": "ERIE INDEMNITY CO CLASS A",
+              "details": "Erie Indemnity is an insurance company offering a range of property, casualty, and specialty insurance products primarily in the U.S. It is recognized for its competitive pricing and strong customer service.",
+              "weight": "0.0016"
             },
             {
-                "symbol": "AIZ",
-                "description": "ASSURANT INC",
-                "weight": "0.0015"
+              "symbol": "AIZ",
+              "description": "ASSURANT INC",
+              "details": "Assurant Inc is a global provider of risk management solutions, offering specialty insurance products and services. It is known for its innovative approach to managing diverse and evolving risks.",
+              "weight": "0.0015"
             },
             {
-                "symbol": "GL",
-                "description": "GLOBE LIFE INC",
-                "weight": "0.0015"
+              "symbol": "GL",
+              "description": "GLOBE LIFE INC",
+              "details": "Globe Life Inc is an insurance company focused on providing life and health insurance products to its customers in the U.S. It is recognized for offering affordable coverage with straightforward service.",
+              "weight": "0.0015"
             },
             {
-                "symbol": "MKTX",
-                "description": "MARKETAXESS HOLDINGS INC",
-                "weight": "0.0011"
+              "symbol": "MKTX",
+              "description": "MARKETAXESS HOLDINGS INC",
+              "details": "MarketAxess Holdings is an electronic trading platform for fixed income securities that enhances market liquidity and trade transparency. It is known for its innovative approach to bond trading.",
+              "weight": "0.0011"
             },
             {
-                "symbol": "IVZ",
-                "description": "INVESCO LTD",
-                "weight": "0.001"
+              "symbol": "IVZ",
+              "description": "INVESCO LTD",
+              "details": "Invesco Ltd is a global asset management firm offering a diverse range of investment products and services. It is known for its active management strategies and comprehensive market research.",
+              "weight": "0.001"
             },
             {
-                "symbol": "BEN",
-                "description": "FRANKLIN RESOURCES INC",
-                "weight": "0.0009"
+              "symbol": "BEN",
+              "description": "FRANKLIN RESOURCES INC",
+              "details": "Franklin Resources, also known as Franklin Templeton, is a global investment management organization providing mutual funds and other investment products. It is recognized for its long-term investment approach and global reach.",
+              "weight": "0.0009"
             }
         ]
     }
