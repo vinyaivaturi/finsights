@@ -17,34 +17,20 @@
                 <input placeholder="Enter your risk appetite, investment horizon, desired sectors, and investment amount." id="filter-text-val" onkeyup="filterText()">
             </div>
         </div>
-        <div id="answer-box">
-
-        </div>
+        <div id="answer-box"></div>
     </div>
 
     <script>
-
-        // function answerBoxTemplate(title,titleDesc,rating){
-        //     return `<div class=''>
-        //         <h3 class='episode-title'>${title}</h3>
-        //         <p class='episode-desc'>${titleDesc}</p>
-        //         <p class='episode-rating'>IMDB Rating: ${rating}</p>
-        //     </div>`
-        // }
-            // added by vinya
-        function sectorBoxTemplate(sector, weight) {
-             return `<div class='sector-item'>
-                <h3 class='sector-name'>${sector}</h3>
-                <p class='sector-weight'>Weight: ${weight}</p>
+        function stockBoxTemplate(ticker, name, details, sector, industry, type, riskScore) {
+            return `<div class='stock-item'>
+                <h3>${ticker} - ${name}</h3>
+                <p><strong>Details:</strong> ${details}</p>
+                <p><strong>Sector:</strong> ${sector}</p>
+                <p><strong>Industry:</strong> ${industry}</p>
+                <p><strong>Type:</strong> ${type}</p>
+                <p><strong>Risk Score:</strong> ${riskScore}</p>
             </div>`;
-}
-        function holdingsBoxTemplate(symbol, description, details, weight) {
-            return `<div class='holding-item'>
-                <h3 class='holding-symbol'>${symbol} - ${description}</h3>
-                <p class ='holding-details'>Details: ${details}</p>
-                <p class='holding-weight'>Weight: ${weight}</p>
-            </div>`;
-}
+        }
 
         function sendFocus(){
             document.getElementById('filter-text-val').focus()
@@ -53,23 +39,24 @@
         function filterText() {
             document.getElementById("answer-box").innerHTML = "";
             let query = document.getElementById("filter-text-val").value;
-            
-            fetch("/sectors?" + new URLSearchParams({ sector: query }).toString())
-            .then((response) => response.json())
-            .then((data) => data.forEach(row => {
-                let tempDiv = document.createElement("div");
-                tempDiv.innerHTML = sectorBoxTemplate(row.sector, row.weight);
-                document.getElementById("answer-box").appendChild(tempDiv);
-            }));
-
-            fetch("/holdings?" + new URLSearchParams({ holding: query }).toString())
-            .then((response) => response.json())
-            .then((data) => data.forEach(row => {
-                let tempDiv = document.createElement("div");
-                tempDiv.innerHTML = holdingsBoxTemplate(row.symbol, row.description, row.details, row.weight);
-                document.getElementById("answer-box").appendChild(tempDiv);
-            }));
-}
-            
+            fetch("/search?" + new URLSearchParams({ q: query }).toString())
+                .then(response => response.json())
+                .then(data => {
+                    data.forEach(stock => {
+                        let tempDiv = document.createElement("div");
+                        tempDiv.innerHTML = stockBoxTemplate(
+                            stock["Ticker Symbol"],
+                            stock["Company Name"],
+                            stock["Details"],
+                            stock["Sector"],
+                            stock["Industry"],
+                            stock["Type"],
+                            stock["Risk Score"]
+                        );
+                        document.getElementById("answer-box").appendChild(tempDiv);
+                    });
+                });
+        }
     </script>
 </body>
+</html>
