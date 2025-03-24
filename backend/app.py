@@ -23,15 +23,16 @@ stocks_df = pd.DataFrame(stocks_data)
 app = Flask(__name__)
 CORS(app)
 
-def stocks_search(query, top_n=10):
-    combined_text = stocks_df[['Company Name', 'Details', 'Sector', 'Industry']].fillna('').agg(' '.join, axis=1)
-    vectorizer = TfidfVectorizer(stop_words='english')
-    tfidf_matrix = vectorizer.fit_transform(combined_text)
-    query_tfidf = vectorizer.transform([query])
-    cos_sim = cosine_similarity(query_tfidf, tfidf_matrix).flatten()
-    stocks_df['similarity'] = cos_sim
-    results_df = stocks_df.sort_values(by='similarity', ascending=False).head(top_n)
-    return results_df.to_json(orient='records')
+def stocks_search(query):
+    query = query.lower()
+    mask = (
+        stocks_df["Company Name"].str.lower().str.contains(query, na=False) |
+        stocks_df["Details"].str.lower().str.contains(query, na=False) |
+        stocks_df["Sector"].str.lower().str.contains(query, na=False) |
+        stocks_df["Industry"].str.lower().str.contains(query, na=False)
+    )
+    matches = stocks_df[mask]
+    return matches.to_json(orient='records')
 
 @app.route("/")
 def home():
