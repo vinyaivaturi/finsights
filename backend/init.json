@@ -45,15 +45,6 @@
       "Risk Score": 5.3
     },
     {
-      "Ticker Symbol": "GOOG",
-      "Company Name": "Alphabet Inc.",
-      "Details": "Alphabet Inc. offers various products and platforms in the United States, Europe, the Middle East, Africa, the Asia-Pacific, Canada, and Latin America. It operates through Google Services, Google Cloud, and Other Bets segments. The Google Services segment provides products and services, including ads, Android, Chrome, devices, Gmail, Google Drive, Google Maps, Google Photos, Google Play, Search, and YouTube. It is also involved in the sale of apps and in-app purchases and digital content in the Google Play and YouTube; and devices, as well as in the provision of YouTube consumer subscription services. The Google Cloud segment offers infrastructure, cybersecurity, databases, analytics, AI, and other services; Google Workspace that include cloud-based communication and collaboration tools for enterprises, such as Gmail, Docs, Drive, Calendar, and Meet; and other services for enterprise customers. The Other Bets segment sells healthcare-related and internet services. The company was incorporated in 1998 and is headquartered in Mountain View, California.",
-      "Sector": "Communication Services",
-      "Industry": "Internet Content & Information",
-      "Type": "Stock",
-      "Risk Score": 5.25
-    },
-    {
       "Ticker Symbol": "META",
       "Company Name": "Meta Platforms, Inc.",
       "Details": "Meta Platforms, Inc. engages in the development of products that enable people to connect and share with friends and family through mobile devices, personal computers, virtual reality headsets, and wearables worldwide. It operates in two segments, Family of Apps and Reality Labs. The Family of Apps segment offers Facebook, which enables people to share, discuss, discover, and connect with interests; Instagram, a community for sharing photos, videos, and private messages, as well as feed, stories, reels, video, live, and shops; Messenger, a messaging application for people to connect with friends, family, communities, and businesses across platforms and devices through text, audio, and video calls; and WhatsApp, a messaging application that is used by people and businesses to communicate and transact privately. The Reality Labs segment provides augmented and virtual reality related products comprising consumer hardware, software, and content that help people feel connected, anytime, and anywhere. The company was formerly known as Facebook, Inc. and changed its name to Meta Platforms, Inc. in October 2021. The company was incorporated in 2004 and is headquartered in Menlo Park, California",
@@ -87,7 +78,7 @@
       "Sector": "Financial Services",
       "Industry": "Insurance - Diversified",
       "Type": "Stock",
-      "Risk Score": 1
+      "Risk Score": 4.05
     },
     {
       "Ticker Symbol": "WMT",
@@ -96,7 +87,7 @@
       "Sector": "Consumer Defensive",
       "Industry": "Discount Stores",
       "Type": "Stock",
-      "Risk Score": 2.5
+      "Risk Score": 3.15
     },
     {
       "Ticker Symbol": "LLY",
