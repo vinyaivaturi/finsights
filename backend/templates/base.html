@@ -21,14 +21,14 @@
     </div>
 
     <script>
-        function stockBoxTemplate(ticker, name, details, sector, industry, type, similarity) {
+        function stockBoxTemplate(ticker, name, details, sector, industry, type, riskScore) {
             return `<div class='stock-item'>
                 <h3>${ticker} - ${name}</h3>
                 <p><strong>Details:</strong> ${details}</p>
                 <p><strong>Sector:</strong> ${sector}</p>
                 <p><strong>Industry:</strong> ${industry}</p>
                 <p><strong>Type:</strong> ${type}</p>
-                <p><strong>Similarity:</strong> ${parseFloat(similarity).toFixed(2)}</p>
+                <p><strong>Risk Score:</strong> ${riskScore}</p>
             </div>`;
         }
 
@@ -56,7 +56,6 @@
                         document.getElementById("answer-box").appendChild(tempDiv);
                     });
                 });
-            
         }
     </script>
 </body>
