@@ -21,14 +21,14 @@
     </div>
 
     <script>
-        function stockBoxTemplate(ticker, name, details, sector, industry, type, riskScore) {
+        function stockBoxTemplate(ticker, name, details, sector, industry, type, similarity) {
             return `<div class='stock-item'>
                 <h3>${ticker} - ${name}</h3>
                 <p><strong>Details:</strong> ${details}</p>
                 <p><strong>Sector:</strong> ${sector}</p>
                 <p><strong>Industry:</strong> ${industry}</p>
                 <p><strong>Type:</strong> ${type}</p>
-                <p><strong>Risk Score:</strong> ${riskScore}</p>
+                <p><strong>Similarity:</strong> ${parseFloat(similarity).toFixed(2)}</p>
             </div>`;
         }
 
@@ -42,21 +42,30 @@
             fetch("/search?" + new URLSearchParams({ q: query }).toString())
                 .then(response => response.json())
                 .then(data => {
-                    data.forEach(stock => {
-                        let tempDiv = document.createElement("div");
-                        tempDiv.innerHTML = stockBoxTemplate(
-                            stock["Ticker Symbol"],
-                            stock["Company Name"],
-                            stock["Details"],
-                            stock["Sector"],
-                            stock["Industry"],
-                            stock["Type"],
-                            stock["Risk Score"]
+                    // If data contains similarity scores, sort descending.
+                    data.sort((a, b) => b.similarity - a.similarity);
+                    // Get only the top 5 results (adjust this number as desired)
+                    let topResults = data.slice(0, 5);
+                    let html = "";
+                    topResults.forEach(stock => {
+                        html += stockBoxTemplate(
+                            stock["Ticker Symbol"] || "N/A",
+                            stock["Company Name"] || "N/A",
+                            stock["Details"] || "N/A",
+                            stock["Sector"] || "N/A",
+                            stock["Industry"] || "N/A",
+                            stock["Type"] || "N/A",
+                            stock["similarity"] || 0
                         );
-                        document.getElementById("answer-box").appendChild(tempDiv);
                     });
+                    document.getElementById("answer-box").innerHTML = html;
+                })
+                .catch(error => {
+                    console.error("Error fetching data:", error);
+                    document.getElementById("answer-box").innerHTML = "<p>Error retrieving recommendations.</p>";
                 });
         }
+        
     </script>
 </body>
 </html>
