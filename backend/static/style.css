@@ -67,13 +67,10 @@
     margin-top:50px; 
 }
 
-.sector-item{
+h3 {
     font-family: 'Kanit', sans-serif;
 }
 
-.holding-item{
-    font-family: 'Kanit', sans-serif;
-}
-.episode-desc{
+p {
     font-family: 'Montserrat', sans-serif;
 }
