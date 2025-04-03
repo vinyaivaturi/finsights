@@ -61,18 +61,18 @@
   </head>
   <body>
     <div class="full-body-container">
-        <div class="top-text">
-            <div class="title">
-                <h1>FinSights</h1>
-            </div>
-            <p>Tell us about your investment preferences!</p>
-            <p class="example">Example query: I want to invest $1000 in a low-risk ETF in the technology sector for the long-term.</p>
-            <div class="input-box" onclick="sendFocus()">
-                <img src="{{ url_for('static', filename='images/mag.png') }}" />
-                <input placeholder="Enter your risk appetite, investment horizon, desired sectors, and investment amount." id="filter-text-val" onkeyup="filterText()">
-            </div>
+      <div class="top-text">
+        <div class="title">
+          <h1>FinSights</h1>
         </div>
-        <div id="answer-box"></div>
+        <p>Tell us about your investment preferences!</p>
+        <p class="example">Example query: I want to invest $1000 in a low-risk ETF in the technology sector for the long-term.</p>
+        <div class="input-box" onclick="sendFocus()">
+          <img src="{{ url_for('static', filename='images/mag.png') }}" alt="Search Icon">
+          <input placeholder="Enter your risk appetite, investment horizon, desired sectors, and investment amount." id="filter-text-val" onkeyup="filterText()">
+        </div>
+      </div>
+      <div id="answer-box" class="results-container"></div>
     </div>
 
     <script>
