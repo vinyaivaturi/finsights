@@ -1,62 +1,127 @@
 <!doctype html>
-<title>{% block title %}{% endblock %} - Flaskr</title>
-<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Kanit&family=Montserrat&family=Open+Sans:wght@500&display=swap" rel="stylesheet">
-<body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>{% block title %}FinSights{% endblock %} - FinSights</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&family=Montserrat&family=Open+Sans:wght@500&display=swap" rel="stylesheet">
+    <style>
+      .full-body-container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        font-family: 'Open Sans', sans-serif;
+      }
+      .top-text {
+        text-align: center;
+        margin-bottom: 30px;
+      }
+      .title h1 {
+        font-family: 'Kanit', sans-serif;
+        font-size: 3em;
+        margin-bottom: 10px;
+      }
+      .input-box {
+        display: flex;
+        align-items: center;
+        margin: 20px auto;
+        max-width: 600px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 10px;
+        background-color: #fff;
+      }
+      .input-box img {
+        width: 24px;
+        height: 24px;
+        margin-right: 10px;
+      }
+      .input-box input {
+        flex-grow: 1;
+        border: none;
+        outline: none;
+        font-size: 1em;
+      }
+      .results-container {
+        margin-top: 30px;
+      }
+      .stock-item {
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        padding: 15px;
+        margin-bottom: 15px;
+        background-color: #fff;
+      }
+      .stock-item h3 {
+        margin-top: 0;
+      }
+    </style>
+  </head>
+  <body>
     <div class="full-body-container">
-        <div class="top-text">
-            <div class="title">
-                <h1>FinSights</h1>
-            </div>
-            <p>Tell us about your investment preferences!</p>
-            <p class="example">Example query: I want to invest $1000 in a low-risk ETF in the technology sector for the long-term.</p>
-            <div class="input-box" onclick="sendFocus()">
-                <img src="{{ url_for('static', filename='images/mag.png') }}" />
-                <input placeholder="Enter your risk appetite, investment horizon, desired sectors, and investment amount." id="filter-text-val" onkeyup="filterText()">
-            </div>
+      <div class="top-text">
+        <div class="title">
+          <h1>FinSights</h1>
         </div>
-        <div id="answer-box"></div>
+        <p>Tell us about your investment preferences!</p>
+        <p class="example">Example query: I want to invest $1000 in a low-risk ETF in the technology sector for the long-term.</p>
+        <div class="input-box" onclick="sendFocus()">
+          <img src="{{ url_for('static', filename='images/mag.png') }}" alt="Search Icon">
+          <input placeholder="Enter your risk appetite, investment horizon, desired sectors, and investment amount." id="filter-text-val" onkeyup="filterText()">
+        </div>
+      </div>
+      <div id="answer-box" class="results-container"></div>
     </div>
 
     <script>
-        function stockBoxTemplate(ticker, name, details, sector, industry, type, riskScore) {
-            return `<div class='stock-item'>
-                <h3>${ticker} - ${name}</h3>
-                <p><strong>Details:</strong> ${details}</p>
-                <p><strong>Sector:</strong> ${sector}</p>
-                <p><strong>Industry:</strong> ${industry}</p>
-                <p><strong>Type:</strong> ${type}</p>
-                <p><strong>Risk Score:</strong> ${riskScore}</p>
-            </div>`;
-        }
+      function sendFocus() {
+        document.getElementById('filter-text-val').focus();
+      }
 
-        function sendFocus(){
-            document.getElementById('filter-text-val').focus()
-        }
+      // Template to display a stock item.
+      function stockBoxTemplate(ticker, name, details, sector, industry, type, similarity) {
+        return `<div class='stock-item'>
+                  <h3>${ticker} - ${name}</h3>
+                  <p><strong>Details:</strong> ${details}</p>
+                  <p><strong>Sector:</strong> ${sector}</p>
+                  <p><strong>Industry:</strong> ${industry}</p>
+                  <p><strong>Type:</strong> ${type}</p>
+                  <p><strong>Similarity:</strong> ${parseFloat(similarity).toFixed(2)}</p>
+                </div>`;
+      }
 
-        function filterText() {
-            document.getElementById("answer-box").innerHTML = "";
-            let query = document.getElementById("filter-text-val").value;
-            fetch("/search?" + new URLSearchParams({ q: query }).toString())
-                .then(response => response.json())
-                .then(data => {
-                    data.forEach(stock => {
-                        let tempDiv = document.createElement("div");
-                        tempDiv.innerHTML = stockBoxTemplate(
-                            stock["Ticker Symbol"],
-                            stock["Company Name"],
-                            stock["Details"],
-                            stock["Sector"],
-                            stock["Industry"],
-                            stock["Type"],
-                            stock["Risk Score"]
-                        );
-                        document.getElementById("answer-box").appendChild(tempDiv);
-                    });
-                });
-        }
+      // Fetch results based on the query, sort by similarity, and display the top 5.
+      function filterText() {
+        document.getElementById("answer-box").innerHTML = "";
+        let query = document.getElementById("filter-text-val").value;
+        fetch("/search?" + new URLSearchParams({ q: query }).toString())
+          .then(response => response.json())
+          .then(data => {
+            // Sort data by similarity (assuming each object has a 'similarity' field).
+            data.sort((a, b) => b.similarity - a.similarity);
+            // Display only the top 5 results.
+            let topResults = data.slice(0, 5);
+            let html = "";
+            topResults.forEach(stock => {
+              html += stockBoxTemplate(
+                stock["Ticker Symbol"] || "N/A",
+                stock["Company Name"] || "N/A",
+                stock["Details"] || "N/A",
+                stock["Sector"] || "N/A",
+                stock["Industry"] || "N/A",
+                stock["Type"] || "N/A",
+                stock["similarity"] || 0
+              );
+            });
+            document.getElementById("answer-box").innerHTML = html;
+          })
+          .catch(error => {
+            console.error("Error fetching data:", error);
+            document.getElementById("answer-box").innerHTML = "<p>Error retrieving recommendations.</p>";
+          });
+      }
     </script>
-</body>
+  </body>
 </html>
