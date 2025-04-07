@@ -1,0 +1,2734 @@
+{
+    "VGT": {
+        "net_assets": "97500000000",
+        "net_expense_ratio": "0.0009",
+        "portfolio_turnover": "0.13",
+        "dividend_yield": "0.0047",
+        "inception_date": "2004-01-26",
+        "leveraged": "NO",
+        "sectors": [
+            {
+                "sector": "INFORMATION TECHNOLOGY",
+                "weight": "0.985"
+            },
+            {
+                "sector": "COMMUNICATION SERVICES",
+                "weight": "0.00"
+            },
+            {
+                "sector": "CONSUMER DISCRETIONARY",
+                "weight": "0.00"
+            },
+            {
+                "sector": "HEALTHCARE",
+                "weight": "0.00"
+            },
+            {
+                "sector": "CONSUMER STAPLES",
+                "weight": "0.00"
+            },
+            {
+                "sector": "INDUSTRIALS",
+                "weight": "0.00"
+            },
+            {
+                "sector": "MATERIALS",
+                "weight": "0.00"
+            },
+            {
+                "sector": "UTILITIES",
+                "weight": "0.00"
+            },
+            {
+                "sector": "ENERGY",
+                "weight": "0.00"
+            },
+            {
+                "sector": "FINANCIALS",
+                "weight": "0.00"
+            }
+        ],
+        "holdings": [
+          {
+            "symbol": "AAPL",
+            "description": "APPLE INC",
+            "weight": "0.1685",
+            "details": "Apple Inc is a leading technology company known for its innovative consumer electronics, software, and digital services. It is renowned for products like the iPhone, iPad, and Mac."
+          },
+          {
+            "symbol": "NVDA",
+            "description": "NVIDIA CORP",
+            "weight": "0.139",
+            "details": "NVIDIA Corporation is a global leader in graphics processing and AI computing, powering gaming, data centers, and autonomous vehicles."
+          },
+          {
+            "symbol": "MSFT",
+            "description": "MICROSOFT CORP",
+            "weight": "0.1335",
+            "details": "Microsoft Corporation is a technology giant known for its software products like Windows and Office, as well as its growing cloud computing services with Azure."
+          },
+          {
+            "symbol": "AVGO",
+            "description": "BROADCOM INC",
+            "weight": "0.0423",
+            "details": "Broadcom Inc is a major semiconductor and infrastructure software company, supplying critical components for data centers, networking, and wireless communications."
+          },
+          {
+            "symbol": "CRM",
+            "description": "SALESFORCE INC",
+            "weight": "0.0197",
+            "details": "Salesforce Inc is a cloud-based software company specializing in customer relationship management solutions. Its platform streamlines business processes and customer engagement."
+          },
+          {
+            "symbol": "ORCL",
+            "description": "ORACLE CORP",
+            "weight": "0.0171",
+            "details": "Oracle Corporation is a multinational technology company that provides integrated cloud applications and platform services, best known for its database software and enterprise solutions."
+          },
+          {
+            "symbol": "ACN",
+            "description": "ACCENTURE PLC CLASS A",
+            "weight": "0.0148",
+            "details": "Accenture PLC is a global professional services company offering digital, cloud, and security services, helping businesses transform and operate efficiently."
+          },
+          {
+            "symbol": "CSCO",
+            "description": "CISCO SYSTEMS INC",
+            "weight": "0.0148",
+            "details": "Cisco Systems Inc is a worldwide leader in networking and cybersecurity solutions, providing products that enable secure and reliable digital communications."
+          },
+          {
+            "symbol": "IBM",
+            "description": "INTERNATIONAL BUSINESS MACHINES CORP",
+            "weight": "0.0145",
+            "details": "International Business Machines Corporation (IBM) is a multinational technology company known for its innovations in computing, AI, and cloud services."
+          },
+          {
+            "symbol": "NOW",
+            "description": "SERVICENOW INC",
+            "weight": "0.0129",
+            "details": "ServiceNow Inc is a cloud computing company that provides a platform for digital workflows, enabling enterprises to automate and streamline IT service management and operations."
+          },
+          {
+            "symbol": "QCOM",
+            "description": "QUALCOMM INC",
+            "weight": "0.012",
+            "details": "Qualcomm Inc is a leading semiconductor company that designs and markets wireless telecommunications products and services, playing a key role in mobile and 5G technology."
+          },
+          {
+            "symbol": "ADBE",
+            "description": "ADOBE INC",
+            "weight": "0.0118",
+            "details": "Adobe Inc is a global leader in digital media and creativity software, known for products like Photoshop, Illustrator, and Acrobat that empower creative professionals."
+          },
+          {
+            "symbol": "AMD",
+            "description": "ADVANCED MICRO DEVICES INC",
+            "weight": "0.0115",
+            "details": "Advanced Micro Devices Inc (AMD) is a semiconductor company that develops high-performance computing and graphics solutions, competing strongly in both consumer and enterprise markets."
+          },
+          {
+            "symbol": "PLTR",
+            "description": "n/a",
+            "weight": "0.0107",
+            "details": "No additional details available."
+          },
+          {
+            "symbol": "INTU",
+            "description": "INTUIT INC",
+            "weight": "0.0104",
+            "details": "Intuit Inc is a financial software company known for products like QuickBooks and TurboTax, providing solutions that simplify financial management for individuals and businesses."
+          },
+          {
+            "symbol": "TXN",
+            "description": "TEXAS INSTRUMENTS INC",
+            "weight": "0.0104",
+            "details": "Texas Instruments Inc is a major semiconductor company that designs and manufactures analog and embedded processing chips, widely used in electronic devices across various industries."
+          },
+          {
+            "symbol": "AMAT",
+            "description": "APPLIED MATERIALS INC",
+            "weight": "0.0094",
+            "details": "Applied Materials Inc is a leader in materials engineering solutions used in the semiconductor, display, and related industries, providing equipment and services critical for manufacturing."
+          },
+          {
+            "symbol": "ANET",
+            "description": "ARISTA NETWORKS INC",
+            "weight": "0.008",
+            "details": "Arista Networks Inc is a provider of cloud networking solutions for large data centers and computing environments, known for its scalable and high-performance switches."
+          },
+          {
+            "symbol": "PANW",
+            "description": "PALO ALTO NETWORKS INC",
+            "weight": "0.0076",
+            "details": "Palo Alto Networks Inc is a cybersecurity company offering advanced firewalls and cloud-based security solutions, recognized for its innovation in threat prevention."
+          },
+          {
+            "symbol": "LRCX",
+            "description": "LAM RESEARCH CORP",
+            "weight": "0.0068",
+            "details": "Lam Research Corp is a major supplier of wafer fabrication equipment and services for the semiconductor industry, playing a critical role in chip manufacturing."
+          },
+          {
+            "symbol": "ADI",
+            "description": "ANALOG DEVICES INC",
+            "weight": "0.0067",
+            "details": "Analog Devices Inc is a leading manufacturer of analog, mixed-signal, and digital signal processing integrated circuits, serving industries such as automotive, industrial, and communications."
+          },
+          {
+            "symbol": "MRVL",
+            "description": "MARVELL TECHNOLOGY INC",
+            "weight": "0.0066",
+            "details": "Marvell Technology Inc designs and develops storage, processing, and connectivity solutions for various markets, including data centers, automotive, and consumer electronics."
+          },
+          {
+            "symbol": "KLAC",
+            "description": "KLA CORP",
+            "weight": "0.0064",
+            "details": "KLA Corp is a capital equipment company providing process control and yield management systems for the semiconductor industry, known for its advanced inspection and metrology solutions."
+          },
+          {
+            "symbol": "MU",
+            "description": "MICRON TECHNOLOGY INC",
+            "weight": "0.0064",
+            "details": "Micron Technology Inc is a global leader in memory and storage solutions, manufacturing DRAM, NAND, and other memory products used in computing and mobile applications."
+          },
+          {
+            "symbol": "CRWD",
+            "description": "CROWDSTRIKE HOLDINGS INC CLASS A",
+            "weight": "0.0062",
+            "details": "CrowdStrike Holdings Inc is a cybersecurity firm specializing in cloud-delivered endpoint protection, using AI to prevent breaches and secure data in real time."
+          },
+          {
+            "symbol": "APH",
+            "description": "AMPHENOL CORP CLASS A",
+            "weight": "0.0056",
+            "details": "Amphenol Corp is a leading manufacturer of connectors, cables, and interconnect systems used in a variety of industries, including automotive, aerospace, and telecommunications."
+          },
+          {
+            "symbol": "APP",
+            "description": "APPLOVIN CORP ORDINARY SHARES CLASS A",
+            "weight": "0.0054",
+            "details": "AppLovin Corp is a mobile technology company that offers a platform for app developers to grow their businesses through marketing and monetization tools."
+          },
+          {
+            "symbol": "INTC",
+            "description": "INTEL CORP",
+            "weight": "0.0054",
+            "details": "Intel Corp is one of the world's largest semiconductor companies, known for its microprocessors and computing technologies that power a wide range of devices."
+          },
+          {
+            "symbol": "CDNS",
+            "description": "CADENCE DESIGN SYSTEMS INC",
+            "weight": "0.0054",
+            "details": "Cadence Design Systems Inc provides software, hardware, and intellectual property for electronic design automation, enabling engineers to design complex integrated circuits and systems."
+          },
+          {
+            "symbol": "SNPS",
+            "description": "SYNOPSYS INC",
+            "weight": "0.0053",
+            "details": "Synopsys Inc is a leader in electronic design automation and semiconductor IP, offering tools and services that support the development of advanced integrated circuits."
+          },
+          {
+            "symbol": "MSI",
+            "description": "MOTOROLA SOLUTIONS INC",
+            "weight": "0.0052",
+            "details": "Motorola Solutions Inc provides communication and mission-critical services, offering products such as two-way radios and command center software for public safety and enterprise markets."
+          },
+          {
+            "symbol": "ADSK",
+            "description": "AUTODESK INC",
+            "weight": "0.0046",
+            "details": "Autodesk Inc is a software company specializing in design and engineering tools, widely recognized for products like AutoCAD, Revit, and Maya used in various industries."
+          },
+          {
+            "symbol": "FTNT",
+            "description": "FORTINET INC",
+            "weight": "0.0045",
+            "details": "Fortinet Inc is a cybersecurity company that delivers high-performance security solutions, including firewalls and endpoint protection, to safeguard enterprise networks."
+          },
+          {
+            "symbol": "ROP",
+            "description": "ROPER TECHNOLOGIES INC",
+            "weight": "0.0042",
+            "details": "Roper Technologies Inc is a diversified technology company providing engineered products and solutions across healthcare, transportation, and energy sectors."
+          },
+          {
+            "symbol": "SNOW",
+            "description": "SNOWFLAKE INC ORDINARY SHARES CLASS A",
+            "weight": "0.004",
+            "details": "Snowflake Inc offers a cloud-based data warehousing platform that enables scalable, flexible, and secure data analytics for enterprises."
+          },
+          {
+            "symbol": "WDAY",
+            "description": "WORKDAY INC CLASS A",
+            "weight": "0.0039",
+            "details": "Workday Inc is a cloud-based provider of enterprise solutions for finance and human resources, streamlining operations for organizations around the world."
+          },
+          {
+            "symbol": "MSTR",
+            "description": "MICROSTRATEGY INC CLASS A",
+            "weight": "0.0038",
+            "details": "MicroStrategy Inc is a business intelligence company that offers analytics and data visualization tools, helping organizations make data-driven decisions."
+          },
+          {
+            "symbol": "TEAM",
+            "description": "ATLASSIAN CORP A",
+            "weight": "0.0037",
+            "details": "Atlassian Corp is a software company known for its collaboration and productivity tools, including Jira and Confluence, which support agile project management and team communication."
+          },
+          {
+            "symbol": "NXPI",
+            "description": "NXP SEMICONDUCTORS NV",
+            "weight": "0.0036",
+            "details": "NXP Semiconductors NV is a global leader in automotive, industrial, and IoT semiconductor solutions, driving innovation in connected technologies."
+          },
+          {
+            "symbol": "NET",
+            "description": "CLOUDFLARE INC",
+            "weight": "0.0035",
+            "details": "Cloudflare Inc provides a suite of services to enhance website performance, security, and reliability, including content delivery, DDoS protection, and DNS management."
+          },
+          {
+            "symbol": "FICO",
+            "description": "FAIR ISAAC CORP",
+            "weight": "0.0032",
+            "details": "Fair Isaac Corp (FICO) is best known for its credit scoring system, and it provides analytics and decision management solutions to help organizations manage risk."
+          },
+          {
+            "symbol": "GLW",
+            "description": "CORNING INC",
+            "weight": "0.0032",
+            "details": "Corning Inc is a leader in specialty glass and ceramics, known for innovations in display and optical technologies used in electronics and telecommunications."
+          },
+          {
+            "symbol": "TEL",
+            "description": "TE CONNECTIVITY PLC REGISTERED SHARES",
+            "weight": "0.0032",
+            "details": "TE Connectivity is a global technology company that designs and manufactures connectivity and sensor solutions for a variety of industries including automotive and aerospace."
+          },
+          {
+            "symbol": "DDOG",
+            "description": "DATADOG INC CLASS A",
+            "weight": "0.0031",
+            "details": "Datadog Inc is a monitoring and analytics platform for cloud-scale applications, providing real-time insights into infrastructure, applications, and logs."
+          },
+          {
+            "symbol": "IT",
+            "description": "GARTNER INC",
+            "weight": "0.0031",
+            "details": "Gartner Inc is a leading research and advisory company that provides insights and analysis to help businesses make informed technology decisions."
+          },
+          {
+            "symbol": "CTSH",
+            "description": "n/a",
+            "weight": "0.0031",
+            "details": "No additional details available."
+          },
+          {
+            "symbol": "HUBS",
+            "description": "HUBSPOT INC",
+            "weight": "0.003",
+            "details": "HubSpot Inc is a leading provider of inbound marketing, sales, and service software that helps businesses attract, engage, and delight customers."
+          },
+          {
+            "symbol": "KEYS",
+            "description": "KEYSIGHT TECHNOLOGIES INC",
+            "weight": "0.0026",
+            "details": "Keysight Technologies Inc provides electronic measurement solutions critical for designing, testing, and optimizing communication and electronic systems."
+          },
+          {
+            "symbol": "GDDY",
+            "description": "GODADDY INC CLASS A",
+            "weight": "0.0025",
+            "details": "GoDaddy Inc is a web hosting and domain registration company known for its support of small businesses and user-friendly website solutions."
+          },
+          {
+            "symbol": "HPQ",
+            "description": "HP INC",
+            "weight": "0.0024",
+            "details": "HP Inc is a global provider of personal computing and printing solutions, offering innovative technology products and services for consumers and businesses."
+          },
+          {
+            "symbol": "ANSS",
+            "description": "ANSYS INC",
+            "weight": "0.0024",
+            "details": "Ansys Inc is a provider of engineering simulation software that helps companies design and test products virtually, reducing development costs and time."
+          },
+          {
+            "symbol": "TWLO",
+            "description": "TWILIO INC CLASS A",
+            "weight": "0.0023",
+            "details": "Twilio Inc is a cloud communications platform that enables developers to build voice, messaging, and video applications, powering personalized customer engagement."
+          },
+          {
+            "symbol": "DELL",
+            "description": "n/a",
+            "weight": "0.0023",
+            "details": "No additional details available."
+          },
+          {
+            "symbol": "HPE",
+            "description": "HEWLETT PACKARD ENTERPRISE CO",
+            "weight": "0.0023",
+            "details": "Hewlett Packard Enterprise (HPE) provides IT infrastructure, software, and services to help organizations modernize their operations and drive digital transformation."
+          },
+          {
+            "symbol": "MPWR",
+            "description": "MONOLITHIC POWER SYSTEMS INC",
+            "weight": "0.0022",
+            "details": "Monolithic Power Systems Inc designs and manufactures power management solutions and LED drivers, enabling efficient energy use in electronic devices."
+          },
+          {
+            "symbol": "TYL",
+            "description": "TYLER TECHNOLOGIES INC",
+            "weight": "0.0021",
+            "details": "Tyler Technologies Inc is a leading provider of software solutions for the public sector, helping government organizations streamline operations and improve service delivery."
+          },
+          {
+            "symbol": "CDW",
+            "description": "CDW CORP",
+            "weight": "0.0021",
+            "details": "CDW Corp is a leading provider of technology products and services, offering a wide range of IT solutions to businesses, government, and education sectors."
+          },
+          {
+            "symbol": "TDY",
+            "description": "TELEDYNE TECHNOLOGIES INC",
+            "weight": "0.0021",
+            "details": "Teledyne Technologies Inc is a diversified technology company that provides digital imaging, instrumentation, aerospace, and defense solutions."
+          },
+          {
+            "symbol": "MCHP",
+            "description": "MICROCHIP TECHNOLOGY INC",
+            "weight": "0.0021",
+            "details": "Microchip Technology Inc is a leading provider of microcontrollers, analog, and Flash-IP solutions, enabling a wide range of embedded systems."
+          },
+          {
+            "symbol": "NTAP",
+            "description": "NETAPP INC",
+            "weight": "0.002",
+            "details": "NetApp Inc is a data management and storage solutions company that helps businesses manage, store, and analyze their data with innovative cloud solutions."
+          },
+          {
+            "symbol": "ZM",
+            "description": "ZOOM COMMUNICATIONS INC",
+            "weight": "0.002",
+            "details": "Zoom Communications Inc is a video conferencing platform that became popular for remote collaboration, offering reliable, user-friendly communication solutions."
+          },
+          {
+            "symbol": "PTC",
+            "description": "PTC INC",
+            "weight": "0.002",
+            "details": "PTC Inc provides technology solutions for product lifecycle management, CAD, and IoT, enabling companies to innovate and bring products to market efficiently."
+          },
+          {
+            "symbol": "DOCU",
+            "description": "DOCUSIGN INC",
+            "weight": "0.002",
+            "details": "DocuSign Inc is a leader in electronic signature and digital transaction management solutions, streamlining document workflows and improving efficiency."
+          },
+          {
+            "symbol": "WDC",
+            "description": "WESTERN DIGITAL CORP",
+            "weight": "0.0019",
+            "details": "Western Digital Corp is a global provider of data storage solutions, manufacturing hard drives and solid state drives for personal and enterprise use."
+          },
+          {
+            "symbol": "VRSN",
+            "description": "VERISIGN INC",
+            "weight": "0.0019",
+            "details": "VeriSign Inc is a global provider of domain name registry services and internet security solutions, ensuring the stability and security of online transactions."
+          },
+          {
+            "symbol": "PSTG",
+            "description": "PURE STORAGE INC CLASS A",
+            "weight": "0.0019",
+            "details": "Pure Storage Inc offers flash-based storage solutions that provide high performance and efficiency for enterprise data centers."
+          },
+          {
+            "symbol": "ZBRA",
+            "description": "ZEBRA TECHNOLOGIES CORP CLASS A",
+            "weight": "0.0019",
+            "details": "Zebra Technologies Corp provides solutions for asset tracking and data capture, including barcode scanners and RFID systems, enhancing operational efficiency."
+          },
+          {
+            "symbol": "JBL",
+            "description": "JABIL INC",
+            "weight": "0.0018",
+            "details": "Jabil Inc is a global manufacturing services company that designs, produces, and manages electronics, supporting a wide range of industries."
+          },
+          {
+            "symbol": "TRMB",
+            "description": "TRIMBLE INC",
+            "weight": "0.0018",
+            "details": "Trimble Inc is a technology company specializing in positioning, mapping, and data analytics solutions for industries such as agriculture, construction, and transportation."
+          },
+          {
+            "symbol": "MDB",
+            "description": "MONGODB INC CLASS A",
+            "weight": "0.0018",
+            "details": "MongoDB Inc is a leading provider of a NoSQL database platform that offers scalable and flexible data management solutions for modern applications."
+          },
+          {
+            "symbol": "FFIV",
+            "description": "F5 INC",
+            "weight": "0.0018",
+            "details": "F5 Inc provides application delivery and security solutions that optimize the performance and reliability of enterprise applications and networks."
+          },
+          {
+            "symbol": "NTNX",
+            "description": "NUTANIX INC CLASS A",
+            "weight": "0.0017",
+            "details": "Nutanix Inc is a leader in hyper-converged infrastructure and enterprise cloud solutions, simplifying IT operations and enhancing scalability."
+          },
+          {
+            "symbol": "ZS",
+            "description": "ZSCALER INC",
+            "weight": "0.0017",
+            "details": "Zscaler Inc is a cloud security company that delivers secure access to applications and data, using a zero-trust architecture to protect users."
+          },
+          {
+            "symbol": "ON",
+            "description": "ON SEMICONDUCTOR CORP",
+            "weight": "0.0017",
+            "details": "ON Semiconductor Corp is a supplier of semiconductor components that focus on energy-efficient solutions for automotive, industrial, and consumer applications."
+          },
+          {
+            "symbol": "STX",
+            "description": "SEAGATE TECHNOLOGY HOLDINGS PLC",
+            "weight": "0.0017",
+            "details": "Seagate Technology Holdings PLC is a major provider of data storage solutions, including hard disk drives and solid state drives for various markets."
+          },
+          {
+            "symbol": "DT",
+            "description": "DYNATRACE INC ORDINARY SHARES",
+            "weight": "0.0017",
+            "details": "Dynatrace Inc offers an AI-powered software intelligence platform that provides real-time monitoring and analytics for complex IT environments."
+          },
+          {
+            "symbol": "GWRE",
+            "description": "GUIDEWIRE SOFTWARE INC",
+            "weight": "0.0017",
+            "details": "Guidewire Software Inc provides technology solutions for the property and casualty insurance industry, including software for underwriting, claims, and policy administration."
+          },
+          {
+            "symbol": "FLEX",
+            "description": "FLEX LTD",
+            "weight": "0.0017",
+            "details": "Flex Ltd is a global supply chain and manufacturing services company that offers design, engineering, and logistics solutions across various industries."
+          },
+          {
+            "symbol": "EPAM",
+            "description": "EPAM SYSTEMS INC",
+            "weight": "0.0016",
+            "details": "EPAM Systems Inc is a global provider of software engineering and IT consulting services, helping businesses implement digital transformation strategies."
+          },
+          {
+            "symbol": "TER",
+            "description": "TERADYNE INC",
+            "weight": "0.0016",
+            "details": "Teradyne Inc is a leading supplier of automatic test equipment for semiconductors and electronic systems, ensuring quality and reliability in manufacturing."
+          },
+          {
+            "symbol": "CIEN",
+            "description": "CIENA CORP",
+            "weight": "0.0016",
+            "details": "Ciena Corp is a networking systems, services, and software company that designs and delivers high-performance network infrastructure for data communications."
+          },
+          {
+            "symbol": "CRDO",
+            "description": "CREDO TECHNOLOGY GROUP HOLDING LTD",
+            "weight": "0.0016",
+            "details": "Credo Technology Group Holding Ltd provides innovative technology solutions and services aimed at improving operational efficiency across various industries."
+          },
+          {
+            "symbol": "FSLR",
+            "description": "FIRST SOLAR INC",
+            "weight": "0.0015",
+            "details": "First Solar Inc is a leading provider of photovoltaic (PV) solar energy solutions, known for its advanced technology and cost-effective solar panels."
+          },
+          {
+            "symbol": "AKAM",
+            "description": "AKAMAI TECHNOLOGIES INC",
+            "weight": "0.0015",
+            "details": "Akamai Technologies Inc is a content delivery network and cloud service provider that optimizes web performance and security for businesses worldwide."
+          },
+          {
+            "symbol": "OKTA",
+            "description": "OKTA INC CLASS A",
+            "weight": "0.0015",
+            "details": "Okta Inc is a leading identity and access management company that provides secure solutions for user authentication and lifecycle management across organizations."
+          },
+          {
+            "symbol": "GEN",
+            "description": "GEN DIGITAL INC",
+            "weight": "0.0015",
+            "details": "Gen Digital Inc is a technology company focused on digital security and identity protection, offering solutions that help secure digital lives."
+          },
+          {
+            "symbol": "SNX",
+            "description": "TD SYNNEX CORP",
+            "weight": "0.0014",
+            "details": "TD SYNNEX Corp is an IT distribution and services company that connects technology vendors with resellers, playing a critical role in the technology supply chain."
+          },
+          {
+            "symbol": "KD",
+            "description": "KYNDRYL HOLDINGS INC ORDINARY SHARES",
+            "weight": "0.0014",
+            "details": "Kyndryl Holdings Inc is an IT infrastructure services company that was spun off from IBM, focusing on managing and modernizing enterprise IT environments."
+          },
+          {
+            "symbol": "IONQ",
+            "description": "IONQ INC CLASS A",
+            "weight": "0.0014",
+            "details": "IonQ Inc is a quantum computing company developing commercially viable quantum systems that aim to solve complex problems beyond the reach of classical computers."
+          },
+          {
+            "symbol": "ENTG",
+            "description": "ENTEGRIS INC",
+            "weight": "0.0014",
+            "details": "Entegris Inc is a supplier of advanced materials and process solutions for the semiconductor industry, ensuring purity and efficiency in chip manufacturing."
+          },
+          {
+            "symbol": "IOT",
+            "description": "SAMSARA INC ORDINARY SHARES CLASS A",
+            "weight": "0.0013",
+            "details": "Samsara Inc provides IoT solutions that offer real-time data analytics and operational insights, enabling businesses to optimize logistics and industrial processes."
+          },
+          {
+            "symbol": "GTLB",
+            "description": "GITLAB INC CLASS A",
+            "weight": "0.0013",
+            "details": "GitLab Inc is a comprehensive DevOps platform that facilitates collaborative software development and continuous integration, supporting modern development workflows."
+          },
+          {
+            "symbol": "BILL",
+            "description": "BILL HOLDINGS INC ORDINARY SHARES",
+            "weight": "0.0013",
+            "details": "Bill Holdings Inc is a fintech company offering billing and payment solutions that streamline recurring transactions for businesses and consumers."
+          },
+          {
+            "symbol": "COHR",
+            "description": "COHERENT CORP",
+            "weight": "0.0013",
+            "details": "Coherent Corp is a provider of lasers and laser-based technology solutions, serving industries such as scientific research, industrial manufacturing, and medical applications."
+          },
+          {
+            "symbol": "SWKS",
+            "description": "SKYWORKS SOLUTIONS INC",
+            "weight": "0.0013",
+            "details": "Skyworks Solutions Inc designs and manufactures semiconductors for wireless communications, contributing to mobile devices and IoT applications."
+          },
+          {
+            "symbol": "ESTC",
+            "description": "ELASTIC NV",
+            "weight": "0.0012",
+            "details": "Elastic NV provides a search and analytics engine that enables real-time data exploration and insights, widely used for logging, monitoring, and business analytics."
+          },
+          {
+            "symbol": "U",
+            "description": "UNITY SOFTWARE INC ORDINARY SHARES",
+            "weight": "0.0012",
+            "details": "Unity Software Inc is a leading platform for creating and operating interactive, real-time 3D content, used extensively in game development and other interactive media."
+          },
+          {
+            "symbol": "ONTO",
+            "description": "ONTO INNOVATION INC",
+            "weight": "0.0012",
+            "details": "Onto Innovation Inc provides process control equipment and software for the semiconductor industry, critical for ensuring yield and quality in chip production."
+          },
+          {
+            "symbol": "AZPN",
+            "description": "ASPEN TECHNOLOGY INC",
+            "weight": "0.0012",
+            "details": "Aspen Technology Inc develops software solutions that optimize asset performance and operational efficiency, serving industries like chemicals and energy."
+          },
+          {
+            "symbol": "DBX",
+            "description": "DROPBOX INC CLASS A",
+            "weight": "0.0012",
+            "details": "Dropbox Inc is a cloud storage and collaboration platform that simplifies file sharing and remote work, serving both individuals and businesses."
+          },
+          {
+            "symbol": "MTSI",
+            "description": "MACOM TECHNOLOGY SOLUTIONS HOLDINGS INC",
+            "weight": "0.0012",
+            "details": "MACOM Technology Solutions Holdings Inc provides high-performance RF, microwave, and millimeter wave products used in communications, aerospace, and defense applications."
+          },
+          {
+            "symbol": "LSCC",
+            "description": "LATTICE SEMICONDUCTOR CORP",
+            "weight": "0.0012",
+            "details": "Lattice Semiconductor Corp is a provider of low power, small form factor programmable logic devices, widely used in consumer electronics and industrial automation."
+          },
+          {
+            "symbol": "RMBS",
+            "description": "RAMBUS INC",
+            "weight": "0.0012",
+            "details": "Rambus Inc specializes in semiconductor and IP licensing, offering solutions that enhance memory interfaces and security in electronic devices."
+          },
+          {
+            "symbol": "PCOR",
+            "description": "PROCORE TECHNOLOGIES INC",
+            "weight": "0.0012",
+            "details": "Procore Technologies Inc provides cloud-based construction management software that facilitates project communication, collaboration, and efficiency in the construction industry."
+          },
+          {
+            "symbol": "AUR",
+            "description": "AURORA INNOVATION INC CLASS A",
+            "weight": "0.0012",
+            "details": "Aurora Innovation Inc is developing autonomous driving technology with the goal of creating safe and efficient self-driving vehicles for the future of transportation."
+          },
+          {
+            "symbol": "SMCI",
+            "description": "SUPER MICRO COMPUTER INC",
+            "weight": "0.0012",
+            "details": "Super Micro Computer Inc is a global leader in high-performance server technology, providing innovative computing solutions for data centers and enterprise IT."
+          },
+          {
+            "symbol": "JNPR",
+            "description": "JUNIPER NETWORKS INC",
+            "weight": "0.0012",
+            "details": "Juniper Networks Inc is a global leader in networking and cybersecurity, offering routers, switches, and other technologies to ensure secure and efficient digital communication."
+          },
+          {
+            "symbol": "MANH",
+            "description": "MANHATTAN ASSOCIATES INC",
+            "weight": "0.0012",
+            "details": "Manhattan Associates Inc provides supply chain and omnichannel commerce software solutions that help businesses optimize logistics and operational efficiency."
+          },
+          {
+            "symbol": "ALTR",
+            "description": "ALTAIR ENGINEERING INC CLASS A",
+            "weight": "0.0011",
+            "details": "Altair Engineering Inc specializes in simulation, data analytics, and high-performance computing software, enabling companies to innovate and optimize product design."
+          },
+          {
+            "symbol": "SMTC",
+            "description": "SEMTECH CORP",
+            "weight": "0.0011",
+            "details": "Semtech Corp is a supplier of analog and mixed-signal semiconductor products, known for its LoRa wireless technology used in IoT applications."
+          },
+          {
+            "symbol": "CFLT",
+            "description": "CONFLUENT INC CLASS A",
+            "weight": "0.0011",
+            "details": "Confluent Inc provides a streaming platform based on Apache Kafka that enables real-time data processing and analytics for modern, event-driven applications."
+          },
+          {
+            "symbol": "PATH",
+            "description": "UIPATH INC CLASS A",
+            "weight": "0.0011",
+            "details": "UiPath Inc is a leader in robotic process automation (RPA), helping organizations automate repetitive tasks and drive operational efficiency through intelligent automation."
+          },
+          {
+            "symbol": "PEGA",
+            "description": "PEGASYSTEMS INC",
+            "weight": "0.0011",
+            "details": "Pegasystems Inc provides customer engagement and digital process automation software that helps businesses streamline operations and enhance customer experiences."
+          },
+          {
+            "symbol": "VNT",
+            "description": "VONTIER CORP ORDINARY SHARES",
+            "weight": "0.001",
+            "details": "Vontier Corp is a diversified industrial technology company offering innovative solutions in mobility and transportation to improve operational efficiency and safety."
+          },
+          {
+            "symbol": "SANM",
+            "description": "SANMINA CORP",
+            "weight": "0.001",
+            "details": "Sanmina Corp is a global provider of integrated manufacturing solutions, delivering design, production, and logistics services to various industries including communications and healthcare."
+          },
+          {
+            "symbol": "S",
+            "description": "SENTINELONE INC CLASS A",
+            "weight": "0.001",
+            "details": "SentinelOne Inc is a cybersecurity company that offers autonomous endpoint protection powered by AI, designed to prevent, detect, and respond to cyber threats in real time."
+          },
+          {
+            "symbol": "ACIW",
+            "description": "ACI WORLDWIDE INC",
+            "weight": "0.001",
+            "details": "ACI Worldwide Inc provides electronic payment and banking solutions to financial institutions and merchants, enabling secure, real-time processing of transactions."
+          },
+          {
+            "symbol": "QTWO",
+            "description": "Q2 HOLDINGS INC",
+            "weight": "0.001",
+            "details": "Q2 Holdings Inc offers digital banking solutions that empower financial institutions to deliver personalized online and mobile banking experiences."
+          },
+          {
+            "symbol": "SLAB",
+            "description": "SILICON LABORATORIES INC",
+            "weight": "0.001",
+            "details": "Silicon Laboratories Inc is a semiconductor company that designs integrated circuits and software for wireless and sensor applications, driving innovation in connected devices."
+          },
+          {
+            "symbol": "SPSC",
+            "description": "SPS COMMERCE INC",
+            "weight": "0.001",
+            "details": "SPS Commerce Inc provides cloud-based supply chain management solutions that enhance trading partner connectivity and streamline retail operations."
+          },
+          {
+            "symbol": "WK",
+            "description": "WORKIVA INC CLASS A",
+            "weight": "0.001",
+            "details": "Workiva Inc is a platform for connected reporting and compliance, helping organizations streamline data management and regulatory reporting processes."
+          },
+          {
+            "symbol": "CVLT",
+            "description": "COMMVAULT SYSTEMS INC",
+            "weight": "0.001",
+            "details": "Commvault Systems Inc offers data management solutions that help organizations protect, manage, and derive insights from their data in a secure and efficient manner."
+          },
+          {
+            "symbol": "DLB",
+            "description": "DOLBY LABORATORIES INC CLASS A",
+            "weight": "0.001",
+            "details": "Dolby Laboratories Inc is a leader in audio and imaging technologies, providing solutions that enhance sound quality and visual experiences in entertainment and communications."
+          },
+          {
+            "symbol": "BMI",
+            "description": "BADGER METER INC",
+            "weight": "0.001",
+            "details": "Badger Meter Inc designs and manufactures flow measurement and control technologies used in water, industrial, and commercial applications to manage resource efficiency."
+          },
+          {
+            "symbol": "CWAN",
+            "description": "n/a",
+            "weight": "0.001",
+            "details": "No additional details available."
+          },
+          {
+            "symbol": "BSY",
+            "description": "n/a",
+            "weight": "0.001",
+            "details": "No additional details available."
+          },
+          {
+            "symbol": "FN",
+            "description": "FABRINET",
+            "weight": "0.001",
+            "details": "Fabrinet is a precision optical packaging and manufacturing services provider that supports the production of high-performance electronics for leading technology companies."
+          },
+          {
+            "symbol": "MKSI",
+            "description": "MKS INSTRUMENTS INC",
+            "weight": "0.001",
+            "details": "MKS Instruments Inc provides instruments and process control solutions for advanced manufacturing, serving industries such as semiconductors and industrial manufacturing."
+          },
+          {
+            "symbol": "CGNX",
+            "description": "COGNEX CORP",
+            "weight": "0.001",
+            "details": "Cognex Corp is a global leader in machine vision and barcode reading technologies, offering solutions that enhance quality inspection and automation in manufacturing."
+          },
+          {
+            "symbol": "LITE",
+            "description": "LUMENTUM HOLDINGS INC",
+            "weight": "0.001",
+            "details": "Lumentum Holdings Inc designs and manufactures optical and photonic products used in telecommunications, data communications, and industrial applications."
+          },
+          {
+            "symbol": "IDCC",
+            "description": "INTERDIGITAL INC",
+            "weight": "0.001",
+            "details": "InterDigital Inc is a research and development company specializing in wireless communications and digital media technologies, driving innovation in mobile networks."
+          },
+          {
+            "symbol": "QLYS",
+            "description": "QUALYS INC",
+            "weight": "0.0009",
+            "details": "Qualys Inc provides cloud security and compliance solutions that help organizations identify vulnerabilities and secure their IT infrastructure."
+          },
+          {
+            "symbol": "QRVO",
+            "description": "QORVO INC",
+            "weight": "0.0009",
+            "details": "Qorvo Inc is a semiconductor company that designs and manufactures RF solutions critical for mobile, infrastructure, and aerospace applications."
+          },
+          {
+            "symbol": "PLXS",
+            "description": "PLEXUS CORP",
+            "weight": "0.0009",
+            "details": "Plexus Corp provides design, engineering, and manufacturing services for complex electronic systems, supporting product development across high-tech industries."
+          },
+          {
+            "symbol": "ARW",
+            "description": "ARROW ELECTRONICS INC",
+            "weight": "0.0009",
+            "details": "Arrow Electronics Inc is a global provider of electronic components, offering a wide range of products and services that bridge the gap between technology manufacturers and the market."
+          },
+          {
+            "symbol": "ITRI",
+            "description": "ITRON INC",
+            "weight": "0.0009",
+            "details": "Itron Inc offers technology solutions for energy and water resource management, helping utilities monitor and optimize their networks for efficiency and sustainability."
+          },
+          {
+            "symbol": "DXC",
+            "description": "n/a",
+            "weight": "0.0009",
+            "details": "No additional details available."
+          },
+          {
+            "symbol": "INTA",
+            "description": "INTAPP INC",
+            "weight": "0.0009",
+            "details": "Intapp Inc provides cloud-based software solutions for professional and financial services firms, enhancing operational efficiency and client management."
+          },
+          {
+            "symbol": "APPF",
+            "description": "APPFOLIO INC CLASS A",
+            "weight": "0.0009",
+            "details": "AppFolio Inc offers cloud-based property management and legal practice management solutions, simplifying administrative tasks and improving operational workflows."
+          },
+          {
+            "symbol": "MARA",
+            "description": "MARA HOLDINGS INC",
+            "weight": "0.0009",
+            "details": "Mara Holdings Inc is an investment company focused on digital assets and technology ventures, reflecting a diverse portfolio in tech-driven sectors."
+          },
+          {
+            "symbol": "AEIS",
+            "description": "ADVANCED ENERGY INDUSTRIES INC",
+            "weight": "0.0009",
+            "details": "Advanced Energy Industries Inc provides power conversion and control solutions for industrial, semiconductor, and clean energy markets, enabling efficient energy management."
+          },
+          {
+            "symbol": "SITM",
+            "description": "SITIME CORP ORDINARY SHARES",
+            "weight": "0.0009",
+            "details": "Sitime Corp offers location intelligence and operational analytics solutions for the transportation and logistics industries, optimizing fleet and supply chain management."
+          },
+          {
+            "symbol": "SOUN",
+            "description": "n/a",
+            "weight": "0.0009",
+            "details": "No additional details available."
+          },
+          {
+            "symbol": "LFUS",
+            "description": "LITTELFUSE INC",
+            "weight": "0.0009",
+            "details": "Littelfuse Inc is a global manufacturer of circuit protection, power control, and sensing solutions that safeguard electronic systems from electrical faults."
+          },
+          {
+            "symbol": "AVT",
+            "description": "AVNET INC",
+            "weight": "0.0009",
+            "details": "Avnet Inc is a global technology solutions provider offering electronic components, embedded solutions, and supply chain services, helping customers innovate and bring products to market."
+          },
+          {
+            "symbol": "BOX",
+            "description": "BOX INC CLASS A",
+            "weight": "0.0009",
+            "details": "Box Inc is a cloud content management and file sharing service that enables secure collaboration and streamlined document management for businesses."
+          },
+          {
+            "symbol": "OLED",
+            "description": "UNIVERSAL DISPLAY CORP",
+            "weight": "0.0009",
+            "details": "Universal Display Corp is a leader in OLED technologies, providing materials and innovations that power high-performance displays in televisions, smartphones, and lighting."
+          },
+          {
+            "symbol": "TENB",
+            "description": "TENABLE HOLDINGS INC",
+            "weight": "0.0009",
+            "details": "Tenable Holdings Inc specializes in cybersecurity and vulnerability management solutions that help organizations identify and mitigate digital risks."
+          },
+          {
+            "symbol": "CCCS",
+            "description": "CCC INTELLIGENT SOLUTIONS HOLDINGS INC",
+            "weight": "0.0009",
+            "details": "CCC Intelligent Solutions Holdings Inc provides software and services for the automotive, insurance, and collision repair industries, streamlining claims and repair processes."
+          },
+          {
+            "symbol": "BDC",
+            "description": "BELDEN INC",
+            "weight": "0.0009",
+            "details": "Belden Inc is a provider of signal transmission solutions, offering products such as cables, connectors, and networking hardware for industrial and commercial applications."
+          },
+          {
+            "symbol": "SYNA",
+            "description": "SYNAPTICS INC",
+            "weight": "0.0008",
+            "details": "Synaptics Inc is a leader in human interface solutions, designing touch, display, and biometric technologies that enhance user experiences in consumer electronics."
+          },
+          {
+            "symbol": "RIOT",
+            "description": "RIOT PLATFORMS INC",
+            "weight": "0.0008",
+            "details": "Riot Platforms Inc is a digital asset company focused on cryptocurrency mining and blockchain technology, contributing to the development of the digital currency ecosystem."
+          },
+          {
+            "symbol": "POWI",
+            "description": "POWER INTEGRATIONS INC",
+            "weight": "0.0008",
+            "details": "Power Integrations Inc is a semiconductor company specializing in high-performance power conversion solutions, essential for efficient power supplies and energy management."
+          },
+          {
+            "symbol": "CRUS",
+            "description": "CIRRUS LOGIC INC",
+            "weight": "0.0008",
+            "details": "Cirrus Logic Inc designs and develops audio and voice integrated circuits, enhancing audio performance in consumer electronics and communication devices."
+          },
+          {
+            "symbol": "AI",
+            "description": "C3.AI INC ORDINARY SHARES CLASS A",
+            "weight": "0.0008",
+            "details": "C3.ai Inc provides a suite of enterprise AI software solutions that enable organizations to harness data for predictive analytics and digital transformation."
+          },
+          {
+            "symbol": "ENPH",
+            "description": "ENPHASE ENERGY INC",
+            "weight": "0.0008",
+            "details": "Enphase Energy Inc is a global leader in solar microinverters and energy storage solutions, driving the adoption of solar energy with innovative technology."
+          },
+          {
+            "symbol": "BL",
+            "description": "BLACKLINE INC",
+            "weight": "0.0008",
+            "details": "BlackLine Inc is a cloud-based financial automation platform that streamlines accounting and financial close processes, improving efficiency and accuracy."
+          },
+          {
+            "symbol": "NOVT",
+            "description": "NOVANTA INC",
+            "weight": "0.0008",
+            "details": "Novanta Inc is a provider of precision photonics and motion control solutions, used in medical, industrial, and communications applications to drive innovation."
+          },
+          {
+            "symbol": "ASGN",
+            "description": "ASGN INC",
+            "weight": "0.0008",
+            "details": "ASGN Inc is a technology-enabled services company that offers IT and professional services, including staffing and consulting, to help organizations achieve their business goals."
+          },
+          {
+            "symbol": "NSIT",
+            "description": "INSIGHT ENTERPRISES INC",
+            "weight": "0.0008",
+            "details": "Insight Enterprises Inc is a global provider of IT solutions and services, offering hardware, software, and technology consulting to help businesses optimize their operations."
+          },
+          {
+            "symbol": "VRNS",
+            "description": "VARONIS SYSTEMS INC",
+            "weight": "0.0008",
+            "details": "Varonis Systems Inc is a cybersecurity company that specializes in data security and analytics, helping organizations protect sensitive information and detect insider threats."
+          },
+          {
+            "symbol": "FRSH",
+            "description": "FRESHWORKS INC ORDINARY SHARES CLASS A",
+            "weight": "0.0008",
+            "details": "Freshworks Inc is a customer engagement software company that offers a suite of products for sales, marketing, and support, enabling businesses to deliver exceptional customer experiences."
+          },
+          {
+            "symbol": "ALGM",
+            "description": "ALLEGRO MICROSYSTEMS INC ORDINARY SHARES",
+            "weight": "0.0007",
+            "details": "Allegro Microsystems Inc is a designer and manufacturer of sensor and power integrated circuits, widely used in automotive and industrial applications for precise control."
+          },
+          {
+            "symbol": "ZETA",
+            "description": "ZETA GLOBAL HOLDINGS CORP CLASS A",
+            "weight": "0.0007",
+            "details": "Zeta Global Holdings Corp is a data-driven marketing technology company that leverages AI to provide comprehensive marketing and CRM solutions for businesses."
+          },
+          {
+            "symbol": "NCNO",
+            "description": "NCINO INC ORDINARY SHARES",
+            "weight": "0.0007",
+            "details": "nCino Inc is a cloud-based banking software company that streamlines loan origination and banking operations, enhancing efficiency for financial institutions."
+          },
+          {
+            "symbol": "ALRM",
+            "description": "ALARM.COM HOLDINGS INC",
+            "weight": "0.0007",
+            "details": "Alarm.com Holdings Inc provides cloud-based security and smart home solutions that enable remote monitoring and control of homes and businesses."
+          },
+          {
+            "symbol": "TDC",
+            "description": "TERADATA CORP",
+            "weight": "0.0007",
+            "details": "Teradata Corp offers enterprise data analytics and data warehousing solutions that help organizations harness and analyze their data for strategic decision-making."
+          },
+          {
+            "symbol": "DV",
+            "description": "DOUBLEVERIFY HOLDINGS INC",
+            "weight": "0.0007",
+            "details": "DoubleVerify Holdings Inc is a digital media measurement company that ensures the quality and effectiveness of online advertising through advanced analytics and verification services."
+          },
+          {
+            "symbol": "OSIS",
+            "description": "OSI SYSTEMS INC",
+            "weight": "0.0007",
+            "details": "OSI Systems Inc provides security and inspection solutions for critical infrastructure, including advanced imaging and threat detection technologies for airports and other facilities."
+          },
+          {
+            "symbol": "BLKB",
+            "description": "BLACKBAUD INC",
+            "weight": "0.0007",
+            "details": "Blackbaud Inc is a software company that offers cloud solutions for non-profit organizations, helping them manage fundraising, donor relations, and financial operations."
+          },
+          {
+            "symbol": "FIVN",
+            "description": "FIVE9 INC",
+            "weight": "0.0007",
+            "details": "Five9 Inc is a cloud contact center software provider that enables businesses to deliver efficient customer service through scalable communication solutions."
+          },
+          {
+            "symbol": "PI",
+            "description": "IMPINJ INC",
+            "weight": "0.0007",
+            "details": "Impinj Inc is a leading provider of RAIN RFID solutions that enable the identification and tracking of products and assets in various industries, enhancing supply chain visibility."
+          },
+          {
+            "symbol": "CXT",
+            "description": "CRANE NXT CO",
+            "weight": "0.0007",
+            "details": "Crane Nxt Co is a technology company that provides industrial solutions for process automation and control, supporting manufacturing and other industrial sectors."
+          },
+          {
+            "symbol": "FROG",
+            "description": "JFROG LTD ORDINARY SHARES",
+            "weight": "0.0007",
+            "details": "JFrog Ltd is a provider of DevOps solutions that streamline software distribution and update management, enabling continuous integration and delivery."
+          },
+          {
+            "symbol": "FORM",
+            "description": "FORMFACTOR INC",
+            "weight": "0.0007",
+            "details": "FormFactor Inc is a leader in semiconductor probe card and wafer-level test technologies, providing solutions that ensure the quality and reliability of integrated circuits."
+          },
+          {
+            "symbol": "AMBA",
+            "description": "AMBARELLA INC",
+            "weight": "0.0007",
+            "details": "Ambarella Inc is a semiconductor company that develops low-power, high-definition video processing solutions used in security cameras, automotive systems, and consumer electronics."
+          },
+          {
+            "symbol": "VERX",
+            "description": "VERTEX INC CLASS A",
+            "weight": "0.0007",
+            "details": "Vertex Inc is a biotechnology company focused on developing innovative therapies, primarily in the field of cystic fibrosis, with a commitment to transforming patient care."
+          },
+          {
+            "symbol": "MIR",
+            "description": "n/a",
+            "weight": "0.0007",
+            "details": "No additional details available."
+          },
+          {
+            "symbol": "PRGS",
+            "description": "PROGRESS SOFTWARE CORP",
+            "weight": "0.0006",
+            "details": "Progress Software Corp provides application development and deployment solutions that help businesses build, manage, and secure software applications efficiently."
+          },
+          {
+            "symbol": "BRZE",
+            "description": "BRAZE INC CLASS A",
+            "weight": "0.0006",
+            "details": "Braze Inc is a customer engagement platform that enables personalized messaging and communication across various digital channels, helping brands build lasting relationships with their customers."
+          },
+          {
+            "symbol": "CLSK",
+            "description": "CLEANSPARK INC",
+            "weight": "0.0006",
+            "details": "CleanSpark Inc provides innovative energy software and control technology for microgrid and distributed energy systems, optimizing energy usage and efficiency."
+          },
+          {
+            "symbol": "TTMI",
+            "description": "TTM TECHNOLOGIES INC",
+            "weight": "0.0006",
+            "details": "TTM Technologies Inc is a leading manufacturer of printed circuit boards and electronics manufacturing services, supporting the development of advanced electronic products."
+          },
+          {
+            "symbol": "PAR",
+            "description": "PAR TECHNOLOGY CORP",
+            "weight": "0.0006",
+            "details": "Par Technology Corp offers innovative solutions designed to optimize business operations, serving industries such as manufacturing and logistics with advanced technology."
+          },
+          {
+            "symbol": "DIOD",
+            "description": "DIODES INC",
+            "weight": "0.0006",
+            "details": "Diodes Inc is a supplier of semiconductor products and discrete components used in power management and signal processing applications, ensuring high performance in electronic devices."
+          },
+          {
+            "symbol": "DOCN",
+            "description": "DIGITALOCEAN HOLDINGS INC",
+            "weight": "0.0006",
+            "details": "DigitalOcean Holdings Inc is a cloud infrastructure provider that offers simple and scalable cloud computing solutions, popular among developers and small businesses."
+          },
+          {
+            "symbol": "KVYO",
+            "description": "KLAVIYO INC CLASS A COMMON STOCK",
+            "weight": "0.0006",
+            "details": "Klaviyo Inc is a marketing automation platform focused on email and SMS marketing for e-commerce businesses, enabling personalized customer communication and growth."
+          },
+          {
+            "symbol": "KLIC",
+            "description": "KULICKE & SOFFA INDUSTRIES INC",
+            "weight": "0.0006",
+            "details": "Kulicke & Soffa Industries Inc is a leading supplier of semiconductor packaging and test equipment, critical for the production and quality assurance of integrated circuits."
+          },
+          {
+            "symbol": "VIAV",
+            "description": "VIAVI SOLUTIONS INC",
+            "weight": "0.0006",
+            "details": "Viavi Solutions Inc provides network testing, monitoring, and assurance solutions that help organizations optimize their communications networks and IT infrastructure."
+          },
+          {
+            "symbol": "RNG",
+            "description": "RINGCENTRAL INC CLASS A",
+            "weight": "0.0006",
+            "details": "RingCentral Inc is a cloud communications and collaboration platform offering voice, video, and messaging services that unify business communications."
+          },
+          {
+            "symbol": "AMKR",
+            "description": "AMKOR TECHNOLOGY INC",
+            "weight": "0.0006",
+            "details": "Amkor Technology Inc is a leading provider of semiconductor packaging and test services, supporting the manufacturing of integrated circuits and electronic devices."
+          },
+          {
+            "symbol": "AGYS",
+            "description": "AGILYSYS INC",
+            "weight": "0.0005",
+            "details": "Agilysys Inc is a software company that provides enterprise solutions for the hospitality, healthcare, and other industries, streamlining operations and enhancing customer service."
+          },
+          {
+            "symbol": "RAMP",
+            "description": "LIVERAMP HOLDINGS INC",
+            "weight": "0.0005",
+            "details": "LiveRamp Holdings Inc is a data connectivity platform that enables organizations to securely leverage data for marketing and analytics, enhancing audience targeting."
+          },
+          {
+            "symbol": "EXTR",
+            "description": "EXTREME NETWORKS INC",
+            "weight": "0.0005",
+            "details": "Extreme Networks Inc provides software-driven networking solutions that deliver secure, scalable, and reliable connectivity for enterprises and service providers."
+          },
+          {
+            "symbol": "YOU",
+            "description": "CLEAR SECURE INC ORDINARY SHARES CLASS A",
+            "weight": "0.0005",
+            "details": "Clear Secure Inc is a technology company that offers identity verification and secure travel solutions, streamlining the process of passenger screening and authentication."
+          },
+          {
+            "symbol": "CALX",
+            "description": "CALIX INC",
+            "weight": "0.0005",
+            "details": "Calix Inc is a provider of cloud and software platforms for broadband service providers, helping them manage networks and deliver innovative services to their customers."
+          },
+          {
+            "symbol": "RPD",
+            "description": "RAPID7 INC",
+            "weight": "0.0005",
+            "details": "Rapid7 Inc is a cybersecurity company that offers vulnerability management, incident detection, and response solutions to help organizations strengthen their security posture."
+          },
+          {
+            "symbol": "AVPT",
+            "description": "AVEPOINT INC ORDINARY SHARES CLASS A",
+            "weight": "0.0005",
+            "details": "AvePoint Inc provides data management and migration solutions, particularly for cloud environments and Office 365, helping organizations secure and manage their digital assets."
+          },
+          {
+            "symbol": "ACLS",
+            "description": "AXCELIS TECHNOLOGIES INC",
+            "weight": "0.0005",
+            "details": "Axcelis Technologies Inc designs and manufactures ion implantation systems used in semiconductor fabrication, playing a critical role in the doping process for integrated circuits."
+          },
+          {
+            "symbol": "IPGP",
+            "description": "IPG PHOTONICS CORP",
+            "weight": "0.0005",
+            "details": "IPG Photonics Corp is a global leader in fiber lasers and amplifiers, providing solutions for materials processing, telecommunications, and medical applications."
+          },
+          {
+            "symbol": "PLUS",
+            "description": "EPLUS INC",
+            "weight": "0.0005",
+            "details": "Eplus Inc is a technology solutions provider that offers IT services, cloud computing, and data center solutions to help organizations optimize their technology infrastructure."
+          },
+          {
+            "symbol": "INFA",
+            "description": "INFORMATICA INC",
+            "weight": "0.0004",
+            "details": "Informatica Inc is a leader in enterprise cloud data management, providing solutions for data integration, quality, and governance that help organizations harness the power of their data."
+          },
+          {
+            "symbol": "VSH",
+            "description": "VISHAY INTERTECHNOLOGY INC",
+            "weight": "0.0004",
+            "details": "Vishay Intertechnology Inc is a leading manufacturer of discrete semiconductors and passive electronic components, serving a wide range of industrial, automotive, and consumer markets."
+          },
+          {
+            "symbol": "ASAN",
+            "description": "ASANA INC ORDINARY SHARES CLASS A",
+            "weight": "0.0004",
+            "details": "Asana Inc is a work management platform that helps teams organize, track, and manage their work, enhancing collaboration and productivity across organizations."
+          },
+          {
+            "symbol": "NTCT",
+            "description": "NETSCOUT SYSTEMS INC",
+            "weight": "0.0004",
+            "details": "Netscout Systems Inc provides IT infrastructure monitoring and performance management solutions, helping organizations optimize their networks and applications."
+          },
+          {
+            "symbol": "BHE",
+            "description": "BENCHMARK ELECTRONICS INC",
+            "weight": "0.0004",
+            "details": "Benchmark Electronics Inc is a provider of integrated electronics manufacturing services and engineering solutions, supporting product design, production, and supply chain management."
+          },
+          {
+            "symbol": "UCTT",
+            "description": "ULTRA CLEAN HOLDINGS INC",
+            "weight": "0.0004",
+            "details": "Ultra Clean Holdings Inc supplies equipment and consumables for the semiconductor and solar industries, ensuring clean and efficient manufacturing environments."
+          },
+          {
+            "symbol": "PD",
+            "description": "PAGERDUTY INC",
+            "weight": "0.0004",
+            "details": "PagerDuty Inc is a digital operations management platform that helps organizations detect and respond to IT incidents in real time, improving service reliability."
+          },
+          {
+            "symbol": "VYX",
+            "description": "NCR VOYIX CORP",
+            "weight": "0.0004",
+            "details": "NCR Voyix Corp provides point-of-sale and retail management solutions designed to optimize in-store operations and enhance the customer experience."
+          },
+          {
+            "symbol": "ALKT",
+            "description": "ALKAMI TECHNOLOGY INC",
+            "weight": "0.0004",
+            "details": "Alkami Technology Inc provides cloud-based digital banking solutions that enhance online banking experiences and operational efficiency for financial institutions."
+          },
+          {
+            "symbol": "KN",
+            "description": "KNOWLES CORP",
+            "weight": "0.0004",
+            "details": "Knowles Corp is a leading provider of advanced micro-acoustic and audio processing solutions, integral to modern audio products and wearables."
+          },
+          {
+            "symbol": "VRNT",
+            "description": "VERINT SYSTEMS INC",
+            "weight": "0.0004",
+            "details": "Verint Systems Inc offers actionable intelligence solutions for customer engagement and security, using advanced analytics to optimize business performance and risk management."
+          },
+          {
+            "symbol": "ROG",
+            "description": "ROGERS CORP",
+            "weight": "0.0004",
+            "details": "Rogers Corp is a global manufacturer of specialty materials, components, and systems used in electronics, aerospace, and automotive industries, known for its innovative solutions."
+          },
+          {
+            "symbol": "HUT",
+            "description": "HUT 8 CORP",
+            "weight": "0.0004",
+            "details": "Hut 8 Corp is a cryptocurrency mining company that leverages efficient mining technology and renewable energy to participate in the digital asset ecosystem."
+          },
+          {
+            "symbol": "SPT",
+            "description": "SPROUT SOCIAL INC CLASS A",
+            "weight": "0.0004",
+            "details": "Sprout Social Inc is a social media management platform that helps businesses engage with audiences, schedule posts, and analyze social media performance."
+          },
+          {
+            "symbol": "NSSC",
+            "description": "NAPCO SECURITY TECHNOLOGIES INC",
+            "weight": "0.0003",
+            "details": "Napco Security Technologies Inc provides electronic security and life safety solutions, including alarms, sensors, and access control systems for various applications."
+          },
+          {
+            "symbol": "DGII",
+            "description": "DIGI INTERNATIONAL INC",
+            "weight": "0.0003",
+            "details": "Digi International Inc offers connectivity solutions, including routers and cellular gateways, that enable reliable machine-to-machine communication in IoT applications."
+          },
+          {
+            "symbol": "CTS",
+            "description": "CTS CORP",
+            "weight": "0.0003",
+            "details": "CTS Corp is a global manufacturer of sensors, electronic components, and specialty devices that serve diverse industries including automotive and industrial manufacturing."
+          },
+          {
+            "symbol": "CIFR",
+            "description": "CIPHER MINING INC",
+            "weight": "0.0003",
+            "details": "Cipher Mining Inc is focused on cryptocurrency mining and blockchain technology, leveraging advanced hardware to secure digital networks."
+          },
+          {
+            "symbol": "MXL",
+            "description": "MAXLINEAR INC",
+            "weight": "0.0003",
+            "details": "MaxLinear Inc designs integrated RF and mixed-signal solutions for broadband communications, used in cable, satellite, and wireless applications."
+          },
+          {
+            "symbol": "FSLY",
+            "description": "FASTLY INC CLASS A",
+            "weight": "0.0003",
+            "details": "Fastly Inc is a cloud computing services provider known for its content delivery network (CDN) and edge computing solutions, enabling rapid and secure digital experiences."
+          },
+          {
+            "symbol": "APPN",
+            "description": "APPIAN CORP A",
+            "weight": "0.0003",
+            "details": "Appian Corp is a low-code automation platform that empowers organizations to build custom applications rapidly, streamlining digital transformation initiatives."
+          },
+          {
+            "symbol": "HLIT",
+            "description": "HARMONIC INC",
+            "weight": "0.0003",
+            "details": "Harmonic Inc provides video delivery and cable access solutions that enable high-quality streaming and broadcasting, serving media and entertainment industries worldwide."
+          },
+          {
+            "symbol": "GDYN",
+            "description": "n/a",
+            "weight": "0.0003",
+            "details": "No additional details available."
+          },
+          {
+            "symbol": "ARLO",
+            "description": "ARLO TECHNOLOGIES INC",
+            "weight": "0.0003",
+            "details": "Arlo Technologies Inc designs and manufactures smart security cameras and related products, offering advanced features for remote monitoring and home protection."
+          },
+          {
+            "symbol": "VECO",
+            "description": "VEECO INSTRUMENTS INC",
+            "weight": "0.0003",
+            "details": "Veeco Instruments Inc provides advanced process equipment for the semiconductor and LED industries, supporting innovation in high-tech manufacturing."
+          },
+          {
+            "symbol": "ADEA",
+            "description": "ADEIA INC",
+            "weight": "0.0003",
+            "details": "Adeia Inc is a technology company offering specialized solutions for various industries. No additional details available."
+          },
+          {
+            "symbol": "ATEN",
+            "description": "A10 NETWORKS INC",
+            "weight": "0.0003",
+            "details": "A10 Networks Inc provides high-performance networking and security solutions that ensure reliable connectivity for data centers and enterprise networks."
+          },
+          {
+            "symbol": "PLAB",
+            "description": "PHOTRONICS INC",
+            "weight": "0.0003",
+            "details": "Photronics Inc is a leading manufacturer of photomasks used in the semiconductor industry, playing a critical role in the production of integrated circuits."
+          },
+          {
+            "symbol": "WULF",
+            "description": "TERAWULF INC",
+            "weight": "0.0003",
+            "details": "Terawulf Inc specializes in high-performance computing and data center solutions, providing efficient and scalable computing power for advanced applications."
+          },
+          {
+            "symbol": "HCKT",
+            "description": "THE HACKETT GROUP INC",
+            "weight": "0.0002",
+            "details": "The Hackett Group Inc is a global strategic advisory firm that offers insights and consulting services to improve business operations and performance."
+          },
+          {
+            "symbol": "COHU",
+            "description": "COHU INC",
+            "weight": "0.0002",
+            "details": "COHU Inc provides test and inspection equipment for the semiconductor and electronics industries, ensuring quality and precision in manufacturing processes."
+          },
+          {
+            "symbol": "SEDG",
+            "description": "SOLAREDGE TECHNOLOGIES INC",
+            "weight": "0.0002",
+            "details": "SolarEdge Technologies Inc designs and manufactures solar inverters and energy management solutions, enhancing the efficiency of photovoltaic systems."
+          },
+          {
+            "symbol": "SWI",
+            "description": "SOLARWINDS CORP ORDINARY SHARES",
+            "weight": "0.0002",
+            "details": "SolarWinds Corp provides IT management software that helps organizations monitor and manage their networks, systems, and infrastructure."
+          },
+          {
+            "symbol": "NABL",
+            "description": "N-ABLE INC",
+            "weight": "0.0002",
+            "details": "N-able Inc offers remote monitoring and management solutions for managed service providers, optimizing IT services and security for businesses."
+          },
+          {
+            "symbol": "WOLF",
+            "description": "WOLFSPEED INC",
+            "weight": "0.0002",
+            "details": "Wolfspeed Inc is a leading manufacturer of wide-bandgap semiconductors, including silicon carbide and gallium nitride devices, used in power electronics and wireless applications."
+          },
+          {
+            "symbol": "XRX",
+            "description": "XEROX HOLDINGS CORP",
+            "weight": "0.0002",
+            "details": "Xerox Holdings Corp is a global provider of print and digital document solutions, helping businesses manage and process information efficiently."
+          },
+          {
+            "symbol": "YEXT",
+            "description": "YEXT INC",
+            "weight": "0.0002",
+            "details": "Yext Inc is a digital knowledge management platform that ensures accurate business information across the digital ecosystem, enhancing online presence."
+          },
+          {
+            "symbol": "ICHR",
+            "description": "ICHOR HOLDINGS LTD",
+            "weight": "0.0002",
+            "details": "Ichor Holdings Ltd provides engineering solutions and components for the semiconductor and industrial markets, supporting advanced manufacturing processes."
+          },
+          {
+            "symbol": "CXM",
+            "description": "SPRINKLR INC CLASS A",
+            "weight": "0.0002",
+            "details": "Sprinklr Inc is a customer experience management platform that helps brands manage social media and digital marketing efforts to improve customer engagement."
+          },
+          {
+            "symbol": "INDI",
+            "description": "n/a",
+            "weight": "0.0002",
+            "details": "No additional details available."
+          },
+          {
+            "symbol": "BELFB",
+            "description": "BEL FUSE INC CLASS B",
+            "weight": "0.0002",
+            "details": "Bel Fuse Inc is a manufacturer of electronic components including fuses and power supplies, widely used in industrial and consumer applications."
+          },
+          {
+            "symbol": "SCSC",
+            "description": "SCANSOURCE INC",
+            "weight": "0.0002",
+            "details": "ScanSource Inc is a provider of technology products and solutions, specializing in point-of-sale and barcode scanning systems for retail and enterprise markets."
+          },
+          {
+            "symbol": "VSAT",
+            "description": "VIASAT INC",
+            "weight": "0.0002",
+            "details": "Viasat Inc is a global communications company that offers satellite and wireless networking solutions to provide broadband connectivity in remote areas."
+          },
+          {
+            "symbol": "AOSL",
+            "description": "ALPHA & OMEGA SEMICONDUCTOR LTD",
+            "weight": "0.0002",
+            "details": "Alpha & Omega Semiconductor Ltd is a designer and manufacturer of power semiconductors, providing efficient solutions for energy management in electronic devices."
+          },
+          {
+            "symbol": "ADTN",
+            "description": "ADTRAN HOLDINGS INC",
+            "weight": "0.0002",
+            "details": "Adtran Holdings Inc offers networking and communications solutions for enterprises, service providers, and governments, supporting high-speed data and voice networks."
+          },
+          {
+            "symbol": "AMPL",
+            "description": "AMPLITUDE INC CLASS A",
+            "weight": "0.0002",
+            "details": "Amplitude Inc is a product intelligence platform that helps companies optimize user engagement and product performance through data analytics."
+          },
+          {
+            "symbol": "APLD",
+            "description": "APPLIED DIGITAL CORP",
+            "weight": "0.0002",
+            "details": "Applied Digital Corp provides digital transformation and IT solutions that help businesses modernize operations and improve efficiency."
+          },
+          {
+            "symbol": "ACMR",
+            "description": "ACM RESEARCH INC CLASS A",
+            "weight": "0.0002",
+            "details": "ACM Research Inc is a provider of wafer cleaning and process equipment for the semiconductor industry, enhancing manufacturing efficiency and yield."
+          },
+          {
+            "symbol": "BASE",
+            "description": "COUCHBASE INC",
+            "weight": "0.0002",
+            "details": "Couchbase Inc is a NoSQL database provider offering scalable and high-performance data management solutions for modern web, mobile, and IoT applications."
+          },
+          {
+            "symbol": "BLND",
+            "description": "BLEND LABS INC ORDINARY SHARES CLASS A",
+            "weight": "0.0002",
+            "details": "Blend Labs Inc is a technology company that offers digital lending and financial services platforms, streamlining the loan application and approval process."
+          },
+          {
+            "symbol": "CEVA",
+            "description": "CEVA INC",
+            "weight": "0.0002",
+            "details": "CEVA Inc is a licensor of signal processing and AI processors used in mobile, automotive, and IoT applications, powering advanced digital experiences."
+          },
+          {
+            "symbol": "OSPN",
+            "description": "ONESPAN INC",
+            "weight": "0.0002",
+            "details": "Onespan Inc is a cybersecurity company providing digital identity and anti-fraud solutions, ensuring secure transactions and data protection."
+          },
+          {
+            "symbol": "JAMF",
+            "description": "JAMF HOLDING CORP ORDINARY SHARES",
+            "weight": "0.0002",
+            "details": "Jamf Holding Corp is a provider of management solutions for Apple devices in enterprise and education settings, facilitating deployment and security of Apple products."
+          },
+          {
+            "symbol": "PRO",
+            "description": "PROS HOLDINGS INC",
+            "weight": "0.0002",
+            "details": "Pros Holdings Inc offers AI-powered commercial solutions for pricing, revenue management, and sales optimization, driving digital transformation for businesses."
+          },
+          {
+            "symbol": "COMM",
+            "description": "COMMSCOPE HOLDING CO INC",
+            "weight": "0.0002",
+            "details": "CommScope Holding Co Inc is a global leader in infrastructure solutions for communications networks, enabling reliable broadband connectivity and network performance."
+          },
+          {
+            "symbol": "PDFS",
+            "description": "PDF SOLUTIONS INC",
+            "weight": "0.0002",
+            "details": "PDF Solutions Inc provides process and yield management software and services for the semiconductor industry, helping optimize manufacturing processes."
+          },
+          {
+            "symbol": "CNXN",
+            "description": "PC CONNECTION INC",
+            "weight": "0.0002",
+            "details": "PC Connection Inc is a provider of IT solutions and services, offering hardware, software, and integrated technology solutions for business and government."
+          },
+          {
+            "symbol": "OLO",
+            "description": "OLO INC ORDINARY SHARES CLASS A",
+            "weight": "0.0002",
+            "details": "Olo Inc is a digital ordering platform for the restaurant industry that streamlines online ordering and customer engagement, enhancing the dining experience."
+          },
+          {
+            "symbol": "NTGR",
+            "description": "NETGEAR INC",
+            "weight": "0.0002",
+            "details": "Netgear Inc is a global provider of networking products, including routers, switches, and wireless solutions, serving both consumer and enterprise markets."
+          },
+          {
+            "symbol": "PENG",
+            "description": "PENGUIN SOLUTIONS INC",
+            "weight": "0.0002",
+            "details": "Penguin Solutions Inc is a technology company offering innovative IT solutions and services. No additional details available."
+          },
+          {
+            "symbol": "LASR",
+            "description": "NLIGHT INC",
+            "weight": "0.0001",
+            "details": "NLIGHT Inc manufactures high-performance laser systems used in industrial, defense, and scientific applications, known for their precision and reliability."
+          },
+          {
+            "symbol": "CLFD",
+            "description": "CLEARFIELD INC",
+            "weight": "0.0001",
+            "details": "Clearfield Inc provides digital infrastructure and networking solutions, specializing in fiber optic connectivity for high-speed communication networks."
+          },
+          {
+            "symbol": "NN",
+            "description": "NEXTNAV INC",
+            "weight": "0.0001",
+            "details": "NextNav Inc is a location technology company that delivers precise positioning solutions for navigation, logistics, and location-based services."
+          },
+          {
+            "symbol": "RBBN",
+            "description": "RIBBON COMMUNICATIONS INC",
+            "weight": "0.0001",
+            "details": "Ribbon Communications Inc offers real-time communication software and network solutions that enhance voice and data connectivity for enterprises and service providers."
+          },
+          {
+            "symbol": "AEHR",
+            "description": "AEHR TEST SYSTEMS",
+            "weight": "0.0001",
+            "details": "AEHR Test Systems provides specialized test and measurement equipment for semiconductor manufacturing, ensuring the quality and reliability of integrated circuits."
+          },
+          {
+            "symbol": "SEMR",
+            "description": "n/a",
+            "weight": "0.0001",
+            "details": "No additional details available."
+          },
+          {
+            "symbol": "SMRT",
+            "description": "SMARTRENT INC ORDINARY SHARES CLASS A",
+            "weight": "0.0001",
+            "details": "SmartRent Inc provides smart home automation solutions designed for property management, offering integrated systems for security, energy, and communication."
+          },
+          {
+            "symbol": "EGHT",
+            "description": "8X8 INC",
+            "weight": "0.0001",
+            "details": "8x8 Inc is a cloud-based communications provider offering voice, video, and contact center solutions that enhance collaboration and customer engagement."
+          },
+          {
+            "symbol": "FARO",
+            "description": "FARO TECHNOLOGIES INC",
+            "weight": "0.0001",
+            "details": "FARO Technologies Inc provides 3D measurement and imaging solutions used in construction, manufacturing, and public safety, enabling precise spatial data capture."
+          },
+          {
+            "symbol": "WEAV",
+            "description": "WEAVE COMMUNICATIONS INC",
+            "weight": "0.0001",
+            "details": "Weave Communications Inc offers integrated communication solutions that combine phone, text, and email services, streamlining customer interactions for small businesses."
+          },
+          {
+            "symbol": "MITK",
+            "description": "MITEK SYSTEMS INC",
+            "weight": "0.0001",
+            "details": "Mitek Systems Inc provides mobile capture and identity verification solutions that facilitate secure digital transactions in banking and financial services."
+          },
+          {
+            "symbol": "XPER",
+            "description": "XPERI INC",
+            "weight": "0.0001",
+            "details": "Xperi Inc is a technology company that develops audio, imaging, and semiconductor solutions, contributing to advancements in consumer electronics and professional applications."
+          },
+          {
+            "symbol": "VPG",
+            "description": "VISHAY PRECISION GROUP INC",
+            "weight": "0.0001",
+            "details": "Vishay Precision Group Inc designs and manufactures precision components and systems used in high-accuracy instrumentation and industrial applications."
+          },
+          {
+            "symbol": "LGTY",
+            "description": "n/a",
+            "weight": "0.0001",
+            "details": "No additional details available."
+          },
+          {
+            "symbol": "LWLG",
+            "description": "LIGHTWAVE LOGIC INC",
+            "weight": "0.0001",
+            "details": "Lightwave Logic Inc is a leader in optical and photonic integrated circuit technologies, driving innovation in high-speed data communication and sensing applications."
+          },
+          {
+            "symbol": "MLNK",
+            "description": "MERIDIANLINK INC",
+            "weight": "0.0001",
+            "details": "MeridianLink Inc provides cloud-based lending and financial services solutions, streamlining the loan application and processing workflow for financial institutions."
+          },
+          {
+            "symbol": "MVIS",
+            "description": "MICROVISION INC",
+            "weight": "0.0001",
+            "details": "Microvision Inc is a technology company developing advanced display and imaging solutions, targeting applications in augmented reality and LiDAR systems."
+          },
+          {
+            "symbol": "NVTS",
+            "description": "NAVITAS SEMICONDUCTOR CORP CLASS A",
+            "weight": "0.0001",
+            "details": "Navitas Semiconductor Corp is a leader in gallium nitride (GaN) power semiconductors, offering efficient and high-performance solutions for power conversion and charging."
+          },
+          {
+            "symbol": "MEI",
+            "description": "METHODE ELECTRONICS INC",
+            "weight": "0.0001",
+            "details": "Methode Electronics Inc designs and manufactures engineered components and systems for automotive, industrial, and consumer markets, focusing on reliability and innovation."
+          },
+          {
+            "symbol": "UIS",
+            "description": "UNISYS CORP",
+            "weight": "0.0001",
+            "details": "Unisys Corp is a global IT services company that provides software, systems, and consulting solutions, aiding digital transformation for government and enterprise clients."
+          },
+          {
+            "symbol": "BIGC",
+            "description": "n/a",
+            "weight": "0.0001",
+            "details": "No additional details available."
+          },
+          {
+            "symbol": "CCSI",
+            "description": "n/a",
+            "weight": "0.0001",
+            "details": "No additional details available."
+          },
+          {
+            "symbol": "CRSR",
+            "description": "CORSAIR GAMING INC ORDINARY SHARES",
+            "weight": "0.0001",
+            "details": "Corsair Gaming Inc is a provider of high-performance gaming peripherals and PC components, known for its keyboards, mice, and headsets that enhance gaming experiences."
+          },
+          {
+            "symbol": "CRNC",
+            "description": "CERENCE INC ORDINARY SHARES",
+            "weight": "0.0001",
+            "details": "Cerence Inc is a leader in automotive AI, offering voice recognition and natural language processing solutions that enhance in-car digital experiences and connectivity."
+          },
+          {
+            "symbol": "ENFN",
+            "description": "ENFUSION INC CLASS A",
+            "weight": "0.0001",
+            "details": "Enfusion Inc provides cloud-based investment management software that streamlines portfolio management and operations for asset managers."
+          },
+          {
+            "symbol": "DOMO",
+            "description": "DOMO INC",
+            "weight": "0.0001",
+            "details": "Domo Inc is a cloud-based business intelligence platform that transforms the way organizations visualize and analyze data, enabling real-time insights and data-driven decision-making."
+          },
+          {
+            "symbol": "EVLV",
+            "description": "n/a",
+            "weight": "0.0001",
+            "details": "No additional details available."
+          },
+          {
+            "symbol": "DMRC",
+            "description": "DIGIMARC CORP",
+            "weight": "0.0001",
+            "details": "Digimarc Corp is a leader in digital identification and tracking technologies, embedding digital information into physical objects to enhance security and supply chain management."
+          },
+          {
+            "symbol": "DBD",
+            "description": "DIEBOLD NIXDORF INC ORDINARY SHARES- NEW",
+            "weight": "0.0001",
+            "details": "Diebold Nixdorf Inc is a global leader in financial self-service and security solutions, providing ATMs and banking technology to streamline financial transactions."
+          },
+          {
+            "symbol": "APPS",
+            "description": "DIGITAL TURBINE INC",
+            "weight": "0.0001",
+            "details": "Digital Turbine Inc is a mobile technology company that simplifies app discovery, distribution, and monetization for developers and mobile carriers."
+          },
+          {
+            "symbol": "KE",
+            "description": "KIMBALL ELECTRONICS INC",
+            "weight": "0.0001",
+            "details": "Kimball Electronics Inc is a global contract manufacturer that provides design, production, and repair services for electronic components across various industries."
+          },
+          {
+            "symbol": "OUST",
+            "description": "OUSTER INC ORDINARY SHARES CLASS A",
+            "weight": "0.0001",
+            "details": "Ouster Inc is a leading provider of high-resolution lidar sensors used in autonomous vehicles, robotics, and mapping applications, enhancing perception systems."
+          },
+          {
+            "symbol": "ETWO",
+            "description": "E2OPEN PARENT HOLDINGS INC CLASS A",
+            "weight": "0.0001",
+            "details": "E2open Parent Holdings Inc provides cloud-based supply chain software solutions that enable end-to-end visibility and collaboration across global supply chains."
+          }
+        ]
+    },
+    "XLY": {
+      "net_assets": "22400000000",
+      "net_expense_ratio": "0.0008",
+      "portfolio_turnover": "0.26",
+      "dividend_yield": "0.0081",
+      "inception_date": "1998-12-16",
+      "leveraged": "NO",
+      "sectors": [
+        { "sector": "CONSUMER DISCRETIONARY", "weight": "0.989" },
+        { "sector": "FINANCIALS", "weight": "0.01" }
+      ],
+      "holdings": [
+        {
+          "symbol": "AMZN",
+          "description": "AMAZON.COM INC",
+          "details": "Amazon is a multinational technology company focused on e-commerce, cloud computing, digital streaming, and artificial intelligence.",
+          "weight": "0.2076"
+        },
+        {
+          "symbol": "TSLA",
+          "description": "TESLA INC",
+          "details": "Tesla is a leading electric vehicle and clean energy company known for its innovative cars, battery storage, and solar products.",
+          "weight": "0.1312"
+        },
+        {
+          "symbol": "HD",
+          "description": "THE HOME DEPOT INC",
+          "details": "Home Depot is the largest home improvement retailer in the U.S., supplying tools, construction products, and services.",
+          "weight": "0.0655"
+        },
+        {
+          "symbol": "MCD",
+          "description": "MCDONALD'S CORP",
+          "details": "McDonald's is the world's largest fast-food restaurant chain, serving millions of customers daily across the globe.",
+          "weight": "0.0529"
+        },
+        {
+          "symbol": "BKNG",
+          "description": "BOOKING HOLDINGS INC",
+          "details": "Booking Holdings is a global leader in online travel services, operating brands such as Booking.com, Priceline, and Kayak.",
+          "weight": "0.0474"
+        },
+        {
+          "symbol": "TJX",
+          "description": "TJX COMPANIES INC",
+          "details": "TJX Companies is an off-price apparel and home goods retailer, operating stores such as TJ Maxx, Marshalls, and HomeGoods.",
+          "weight": "0.0409"
+        },
+        {
+          "symbol": "LOW",
+          "description": "LOWE'S COMPANIES INC",
+          "details": "Lowe's is a leading home improvement retailer, offering products for home construction, maintenance, and repair.",
+          "weight": "0.0405"
+        },
+        {
+          "symbol": "SBUX",
+          "description": "STARBUCKS CORP",
+          "details": "Starbucks is a global coffeehouse chain known for its premium coffee, beverages, and food offerings.",
+          "weight": "0.0378"
+        },
+        {
+          "symbol": "NKE",
+          "description": "NIKE INC CLASS B",
+          "details": "Nike is a multinational corporation that designs, manufactures, and markets athletic footwear, apparel, and accessories.",
+          "weight": "0.0274"
+        },
+        {
+          "symbol": "ORLY",
+          "description": "O'REILLY AUTOMOTIVE INC",
+          "details": "O'Reilly Automotive is a retailer of automotive aftermarket parts, tools, and accessories in the U.S.",
+          "weight": "0.0233"
+        }
+      ]
+    
+    },
+    "QQQ": {
+        "net_assets": "323800000000",
+        "net_expense_ratio": "0.002",
+        "portfolio_turnover": "0.08",
+        "dividend_yield": "0.0055",
+        "inception_date": "1999-03-10",
+        "leveraged": "NO",
+        "sectors": [
+            {
+                "sector": "INFORMATION TECHNOLOGY",
+                "weight": "0.487"
+            },
+            {
+                "sector": "COMMUNICATION SERVICES",
+                "weight": "0.161"
+            },
+            {
+                "sector": "CONSUMER DISCRETIONARY",
+                "weight": "0.127"
+            },
+            {
+                "sector": "CONSUMER STAPLES",
+                "weight": "0.059"
+            },
+            {
+                "sector": "HEALTHCARE",
+                "weight": "0.055"
+            },
+            {
+                "sector": "INDUSTRIALS",
+                "weight": "0.048"
+            },
+            {
+                "sector": "MATERIALS",
+                "weight": "0.014"
+            },
+            {
+                "sector": "UTILITIES",
+                "weight": "0.014"
+            },
+            {
+                "sector": "ENERGY",
+                "weight": "0.006"
+            },
+            {
+                "sector": "FINANCIALS",
+                "weight": "0.004"
+            }
+        ],
+        "holdings": [
+            {
+                "symbol": "AAPL",
+                "description": "APPLE INC",
+                "weight": "0.095"
+            },
+            {
+                "symbol": "MSFT",
+                "description": "MICROSOFT CORP",
+                "weight": "0.077"
+            },
+            {
+                "symbol": "NVDA",
+                "description": "NVIDIA CORP",
+                "weight": "0.0757"
+            },
+            {
+                "symbol": "AMZN",
+                "description": "AMAZON.COM INC",
+                "weight": "0.0571"
+            },
+            {
+                "symbol": "AVGO",
+                "description": "BROADCOM INC",
+                "weight": "0.0386"
+            },
+            {
+                "symbol": "META",
+                "description": "META PLATFORMS INC CLASS A",
+                "weight": "0.0372"
+            },
+            {
+                "symbol": "COST",
+                "description": "COSTCO WHOLESALE CORP",
+                "weight": "0.0301"
+            },
+            {
+                "symbol": "NFLX",
+                "description": "NETFLIX INC",
+                "weight": "0.0272"
+            },
+            {
+                "symbol": "GOOGL",
+                "description": "ALPHABET INC CLASS A",
+                "weight": "0.0266"
+            },
+            {
+                "symbol": "TSLA",
+                "description": "TESLA INC",
+                "weight": "0.0263"
+            },
+            {
+                "symbol": "GOOG",
+                "description": "ALPHABET INC CLASS C",
+                "weight": "0.0254"
+            },
+            {
+                "symbol": "TMUS",
+                "description": "T-MOBILE US INC",
+                "weight": "0.0201"
+            },
+            {
+                "symbol": "CSCO",
+                "description": "CISCO SYSTEMS INC",
+                "weight": "0.0165"
+            },
+            {
+                "symbol": "LIN",
+                "description": "LINDE PLC",
+                "weight": "0.0144"
+            },
+            {
+                "symbol": "PEP",
+                "description": "PEPSICO INC",
+                "weight": "0.0139"
+            },
+            {
+                "symbol": "ISRG",
+                "description": "INTUITIVE SURGICAL INC",
+                "weight": "0.013"
+            },
+            {
+                "symbol": "ADBE",
+                "description": "ADOBE INC",
+                "weight": "0.0129"
+            },
+            {
+                "symbol": "PLTR",
+                "description": "n/a",
+                "weight": "0.0121"
+            },
+            {
+                "symbol": "TXN",
+                "description": "TEXAS INSTRUMENTS INC",
+                "weight": "0.0116"
+            },
+            {
+                "symbol": "QCOM",
+                "description": "QUALCOMM INC",
+                "weight": "0.0112"
+            },
+            {
+                "symbol": "PAYX",
+                "description": "PAYCHEX INC",
+                "weight": "0.0036"
+            },
+            {
+                "symbol": "MNST",
+                "description": "MONSTER BEVERAGE CORP",
+                "weight": "0.0035"
+            },
+            {
+                "symbol": "NXPI",
+                "description": "NXP SEMICONDUCTORS NV",
+                "weight": "0.0035"
+            },
+            {
+                "symbol": "PCAR",
+                "description": "PACCAR INC",
+                "weight": "0.0035"
+            },
+            {
+                "symbol": "WDAY",
+                "description": "WORKDAY INC CLASS A",
+                "weight": "0.0035"
+            },
+            {
+                "symbol": "CHTR",
+                "description": "CHARTER COMMUNICATIONS INC CLASS A",
+                "weight": "0.0034"
+            },
+            {
+                "symbol": "CPRT",
+                "description": "COPART INC",
+                "weight": "0.0034"
+            },
+            {
+                "symbol": "ROST",
+                "description": "ROSS STORES INC",
+                "weight": "0.003"
+            },
+            {
+                "symbol": "KDP",
+                "description": "KEURIG DR PEPPER INC",
+                "weight": "0.003"
+            },
+            {
+                "symbol": "EXC",
+                "description": "EXELON CORP",
+                "weight": "0.0029"
+            },
+            {
+                "symbol": "AZN",
+                "description": "ASTRAZENECA PLC ADR",
+                "weight": "0.0029"
+            },
+            {
+                "symbol": "TEAM",
+                "description": "ATLASSIAN CORP A",
+                "weight": "0.0029"
+            },
+            {
+                "symbol": "VRSK",
+                "description": "VERISK ANALYTICS INC",
+                "weight": "0.0028"
+            },
+            {
+                "symbol": "FANG",
+                "description": "DIAMONDBACK ENERGY INC",
+                "weight": "0.0028"
+            },
+            {
+                "symbol": "FAST",
+                "description": "FASTENAL CO",
+                "weight": "0.0028"
+            },
+            {
+                "symbol": "BKR",
+                "description": "BAKER HUGHES CO CLASS A",
+                "weight": "0.0028"
+            },
+            {
+                "symbol": "LULU",
+                "description": "LULULEMON ATHLETICA INC",
+                "weight": "0.0027"
+            },
+            {
+                "symbol": "CTSH",
+                "description": "COGNIZANT TECHNOLOGY SOLUTIONS CORP CLASS A",
+                "weight": "0.0027"
+            },
+            {
+                "symbol": "XEL",
+                "description": "XCEL ENERGY INC",
+                "weight": "0.0026"
+            },
+            {
+                "symbol": "AXON",
+                "description": "AXON ENTERPRISE INC",
+                "weight": "0.0026"
+            },
+            {
+                "symbol": "CCEP",
+                "description": "COCA-COLA EUROPACIFIC PARTNERS PLC",
+                "weight": "0.0026"
+            },
+            {
+                "symbol": "KHC",
+                "description": "THE KRAFT HEINZ CO",
+                "weight": "0.0025"
+            },
+            {
+                "symbol": "GEHC",
+                "description": "GE HEALTHCARE TECHNOLOGIES INC COMMON STOCK",
+                "weight": "0.0025"
+            },
+            {
+                "symbol": "DDOG",
+                "description": "DATADOG INC CLASS A",
+                "weight": "0.0024"
+            },
+            {
+                "symbol": "IDXX",
+                "description": "IDEXX LABORATORIES INC",
+                "weight": "0.0024"
+            },
+            {
+                "symbol": "TTWO",
+                "description": "TAKE-TWO INTERACTIVE SOFTWARE INC",
+                "weight": "0.0024"
+            },
+            {
+                "symbol": "ODFL",
+                "description": "OLD DOMINION FREIGHT LINE INC ORDINARY SHARES",
+                "weight": "0.0024"
+            },
+            {
+                "symbol": "EA",
+                "description": "ELECTRONIC ARTS INC",
+                "weight": "0.0023"
+            },
+            {
+                "symbol": "DXCM",
+                "description": "DEXCOM INC",
+                "weight": "0.0021"
+            },
+            {
+                "symbol": "MCHP",
+                "description": "MICROCHIP TECHNOLOGY INC",
+                "weight": "0.002"
+            },
+            {
+                "symbol": "CSGP",
+                "description": "COSTAR GROUP INC",
+                "weight": "0.002"
+            },
+            {
+                "symbol": "TTD",
+                "description": "THE TRADE DESK INC CLASS A",
+                "weight": "0.002"
+            },
+            {
+                "symbol": "ANSS",
+                "description": "ANSYS INC",
+                "weight": "0.0019"
+            },
+            {
+                "symbol": "ZS",
+                "description": "ZSCALER INC",
+                "weight": "0.0019"
+            },
+            {
+                "symbol": "WBD",
+                "description": "WARNER BROS. DISCOVERY INC ORDINARY SHARES CLASS A",
+                "weight": "0.0018"
+            },
+            {
+                "symbol": "CDW",
+                "description": "CDW CORP",
+                "weight": "0.0015"
+            },
+            {
+                "symbol": "BIIB",
+                "description": "BIOGEN INC",
+                "weight": "0.0014"
+            },
+            {
+                "symbol": "GFS",
+                "description": "GLOBALFOUNDRIES INC",
+                "weight": "0.0014"
+            },
+            {
+                "symbol": "ON",
+                "description": "ON SEMICONDUCTOR CORP",
+                "weight": "0.0012"
+            },
+            {
+                "symbol": "MDB",
+                "description": "MONGODB INC CLASS A",
+                "weight": "0.0012"
+            },
+            {
+                "symbol": "ARM",
+                "description": "ARM HOLDINGS PLC ADR",
+                "weight": "0.001"
+            }
+        ]
+    },
+    "XLF": {
+        "net_assets": "55100000000",
+        "net_expense_ratio": "0.0008",
+        "portfolio_turnover": "0.03",
+        "dividend_yield": "0.0126",
+        "inception_date": "1998-12-16",
+        "leveraged": "NO",
+        "sectors": [
+            {
+                "sector": "FINANCIALS",
+                "weight": "0.848"
+            },
+            {
+                "sector": "CONSUMER DISCRETIONARY",
+                "weight": "0.015"
+            },
+            {
+                "sector": "INFORMATION TECHNOLOGY",
+                "weight": "0.00"
+            },
+            {
+                "sector": "COMMUNICATION SERVICES",
+                "weight": "0.00"
+            },
+            {
+                "sector": "HEALTHCARE",
+                "weight": "0.00"
+            },
+            {
+                "sector": "CONSUMER STAPLES",
+                "weight": "0.00"
+            },
+            {
+                "sector": "INDUSTRIALS",
+                "weight": "0.00"
+            },
+            {
+                "sector": "MATERIALS",
+                "weight": "0.00"
+            },
+            {
+                "sector": "UTILITIES",
+                "weight": "0.00"
+            },
+            {
+                "sector": "ENERGY",
+                "weight": "0.00"
+            }
+        ],
+        "holdings": [
+            {
+                "symbol": "BRK-B",
+                "description": "BERKSHIRE HATHAWAY INC CLASS B",
+                "details": "Berkshire Hathaway is a multinational conglomerate that invests in a wide range of industries including insurance, rail transportation, and energy. It is renowned for its long-term value investing approach under the leadership of Warren Buffett.",
+                "weight": "0.1293"
+            },
+            {
+                "symbol": "JPM",
+                "description": "JPMORGAN CHASE & CO",
+                "details": "JPMorgan Chase is one of the world’s largest financial institutions, offering investment banking, asset management, and retail banking services. It plays a significant role in global finance with a diversified service portfolio.",
+                "weight": "0.1003"
+            },
+            {
+                "symbol": "V",
+                "description": "VISA INC CLASS A",
+                "details": "Visa Inc is a global payments technology company that facilitates electronic funds transfers worldwide. It operates one of the largest and most secure electronic payment networks.",
+                "weight": "0.0866"
+            },
+            {
+                "symbol": "MA",
+                "description": "MASTERCARD INC CLASS A",
+                "details": "Mastercard Inc is a leading global payments and technology company that connects consumers, financial institutions, and merchants. It offers innovative payment solutions and secure transaction processing.",
+                "weight": "0.0647"
+            },
+            {
+                "symbol": "BAC",
+                "description": "BANK OF AMERICA CORP",
+                "details": "Bank of America is a major U.S. banking institution providing a broad range of financial services including consumer banking, wealth management, and corporate finance. It is a key player in the domestic and global financial markets.",
+                "weight": "0.0405"
+            },
+            {
+                "symbol": "WFC",
+                "description": "WELLS FARGO & CO",
+                "details": "Wells Fargo is a diversified financial services company known for its extensive branch network and broad array of banking products. It offers consumer, commercial, and wealth management services across the United States.",
+                "weight": "0.0347"
+            },
+            {
+                "symbol": "GS",
+                "description": "THE GOLDMAN SACHS GROUP INC",
+                "details": "Goldman Sachs is a leading global investment banking and securities firm that provides financial advisory, asset management, and other financial services. It is widely recognized for its expertise in market strategies and capital management.",
+                "weight": "0.0259"
+            },
+            {
+                "symbol": "PGR",
+                "description": "PROGRESSIVE CORP",
+                "details": "Progressive Corporation is a major provider of auto insurance in the U.S. and is known for its innovative approach to underwriting and claims management. It also offers a range of other insurance products and financial services.",
+                "weight": "0.0236"
+            },
+            {
+              "symbol": "SPGI",
+              "description": "S&P GLOBAL INC",
+              "details": "S&P Global is a leading provider of financial information and analytics, best known for its credit ratings and market indices such as the S&P 500. Its data and insights are crucial for investors and financial institutions worldwide.",
+              "weight": "0.0233"
+            },
+            {
+              "symbol": "AXP",
+              "description": "AMERICAN EXPRESS CO",
+              "details": "American Express is a multinational financial services company famous for its charge and credit card products. It also offers travel-related and other financial services to consumers and businesses globally.",
+              "weight": "0.0224"
+            },
+            {
+              "symbol": "MS",
+              "description": "MORGAN STANLEY",
+              "details": "Morgan Stanley is a global financial services firm offering investment banking, wealth management, and institutional securities services. It is known for its expertise in capital markets and long-term investment strategies.",
+              "weight": "0.0215"
+            },
+            {
+              "symbol": "BLK",
+              "description": "BLACKROCK INC",
+              "details": "BlackRock is the world’s largest asset management firm, providing a variety of investment management, risk management, and advisory services. It is especially known for its iShares ETF lineup and broad market influence.",
+              "weight": "0.0197"
+            },
+            {
+              "symbol": "C",
+              "description": "CITIGROUP INC",
+              "details": "Citigroup is a global diversified financial services company that offers a wide range of products including banking, credit, and investment services. It serves millions of consumers, corporations, and institutions worldwide.",
+              "weight": "0.0194"
+            },
+            {
+              "symbol": "FI",
+              "description": "FISERV INC",
+              "details": "Fiserv Inc is a global provider of financial services technology, offering solutions for payment processing, digital banking, and risk management. It helps financial institutions enhance their operational efficiency and customer experience.",
+              "weight": "0.0182"
+            },
+            {
+              "symbol": "SCHW",
+              "description": "CHARLES SCHWAB CORP",
+              "details": "Charles Schwab is a leading brokerage and financial services firm that offers investment, advisory, and banking services. It is widely recognized for its low-cost trading options and client-focused service model.",
+              "weight": "0.0182"
+            },
+            {
+              "symbol": "MMC",
+              "description": "MARSH & MCLENNAN COMPANIES INC",
+              "details": "Marsh & McLennan Companies is a global professional services firm specializing in risk management, insurance brokerage, and consulting services. It operates through several subsidiaries that are leaders in the insurance and risk advisory industries.",
+              "weight": "0.0166"
+            },
+            {
+              "symbol": "BX",
+              "description": "BLACKSTONE INC",
+              "details": "Blackstone Inc is a prominent global investment firm that specializes in alternative asset management, including private equity, real estate, and credit. It is known for its strategic investments and significant influence across multiple markets.",
+              "weight": "0.0155"
+            },
+            {
+              "symbol": "CB",
+              "description": "CHUBB LTD",
+              "details": "Chubb Ltd is a major property and casualty insurance company offering a wide range of commercial and personal insurance products. It is well-regarded for its underwriting expertise and robust risk management solutions.",
+              "weight": "0.0152"
+            },
+            {
+              "symbol": "ICE",
+              "description": "INTERCONTINENTAL EXCHANGE INC",
+              "details": "Intercontinental Exchange is a leading operator of global financial exchanges and clearing houses, facilitating trading in futures, options, and other financial instruments. Its market infrastructure and data services are critical to modern finance.",
+              "weight": "0.0139"
+            },
+            {
+              "symbol": "CME",
+              "description": "CME GROUP INC CLASS A",
+              "details": "CME Group is one of the world’s largest derivatives marketplaces, offering futures and options across various asset classes. It provides essential trading infrastructure and market data services to participants globally.",
+              "weight": "0.013"
+            },
+            {
+              "symbol": "AON",
+              "description": "AON PLC CLASS A",
+              "details": "Aon plc is a global professional services firm that offers risk management, insurance brokerage, and consulting solutions. It helps businesses navigate complex challenges with tailored strategies and expert advice.",
+              "weight": "0.0125"
+            },
+            {
+              "symbol": "AJG",
+              "description": "ARTHUR J. GALLAGHER & CO",
+              "details": "Arthur J. Gallagher & Co is a global insurance brokerage and risk management firm providing comprehensive solutions to mitigate risk. It is known for its personalized service and broad range of insurance products.",
+              "weight": "0.012"
+            },
+            {
+              "symbol": "KKR",
+              "description": "KKR & CO INC ORDINARY SHARES",
+              "details": "KKR & Co is a global investment firm renowned for its private equity investments and alternative asset management strategies. It leverages deep industry expertise to drive growth and value in its portfolio companies.",
+              "weight": "0.0116"
+            },
+            {
+              "symbol": "MCO",
+              "description": "MOODYS CORP",
+              "details": "Moody’s Corporation provides credit ratings, research, and risk analysis that are essential for investors and financial institutions. Its insights help shape investment decisions across global markets.",
+              "weight": "0.0107"
+            },
+            {
+              "symbol": "PNC",
+              "description": "PNC FINANCIAL SERVICES GROUP INC",
+              "details": "PNC Financial Services Group is a diversified financial institution offering retail banking, corporate finance, and asset management services. It is known for its strong regional presence and customer-focused approach.",
+              "weight": "0.0102"
+            },
+            {
+              "symbol": "COF",
+              "description": "CAPITAL ONE FINANCIAL CORP",
+              "details": "Capital One Financial is a major bank holding company that provides a broad range of financial products including credit cards, auto loans, and deposit accounts. It is recognized for its innovative use of technology in consumer finance.",
+              "weight": "0.0101"
+            },
+            {
+              "symbol": "USB",
+              "description": "U.S. BANCORP",
+              "details": "U.S. Bancorp is a leading regional bank in the United States that offers a wide range of consumer and business banking services. It is noted for its strong financial performance and commitment to customer service.",
+              "weight": "0.0099"
+            },
+            {
+              "symbol": "PYPL",
+              "description": "PAYPAL HOLDINGS INC",
+              "details": "PayPal Holdings is a global leader in digital payments, facilitating secure online money transfers and e-commerce transactions. It is widely used by both consumers and merchants around the world.",
+              "weight": "0.0096"
+            },
+            {
+              "symbol": "BK",
+              "description": "BANK OF NEW YORK MELLON CORP",
+              "details": "Bank of New York Mellon is a global investments company that provides asset management, custody, and wealth management services. It has a long history of serving institutional investors and financial institutions.",
+              "weight": "0.0089"
+            },
+            {
+              "symbol": "APO",
+              "description": "APOLLO GLOBAL MANAGEMENT INC CLASS A",
+              "details": "Apollo Global Management is a leading global alternative investment manager specializing in private equity, credit, and real assets. It is known for its opportunistic investment strategies and robust portfolio performance.",
+              "weight": "0.0088"
+            },
+            {
+              "symbol": "TRV",
+              "description": "THE TRAVELERS COMPANIES INC",
+              "details": "The Travelers Companies is a major U.S. provider of property and casualty insurance, offering a wide array of insurance products for individuals and businesses. It is recognized for its comprehensive coverage and risk management expertise.",
+              "weight": "0.0083"
+            },
+            {
+              "symbol": "TFC",
+              "description": "TRUIST FINANCIAL CORP",
+              "details": "Truist Financial Corporation is a leading financial services company formed from a merger, offering banking, investment, and wealth management services. It aims to deliver comprehensive solutions tailored to customer needs.",
+              "weight": "0.0083"
+            },
+            {
+              "symbol": "AFL",
+              "description": "AFLAC INC",
+              "details": "Aflac Inc is a supplemental insurance provider well known for its innovative insurance policies and strong brand recognition. It primarily offers products that help cover unexpected expenses in addition to traditional insurance.",
+              "weight": "0.0077"
+            },
+            {
+              "symbol": "ALL",
+              "description": "ALLSTATE CORP",
+              "details": "Allstate Corporation is one of the largest insurance providers in the United States, offering a wide range of products including auto, home, and life insurance. It is noted for its extensive network and commitment to customer service.",
+              "weight": "0.0075"
+            },
+            {
+              "symbol": "AIG",
+              "description": "AMERICAN INTERNATIONAL GROUP INC",
+              "details": "American International Group (AIG) is a multinational insurance corporation providing a broad spectrum of insurance and financial services. It is known for its global reach and comprehensive risk management solutions.",
+              "weight": "0.0071"
+            },
+            {
+              "symbol": "AMP",
+              "description": "AMERIPRISE FINANCIAL INC",
+              "details": "Ameriprise Financial is a diversified financial services company offering wealth management, asset management, and insurance solutions. It is recognized for its personalized financial planning and advisory services.",
+              "weight": "0.0069"
+            },
+            {
+              "symbol": "MET",
+              "description": "METLIFE INC",
+              "details": "MetLife is one of the world’s largest providers of insurance, annuities, and employee benefit programs. It serves millions of customers with a diverse range of financial products and services.",
+              "weight": "0.0068"
+            },
+            {
+              "symbol": "DFS",
+              "description": "DISCOVER FINANCIAL SERVICES",
+              "details": "Discover Financial Services is known for its credit card products and direct banking services, including personal loans and online banking. It focuses on delivering innovative financial solutions to consumers.",
+              "weight": "0.0064"
+            },
+            {
+              "symbol": "MSCI",
+              "description": "MSCI INC",
+              "details": "MSCI Inc is a leading provider of investment decision support tools, including indices and risk analytics. Its products are widely used by institutional investors to assess and manage portfolio risk.",
+              "weight": "0.0063"
+            },
+            {
+              "symbol": "PRU",
+              "description": "PRUDENTIAL FINANCIAL INC",
+              "details": "Prudential Financial is a major provider of insurance, annuities, and asset management services, with a focus on long-term financial stability. It is well-regarded for its comprehensive range of financial products.",
+              "weight": "0.0056"
+            },
+            {
+              "symbol": "FIS",
+              "description": "n/a",
+              "details": "FIS is a global leader in financial technology solutions, specializing in banking software, payment processing, and risk management systems. It serves a wide range of financial institutions with innovative technology.",
+              "weight": "0.0054"
+            },
+            {
+              "symbol": "ACGL",
+              "description": "ARCH CAPITAL GROUP LTD",
+              "details": "Arch Capital Group is a global provider of insurance, reinsurance, and mortgage insurance solutions. It operates across various risk segments with a focus on specialized coverage.",
+              "weight": "0.0049"
+            },
+            {
+              "symbol": "HIG",
+              "description": "HARTFORD INSURANCE GROUP INC",
+              "details": "The Hartford Insurance Group is a leading insurance provider offering property, casualty, and group benefits insurance products. It is known for its focus on risk management and tailored solutions for its clients.",
+              "weight": "0.0048"
+            },
+            {
+              "symbol": "WTW",
+              "description": "WILLIS TOWERS WATSON PLC",
+              "details": "Willis Towers Watson is a global advisory and brokerage firm that helps companies manage risk and optimize benefits. It offers consulting services and innovative solutions in insurance and human capital.",
+              "weight": "0.0048"
+            },
+            {
+              "symbol": "NDAQ",
+              "description": "NASDAQ INC",
+              "details": "Nasdaq Inc is a global financial technology company that operates securities exchanges and provides market technology solutions. It is known for its advanced electronic trading platforms and data services.",
+              "weight": "0.0046"
+            },
+            {
+              "symbol": "MTB",
+              "description": "M&T BANK CORP",
+              "details": "M&T Bank is a regional financial institution offering a wide range of banking services, including retail and commercial banking as well as wealth management. It is recognized for its community-focused approach and stable performance.",
+              "weight": "0.0043"
+            },
+            {
+              "symbol": "FITB",
+              "description": "FIFTH THIRD BANCORP",
+              "details": "Fifth Third Bancorp is a diversified financial services company offering banking, lending, and investment products. It is known for its strong regional presence and commitment to customer service.",
+              "weight": "0.004"
+            },
+            {
+              "symbol": "BRO",
+              "description": "BROWN & BROWN INC",
+              "details": "Brown & Brown Inc is an insurance brokerage firm that provides risk management and insurance solutions to a wide range of industries. It is recognized for its client-centric approach and comprehensive service offerings.",
+              "weight": "0.004"
+            },
+            {
+              "symbol": "RJF",
+              "description": "RAYMOND JAMES FINANCIAL INC",
+              "details": "Raymond James Financial is a diversified financial services firm offering investment banking, asset management, and wealth management services. It is well-known for its client-focused philosophy and strong presence in wealth management.",
+              "weight": "0.0038"
+            },
+            {
+              "symbol": "STT",
+              "description": "STATE STREET CORP",
+              "details": "State Street Corporation is a global financial services provider specializing in asset management, custody, and data analytics. It is a trusted partner for institutional investors and financial institutions worldwide.",
+              "weight": "0.0038"
+            },
+            {
+              "symbol": "GPN",
+              "description": "GLOBAL PAYMENTS INC",
+              "details": "Global Payments Inc is a leading provider of payment technology solutions that help businesses process transactions securely. It supports merchants worldwide with innovative payment and software services.",
+              "weight": "0.0036"
+            },
+            {
+              "symbol": "CPAY",
+              "description": "CORPAY INC",
+              "details": "Corpay Inc is a financial technology company specializing in payment processing and expense management solutions. It aims to simplify global transactions and financial operations for businesses.",
+              "weight": "0.0035"
+            },
+            {
+              "symbol": "HBAN",
+              "description": "HUNTINGTON BANCSHARES INC",
+              "details": "Huntington Bancshares is a regional bank holding company offering a variety of consumer and commercial banking services. It is known for its strong community ties and focus on personalized banking solutions.",
+              "weight": "0.0032"
+            },
+            {
+              "symbol": "CINF",
+              "description": "CINCINNATI FINANCIAL CORP",
+              "details": "Cincinnati Financial is an insurance company that offers property and casualty products across the United States. It is recognized for its strong underwriting performance and commitment to customer service.",
+              "weight": "0.0032"
+            },
+            {
+              "symbol": "CBOE",
+              "description": "CBOE GLOBAL MARKETS INC",
+              "details": "Cboe Global Markets is a leading operator of financial exchanges, providing trading, clearing, and market data services. It is known for its innovative derivatives products and robust market infrastructure.",
+              "weight": "0.0032"
+            },
+            {
+              "symbol": "TROW",
+              "description": "T. ROWE PRICE GROUP INC",
+              "details": "T. Rowe Price is a globally recognized investment management firm offering mutual funds, retirement, and advisory services. It is known for its disciplined investment approach and long-term client focus.",
+              "weight": "0.0032"
+            },
+            {
+              "symbol": "SYF",
+              "description": "SYNCHRONY FINANCIAL",
+              "details": "Synchrony Financial is a consumer finance company providing credit products, installment loans, and retail financing solutions. It is widely recognized for its strong partnerships with major retailers and financial institutions.",
+              "weight": "0.0031"
+            },
+            {
+              "symbol": "NTRS",
+              "description": "NORTHERN TRUST CORP",
+              "details": "Northern Trust is a leading financial services firm specializing in wealth management, asset servicing, and investment management solutions. It is known for its commitment to serving institutional and high-net-worth clients.",
+              "weight": "0.003"
+            },
+            {
+              "symbol": "RF",
+              "description": "REGIONS FINANCIAL CORP",
+              "details": "Regions Financial Corporation is a regional bank offering a broad range of banking and financial services. It is known for its community banking focus and steady regional market presence.",
+              "weight": "0.0029"
+            },
+            {
+              "symbol": "CFG",
+              "description": "CITIZENS FINANCIAL GROUP INC",
+              "details": "Citizens Financial Group is a regional bank that provides a comprehensive range of banking products and services to individuals and businesses. It is recognized for its customer-centric approach and deep community roots.",
+              "weight": "0.0027"
+            },
+            {
+              "symbol": "WRB",
+              "description": "WR BERKLEY CORP",
+              "details": "WR Berkley Corporation is a commercial lines insurance holding company offering property and casualty insurance solutions. It is known for its strong underwriting capabilities and risk management expertise.",
+              "weight": "0.0027"
+            },
+            {
+              "symbol": "PFG",
+              "description": "PRINCIPAL FINANCIAL GROUP INC",
+              "details": "Principal Financial Group is a global financial services company providing insurance, retirement, and asset management solutions. It is focused on long-term growth and helping clients achieve financial security.",
+              "weight": "0.0026"
+            },
+            {
+              "symbol": "FDS",
+              "description": "FACTSET RESEARCH SYSTEMS INC",
+              "details": "FactSet Research Systems provides integrated financial data and analytical tools to investment professionals worldwide. Its comprehensive solutions help clients make informed investment decisions.",
+              "weight": "0.0024"
+            },
+            {
+              "symbol": "KEY",
+              "description": "KEYCORP",
+              "details": "KeyCorp is a regional bank offering a diverse array of financial services including personal, commercial, and investment banking. It is known for its strong community ties and commitment to customer service.",
+              "weight": "0.0023"
+            },
+            {
+              "symbol": "EG",
+              "description": "EVEREST GROUP LTD",
+              "details": "Everest Group is a global consulting and research firm that specializes in business process and IT services. It provides insights and advisory services to help organizations optimize their operations.",
+              "weight": "0.0022"
+            },
+            {
+              "symbol": "L",
+              "description": "LOEWS CORP",
+              "details": "Loewe Corp is a diversified financial services company with interests in asset management and consumer finance. It is known for its strategic investments and focus on long-term value creation.",
+              "weight": "0.0022"
+            },
+            {
+              "symbol": "JKHY",
+              "description": "JACK HENRY & ASSOCIATES INC",
+              "details": "Jack Henry & Associates is a technology company that provides software solutions for the financial services industry. It is known for its reliable and innovative banking technology services.",
+              "weight": "0.0018"
+            },
+            {
+              "symbol": "ERIE",
+              "description": "ERIE INDEMNITY CO CLASS A",
+              "details": "Erie Indemnity is an insurance company offering a range of property, casualty, and specialty insurance products primarily in the U.S. It is recognized for its competitive pricing and strong customer service.",
+              "weight": "0.0016"
+            },
+            {
+              "symbol": "AIZ",
+              "description": "ASSURANT INC",
+              "details": "Assurant Inc is a global provider of risk management solutions, offering specialty insurance products and services. It is known for its innovative approach to managing diverse and evolving risks.",
+              "weight": "0.0015"
+            },
+            {
+              "symbol": "GL",
+              "description": "GLOBE LIFE INC",
+              "details": "Globe Life Inc is an insurance company focused on providing life and health insurance products to its customers in the U.S. It is recognized for offering affordable coverage with straightforward service.",
+              "weight": "0.0015"
+            },
+            {
+              "symbol": "MKTX",
+              "description": "MARKETAXESS HOLDINGS INC",
+              "details": "MarketAxess Holdings is an electronic trading platform for fixed income securities that enhances market liquidity and trade transparency. It is known for its innovative approach to bond trading.",
+              "weight": "0.0011"
+            },
+            {
+              "symbol": "IVZ",
+              "description": "INVESCO LTD",
+              "details": "Invesco Ltd is a global asset management firm offering a diverse range of investment products and services. It is known for its active management strategies and comprehensive market research.",
+              "weight": "0.001"
+            },
+            {
+              "symbol": "BEN",
+              "description": "FRANKLIN RESOURCES INC",
+              "details": "Franklin Resources, also known as Franklin Templeton, is a global investment management organization providing mutual funds and other investment products. It is recognized for its long-term investment approach and global reach.",
+              "weight": "0.0009"
+            }
+        ]
+    }
+}

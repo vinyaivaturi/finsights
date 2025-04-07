@@ -22,9 +22,14 @@ app = Flask(__name__)
 CORS(app)
 
 def stocks_search(query, top_n=10):
+    # Combines relevant fields into one document for each stock
     combined_text = stocks_df[['Company Name', 'Details', 'Sector', 'Industry']].fillna('').agg(' '.join, axis=1)
+    
+    # Creates a TF-IDF matrix, ignoring common English stop words
     vectorizer = TfidfVectorizer(stop_words='english')
     tfidf_matrix = vectorizer.fit_transform(combined_text)
+
+    # Transforms the query into the TF-IDF space
     query_tfidf = vectorizer.transform([query])
     cos_sim = cosine_similarity(query_tfidf, tfidf_matrix).flatten()
     stocks_df['similarity'] = cos_sim
