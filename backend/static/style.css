@@ -1,76 +1,88 @@
-.full-body-container{
-    position: absolute;
-    top:0;
-    left:0;
-    right:0;
-    bottom:0;
-    width:100%;
-    height:100%;
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    flex-direction: column;
-}
-
-.title {
-    display: flex;
-    align-items: center;
-    font-size: 48px;
+body {
     font-family: 'DM Sans', sans-serif;
-    color: #000080
-}
-
-.top-text p {
-    font-family: 'DM Sans', sans-serif;
-}
-
-.example {
+    background-color: #f9fafb;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 30px;
+  }
+  
+  .logo {
+    width: 200px;
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    font-weight: 700;
+    color: #0d3b66;
+  }
+  
+  .example {
     font-style: italic;
-}
-
-.google-colors h1{
-    margin-bottom: 0;
-    margin-right: 3px;
-}
-
-.input-box{
-    border-radius: 50px;
-    border:1px solid black;
-    display: flex;
-    align-items: center;
-    margin-top: 10px;
-    padding:12px;
-    width: 700px;
-}
-
-.input-box img{
-    height: 20px;
-    width:20px;
-}
-
-.top-text{
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .input-form {
     display: flex;
     flex-direction: column;
-    align-items: center;
-}
-
-.input-box input{
-    width: 100%;
-    margin-left: 10px;
-    font-size: 16px;
+    gap: 10px;
+    margin-bottom: 30px;
+  }
+  
+  .input-form input, .input-form button {
+    padding: 10px;
+    font-size: 1em;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .input-form button {
+    background-color: #0d3b66;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .input-form button:hover {
+    background-color: #145da0;
+  }
+  
+  .recommendation-group {
+    margin-top: 40px;
+  }
+  
+  .stock-card {
+    background-color: white;
+    padding: 20px;
+    margin: 15px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 400px;
+    text-align: left;
+  }
+  
+  .stock-card h3 {
+    margin-top: 0;
+    color: #0d3b66;
+  }
+  
+  .stock-card p {
+    margin: 5px 0;
+  }
+  
+  .stock-card button {
+    margin-right: 10px;
+    background-color: #e0e0e0;
     border: none;
-    outline: 0;
-}
-
-#answer-box{
-    width: 700px;
-    margin-top:50px; 
-}
-
-h3 {
-    font-family: 'DM', sans-serif;
-}
-
-p {
-    font-family: 'DM', sans-serif;
-}
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .stock-card button:hover {
+    background-color: #c8c8c8;
+  }
+  
