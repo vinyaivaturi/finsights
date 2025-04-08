@@ -5,6 +5,7 @@ from flask_cors import CORS
 import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
+from sklearn.decomposition import TruncatedSVD
 
 # Set ROOT_PATH if needed.
 os.environ['ROOT_PATH'] = os.path.abspath(os.path.join("..", os.curdir))
@@ -29,10 +30,20 @@ def stocks_search(query, top_n=10):
     vectorizer = TfidfVectorizer(stop_words='english')
     tfidf_matrix = vectorizer.fit_transform(combined_text)
 
-    # Transforms the query into the TF-IDF space
+    # Apply SVD for dimensionality reduction (latent semantic analysis)
+    svd = TruncatedSVD(n_components=40, random_state=42)
+    svd_matrix = svd.fit_transform(tfidf_matrix)
+
+     # Transform the query: first into TF-IDF space then into the SVD (LSA) space.
     query_tfidf = vectorizer.transform([query])
-    cos_sim = cosine_similarity(query_tfidf, tfidf_matrix).flatten()
+    query_svd = svd.transform(query_tfidf)
+    
+    cos_sim = cosine_similarity(query_svd, svd_matrix).flatten()
+    
+    # Save the similarity scores in the DataFrame.
     stocks_df['similarity'] = cos_sim
+    
+    # Sort the stocks by similarity in descending order and return top_n results.
     results_df = stocks_df.sort_values(by='similarity', ascending=False).head(top_n)
     return results_df.to_json(orient='records')
 

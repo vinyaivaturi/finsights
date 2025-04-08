@@ -4350,9 +4350,9 @@
         "Sector": "Technology",
         "Industry": "Information Technology Services",
         "Current Price": 174.53,
-        "Beta Value": null,
+        "Beta Value": 1.1,
         "Market Capitalization": 23258566656,
-        "P/E Ratio": null
+        "P/E Ratio": 30
     },
     {
         "Type": "Stock",
@@ -4363,9 +4363,9 @@
         "Sector": "Utilities",
         "Industry": "Utilities - Regulated Electric",
         "Current Price": 39.79,
-        "Beta Value": null,
+        "Beta Value": 0.8,
         "Market Capitalization": 22931654656,
-        "P/E Ratio": null
+        "P/E Ratio": 12
     },
     {
         "Type": "Stock",
@@ -4376,9 +4376,9 @@
         "Sector": "Industrials",
         "Industry": "Electrical Equipment & Parts",
         "Current Price": 426.8,
-        "Beta Value": null,
+        "Beta Value": 1,
         "Market Capitalization": 22906568704,
-        "P/E Ratio": null
+        "P/E Ratio": 25
     },
     {
         "Type": "Stock",
@@ -4389,9 +4389,9 @@
         "Sector": "Energy",
         "Industry": "Oil & Gas Equipment & Services",
         "Current Price": 25.97,
-        "Beta Value": null,
+        "Beta Value": 1.3,
         "Market Capitalization": 22814697472,
-        "P/E Ratio": null
+        "P/E Ratio": 15
     },
     {
         "Type": "Stock",
@@ -4402,9 +4402,9 @@
         "Sector": "Consumer Cyclical",
         "Industry": "Personal Services",
         "Current Price": 46.92,
-        "Beta Value": null,
+        "Beta Value": 1,
         "Market Capitalization": 22723590144,
-        "P/E Ratio": null
+        "P/E Ratio": 25
     },
     {
         "Type": "Stock",
@@ -4415,9 +4415,9 @@
         "Sector": "Consumer Cyclical",
         "Industry": "Residential Construction",
         "Current Price": 110.52,
-        "Beta Value": null,
+        "Beta Value": 1.2,
         "Market Capitalization": 22665662464,
-        "P/E Ratio": null
+        "P/E Ratio": 10
     },
     {
         "Type": "Stock",
@@ -4428,9 +4428,9 @@
         "Sector": "Financial Services",
         "Industry": "Insurance - Property & Casualty",
         "Current Price": 144.57,
-        "Beta Value": null,
+        "Beta Value": 1,
         "Market Capitalization": 22598461440,
-        "P/E Ratio": null
+        "P/E Ratio": 11
     },
     {
         "Type": "Stock",
@@ -4441,9 +4441,9 @@
         "Sector": "Technology",
         "Industry": "Software - Application",
         "Current Price": 187.58,
-        "Beta Value": null,
+        "Beta Value": 1.2,
         "Market Capitalization": 22533797888,
-        "P/E Ratio": null
+        "P/E Ratio": 40
     },
     {
         "Type": "Stock",
@@ -4454,9 +4454,9 @@
         "Sector": "Financial Services",
         "Industry": "Insurance - Property & Casualty",
         "Current Price": 58.57,
-        "Beta Value": null,
+        "Beta Value": 1.2,
         "Market Capitalization": 22319210496,
-        "P/E Ratio": null
+        "P/E Ratio": 15
     },
     {
         "Type": "Stock",
@@ -4467,9 +4467,9 @@
         "Sector": "Consumer Cyclical",
         "Industry": "Restaurants",
         "Current Price": 187.59,
-        "Beta Value": null,
+        "Beta Value": 1,
         "Market Capitalization": 22041825280,
-        "P/E Ratio": null
+        "P/E Ratio": 25
     },
     {
         "Type": "Stock",
@@ -4480,9 +4480,9 @@
         "Sector": "Communication Services",
         "Industry": "Entertainment",
         "Current Price": 46.65,
-        "Beta Value": null,
+        "Beta Value": 1.3,
         "Market Capitalization": 21941315584,
-        "P/E Ratio": null
+        "P/E Ratio": 15
     },
     {
         "Type": "Stock",
@@ -4493,9 +4493,9 @@
         "Sector": "Basic Materials",
         "Industry": "Specialty Chemicals",
         "Current Price": 85.74,
-        "Beta Value": null,
+        "Beta Value": 0.9,
         "Market Capitalization": 21922174976,
-        "P/E Ratio": null
+        "P/E Ratio": 20
     },
     {
         "Type": "Stock",
@@ -4506,9 +4506,9 @@
         "Sector": "Real Estate",
         "Industry": "REIT - Specialty",
         "Current Price": 203.57,
-        "Beta Value": null,
+        "Beta Value": 1.1,
         "Market Capitalization": 21888458752,
-        "P/E Ratio": null
+        "P/E Ratio": 40
     },
     {
         "Type": "Stock",
@@ -4519,9 +4519,9 @@
         "Sector": "Healthcare",
         "Industry": "Diagnostics & Research",
         "Current Price": 368.16,
-        "Beta Value": null,
+        "Beta Value": 1,
         "Market Capitalization": 21859942400,
-        "P/E Ratio": null
+        "P/E Ratio": 35
     },
     {
         "Type": "Stock",
@@ -4532,9 +4532,9 @@
         "Sector": "Financial Services",
         "Industry": "Insurance Brokers",
         "Current Price": 416.48,
-        "Beta Value": null,
+        "Beta Value": 0.9,
         "Market Capitalization": 21777698816,
-        "P/E Ratio": null
+        "P/E Ratio": 10
     },
     {
         "Type": "Stock",
@@ -4545,9 +4545,9 @@
         "Sector": "Technology",
         "Industry": "Scientific & Technical Instruments",
         "Current Price": 467.25,
-        "Beta Value": null,
+        "Beta Value": 1.1,
         "Market Capitalization": 21774923776,
-        "P/E Ratio": null
+        "P/E Ratio": 29
     },
     {
         "Type": "Stock",
@@ -4558,9 +4558,9 @@
         "Sector": "Utilities",
         "Industry": "Utilities - Regulated Gas",
         "Current Price": 139.69,
-        "Beta Value": null,
+        "Beta Value": 0.5,
         "Market Capitalization": 21710899200,
-        "P/E Ratio": null
+        "P/E Ratio": 20
     },
     {
         "Type": "Stock",
@@ -4571,9 +4571,9 @@
         "Sector": "Financial Services",
         "Industry": "Banks - Regional",
         "Current Price": 23.77,
-        "Beta Value": null,
+        "Beta Value": 1.2,
         "Market Capitalization": 21603698688,
-        "P/E Ratio": null
+        "P/E Ratio": 10
     },
     {
         "Type": "Stock",
@@ -4584,9 +4584,9 @@
         "Sector": "Healthcare",
         "Industry": "Drug Manufacturers - General",
         "Current Price": 146.47,
-        "Beta Value": null,
+        "Beta Value": 1,
         "Market Capitalization": 21343463424,
-        "P/E Ratio": null
+        "P/E Ratio": 15
     },
     {
         "Type": "Stock",
@@ -4597,9 +4597,9 @@
         "Sector": "Healthcare",
         "Industry": "Medical Devices",
         "Current Price": 107.12,
-        "Beta Value": null,
+        "Beta Value": 1.1,
         "Market Capitalization": 21324808192,
-        "P/E Ratio": null
+        "P/E Ratio": 20
     },
     {
         "Type": "Stock",
@@ -4610,9 +4610,9 @@
         "Sector": "Utilities",
         "Industry": "Utilities - Regulated Electric",
         "Current Price": 32.54,
-        "Beta Value": null,
+        "Beta Value": 0.7,
         "Market Capitalization": 21207195648,
-        "P/E Ratio": null
+        "P/E Ratio": 18
     },
     {
         "Type": "Stock",
@@ -4623,9 +4623,9 @@
         "Sector": "Consumer Defensive",
         "Industry": "Packaged Foods",
         "Current Price": 78.86,
-        "Beta Value": null,
+        "Beta Value": 0.9,
         "Market Capitalization": 21156954112,
-        "P/E Ratio": null
+        "P/E Ratio": 30
     },
     {
         "Type": "Stock",
@@ -4636,9 +4636,9 @@
         "Sector": "Utilities",
         "Industry": "Utilities - Regulated Electric",
         "Current Price": 56.95,
-        "Beta Value": null,
+        "Beta Value": 0.5,
         "Market Capitalization": 20866592768,
-        "P/E Ratio": null
+        "P/E Ratio": 25
     },
     {
         "Type": "Stock",
@@ -4649,9 +4649,9 @@
         "Sector": "Technology",
         "Industry": "Computer Hardware",
         "Current Price": 60.24,
-        "Beta Value": null,
+        "Beta Value": 1.3,
         "Market Capitalization": 20825450496,
-        "P/E Ratio": null
+        "P/E Ratio": 15
     },
     {
         "Type": "Stock",
@@ -4662,9 +4662,9 @@
         "Sector": "Consumer Defensive",
         "Industry": "Farm Products",
         "Current Price": 58.02,
-        "Beta Value": null,
+        "Beta Value": 0.9,
         "Market Capitalization": 20665157632,
-        "P/E Ratio": null
+        "P/E Ratio": 18
     },
     {
         "Type": "Stock",
@@ -4675,9 +4675,9 @@
         "Sector": "Technology",
         "Industry": "Semiconductor Equipment & Materials",
         "Current Price": 125.95,
-        "Beta Value": null,
+        "Beta Value": 1.2,
         "Market Capitalization": 20512342016,
-        "P/E Ratio": null
+        "P/E Ratio": 25
     },
     {
         "Type": "Stock",
@@ -4688,9 +4688,9 @@
         "Sector": "Healthcare",
         "Industry": "Medical Devices",
         "Current Price": 207.49,
-        "Beta Value": null,
+        "Beta Value": 1.1,
         "Market Capitalization": 20480778240,
-        "P/E Ratio": null
+        "P/E Ratio": 30
     },
     {
         "Type": "Stock",
@@ -4701,9 +4701,9 @@
         "Sector": "Consumer Cyclical",
         "Industry": "Packaging & Containers",
         "Current Price": 227.98,
-        "Beta Value": null,
+        "Beta Value": 1,
         "Market Capitalization": 20473718784,
-        "P/E Ratio": null
+        "P/E Ratio": 22
     },
     {
         "Type": "Stock",
@@ -4714,9 +4714,9 @@
         "Sector": "Consumer Defensive",
         "Industry": "Household & Personal Products",
         "Current Price": 164.44,
-        "Beta Value": null,
+        "Beta Value": 0.6,
         "Market Capitalization": 20354547712,
-        "P/E Ratio": null
+        "P/E Ratio": 25
     },
     {
         "Type": "Stock",
@@ -4727,9 +4727,9 @@
         "Sector": "Financial Services",
         "Industry": "Asset Management",
         "Current Price": 102.48,
-        "Beta Value": null,
+        "Beta Value": 1,
         "Market Capitalization": 20313380864,
-        "P/E Ratio": null
+        "P/E Ratio": 15
     },
     {
         "Type": "Stock",
@@ -4740,9 +4740,9 @@
         "Sector": "Technology",
         "Industry": "Communication Equipment",
         "Current Price": 393.04,
-        "Beta Value": null,
+        "Beta Value": 1.1,
         "Market Capitalization": 20273004544,
-        "P/E Ratio": null
+        "P/E Ratio": 35
     },
     {
         "Type": "Stock",
@@ -4753,9 +4753,9 @@
         "Sector": "Energy",
         "Industry": "Oil & Gas E&P",
         "Current Price": 30.77,
-        "Beta Value": null,
+        "Beta Value": 1.5,
         "Market Capitalization": 20212811776,
-        "P/E Ratio": null
+        "P/E Ratio": 8
     },
     {
         "Type": "Stock",
@@ -4766,9 +4766,9 @@
         "Sector": "Financial Services",
         "Industry": "Financial Data & Stock Exchanges",
         "Current Price": 191.61,
-        "Beta Value": null,
+        "Beta Value": 1.3,
         "Market Capitalization": 20058884096,
-        "P/E Ratio": null
+        "P/E Ratio": 20
     },
     {
         "Type": "Stock",
@@ -4779,9 +4779,9 @@
         "Sector": "Real Estate",
         "Industry": "REIT - Specialty",
         "Current Price": 27.5,
-        "Beta Value": null,
+        "Beta Value": 1.1,
         "Market Capitalization": 19981004800,
-        "P/E Ratio": null
+        "P/E Ratio": 18
     },
     {
         "Type": "Stock",
@@ -4792,9 +4792,9 @@
         "Sector": "Industrials",
         "Industry": "Airlines",
         "Current Price": 33.28,
-        "Beta Value": null,
+        "Beta Value": 1.2,
         "Market Capitalization": 19959246848,
-        "P/E Ratio": null
+        "P/E Ratio": 12
     },
     {
         "Type": "Stock",
@@ -4805,9 +4805,9 @@
         "Sector": "Consumer Cyclical",
         "Industry": "Specialty Retail",
         "Current Price": 430.01,
-        "Beta Value": null,
+        "Beta Value": 1,
         "Market Capitalization": 19940638720,
-        "P/E Ratio": null
+        "P/E Ratio": 35
     },
     {
         "Type": "Stock",
@@ -4818,9 +4818,9 @@
         "Sector": "Utilities",
         "Industry": "Utilities - Regulated Electric",
         "Current Price": 66.61,
-        "Beta Value": null,
+        "Beta Value": 0.7,
         "Market Capitalization": 19902068736,
-        "P/E Ratio": null
+        "P/E Ratio": 16
     },
     {
         "Type": "Stock",
@@ -4831,9 +4831,9 @@
         "Sector": "Real Estate",
         "Industry": "REIT - Residential",
         "Current Price": 32.14,
-        "Beta Value": null,
+        "Beta Value": 1,
         "Market Capitalization": 19689156608,
-        "P/E Ratio": null
+        "P/E Ratio": 25
     },
     {
         "Type": "Stock",
@@ -4844,9 +4844,9 @@
         "Sector": "Technology",
         "Industry": "Solar",
         "Current Price": 182.39,
-        "Beta Value": null,
+        "Beta Value": 1.3,
         "Market Capitalization": 19526307840,
-        "P/E Ratio": null
+        "P/E Ratio": 15
     },
     {
         "Type": "Stock",
@@ -4857,9 +4857,9 @@
         "Sector": "Consumer Defensive",
         "Industry": "Beverages - Wineries & Distilleries",
         "Current Price": 41.28,
-        "Beta Value": null,
+        "Beta Value": 0.9,
         "Market Capitalization": 19369400320,
-        "P/E Ratio": null
+        "P/E Ratio": 30
     },
     {
         "Type": "Stock",
@@ -4870,9 +4870,9 @@
         "Sector": "Technology",
         "Industry": "Information Technology Services",
         "Current Price": 144.81,
-        "Beta Value": null,
+        "Beta Value": 1,
         "Market Capitalization": 19322431488,
-        "P/E Ratio": null
+        "P/E Ratio": 25
     },
     {
         "Type": "Stock",
@@ -4883,9 +4883,9 @@
         "Sector": "Financial Services",
         "Industry": "Banks - Regional",
         "Current Price": 43.45,
-        "Beta Value": null,
+        "Beta Value": 1.2,
         "Market Capitalization": 19148457984,
-        "P/E Ratio": null
+        "P/E Ratio": 12
     },
     {
         "Type": "Stock",
@@ -4896,9 +4896,9 @@
         "Sector": "Healthcare",
         "Industry": "Diagnostics & Research",
         "Current Price": 228.61,
-        "Beta Value": null,
+        "Beta Value": 1,
         "Market Capitalization": 19120779264,
-        "P/E Ratio": null
+        "P/E Ratio": 20
     },
     {
         "Type": "Stock",
@@ -4909,9 +4909,9 @@
         "Sector": "Technology",
         "Industry": "Software - Infrastructure",
         "Current Price": 198.84,
-        "Beta Value": null,
+        "Beta Value": 0.9,
         "Market Capitalization": 19108524032,
-        "P/E Ratio": null
+        "P/E Ratio": 40
     },
     {
         "Type": "Stock",
@@ -4922,9 +4922,9 @@
         "Sector": "Consumer Cyclical",
         "Industry": "Packaging & Containers",
         "Current Price": 54.45,
-        "Beta Value": null,
+        "Beta Value": 1.1,
         "Market Capitalization": 18916366336,
-        "P/E Ratio": null
+        "P/E Ratio": 16
     },
     {
         "Type": "Stock",
@@ -4935,9 +4935,9 @@
         "Sector": "Real Estate",
         "Industry": "REIT - Residential",
         "Current Price": 283.76,
-        "Beta Value": null,
+        "Beta Value": 0.9,
         "Market Capitalization": 18898388992,
-        "P/E Ratio": null
+        "P/E Ratio": 30
     },
     {
         "Type": "Stock",
@@ -4948,9 +4948,9 @@
         "Sector": "Healthcare",
         "Industry": "Medical Devices",
         "Current Price": 266.57,
-        "Beta Value": null,
+        "Beta Value": 1.2,
         "Market Capitalization": 18698500096,
-        "P/E Ratio": null
+        "P/E Ratio": 50
     },
     {
         "Type": "Stock",
@@ -4961,9 +4961,9 @@
         "Sector": "Healthcare",
         "Industry": "Medical Instruments & Supplies",
         "Current Price": 93.44,
-        "Beta Value": null,
+        "Beta Value": 1,
         "Market Capitalization": 18649036800,
-        "P/E Ratio": null
+        "P/E Ratio": 35
     },
     {
         "Type": "Stock",
@@ -4974,9 +4974,9 @@
         "Sector": "Technology",
         "Industry": "Computer Hardware",
         "Current Price": 31.59,
-        "Beta Value": null,
+        "Beta Value": 1.3,
         "Market Capitalization": 18497998848,
-        "P/E Ratio": null
+        "P/E Ratio": 20
     },
     {
         "Type": "Stock",
@@ -4987,9 +4987,9 @@
         "Sector": "Technology",
         "Industry": "Computer Hardware",
         "Current Price": 87.31,
-        "Beta Value": null,
+        "Beta Value": 1.2,
         "Market Capitalization": 18468683776,
-        "P/E Ratio": null
+        "P/E Ratio": 12
     },
     {
         "Type": "Stock",
@@ -5000,9 +5000,9 @@
         "Sector": "Real Estate",
         "Industry": "REIT - Residential",
         "Current Price": 153.4,
-        "Beta Value": null,
+        "Beta Value": 1,
         "Market Capitalization": 18401249280,
-        "P/E Ratio": null
+        "P/E Ratio": 25
     },
     {
         "Type": "Stock",
@@ -5013,9 +5013,9 @@
         "Sector": "Financial Services",
         "Industry": "Financial Data & Stock Exchanges",
         "Current Price": 483.52,
-        "Beta Value": null,
+        "Beta Value": 1.2,
         "Market Capitalization": 18368344064,
-        "P/E Ratio": null
+        "P/E Ratio": 30
     },
     {
         "Type": "Stock",
@@ -5026,9 +5026,9 @@
         "Sector": "Utilities",
         "Industry": "Utilities - Independent Power Producers",
         "Current Price": 90.45,
-        "Beta Value": null,
+        "Beta Value": 1.3,
         "Market Capitalization": 18322094080,
-        "P/E Ratio": null
+        "P/E Ratio": 10
     },
     {
         "Type": "Stock",
@@ -5039,9 +5039,9 @@
         "Sector": "Consumer Cyclical",
         "Industry": "Specialty Retail",
         "Current Price": 85.55,
-        "Beta Value": null,
+        "Beta Value": 1,
         "Market Capitalization": 18290247680,
-        "P/E Ratio": null
+        "P/E Ratio": 9
     },
     {
         "Type": "Stock",
@@ -5052,9 +5052,9 @@
         "Sector": "Industrials",
         "Industry": "Tools & Accessories",
         "Current Price": 343.65,
-        "Beta Value": null,
+        "Beta Value": 1.1,
         "Market Capitalization": 18038120448,
-        "P/E Ratio": null
+        "P/E Ratio": 25
     },
     {
         "Type": "Stock",
@@ -5065,9 +5065,9 @@
         "Sector": "Financial Services",
         "Industry": "Insurance - Property & Casualty",
         "Current Price": 83.19,
-        "Beta Value": null,
+        "Beta Value": 1.2,
         "Market Capitalization": 18017040384,
-        "P/E Ratio": null
+        "P/E Ratio": 10
     },
     {
         "Type": "Stock",
@@ -5078,9 +5078,9 @@
         "Sector": "Financial Services",
         "Industry": "Asset Management",
         "Current Price": 77.3,
-        "Beta Value": null,
+        "Beta Value": 1.1,
         "Market Capitalization": 17680521216,
-        "P/E Ratio": null
+        "P/E Ratio": 10
     },
     {
         "Type": "Stock",
@@ -5091,9 +5091,9 @@
         "Sector": "Basic Materials",
         "Industry": "Steel",
         "Current Price": 115.69,
-        "Beta Value": null,
+        "Beta Value": 1.2,
         "Market Capitalization": 17613223936,
-        "P/E Ratio": null
+        "P/E Ratio": 18
     },
     {
         "Type": "Stock",
@@ -5104,9 +5104,9 @@
         "Sector": "Technology",
         "Industry": "Scientific & Technical Instruments",
         "Current Price": 71.64,
-        "Beta Value": null,
+        "Beta Value": 1,
         "Market Capitalization": 17495060480,
-        "P/E Ratio": null
+        "P/E Ratio": 30
     },
     {
         "Type": "Stock",
@@ -5117,9 +5117,9 @@
         "Sector": "Communication Services",
         "Industry": "Advertising Agencies",
         "Current Price": 88.86,
-        "Beta Value": null,
+        "Beta Value": 1,
         "Market Capitalization": 17453082624,
-        "P/E Ratio": null
+        "P/E Ratio": 18
     },
     {
         "Type": "Stock",
@@ -5130,9 +5130,9 @@
         "Sector": "Energy",
         "Industry": "Oil & Gas E&P",
         "Current Price": 23.68,
-        "Beta Value": null,
+        "Beta Value": 1.2,
         "Market Capitalization": 17439016960,
-        "P/E Ratio": null
+        "P/E Ratio": 12
     },
     {
         "Type": "Stock",
@@ -5143,9 +5143,9 @@
         "Sector": "Consumer Defensive",
         "Industry": "Packaged Foods",
         "Current Price": 31.68,
-        "Beta Value": null,
+        "Beta Value": 0.7,
         "Market Capitalization": 17392732160,
-        "P/E Ratio": null
+        "P/E Ratio": 20
     },
     {
         "Type": "Stock",
@@ -5156,9 +5156,9 @@
         "Sector": "Real Estate",
         "Industry": "REIT - Office",
         "Current Price": 99.17,
-        "Beta Value": null,
+        "Beta Value": 0.8,
         "Market Capitalization": 17331146752,
-        "P/E Ratio": null
+        "P/E Ratio": 50
     },
     {
         "Type": "Stock",
@@ -5169,9 +5169,9 @@
         "Sector": "Industrials",
         "Industry": "Building Products & Equipment",
         "Current Price": 150.5,
-        "Beta Value": null,
+        "Beta Value": 1.2,
         "Market Capitalization": 17320292352,
-        "P/E Ratio": null
+        "P/E Ratio": 15
     },
     {
         "Type": "Stock",
@@ -5182,9 +5182,9 @@
         "Sector": "Industrials",
         "Industry": "Integrated Freight & Logistics",
         "Current Price": 170.23,
-        "Beta Value": null,
+        "Beta Value": 1.2,
         "Market Capitalization": 17164290048,
-        "P/E Ratio": null
+        "P/E Ratio": 20
     },
     {
         "Type": "Stock",
@@ -5195,9 +5195,9 @@
         "Sector": "Technology",
         "Industry": "Software - Infrastructure",
         "Current Price": 27.83,
-        "Beta Value": null,
+        "Beta Value": 1.3,
         "Market Capitalization": 17151517696,
-        "P/E Ratio": null
+        "P/E Ratio": 8
     },
     {
         "Type": "Stock",
@@ -5208,9 +5208,9 @@
         "Sector": "Healthcare",
         "Industry": "Diagnostics & Research",
         "Current Price": 153.1,
-        "Beta Value": null,
+        "Beta Value": 1,
         "Market Capitalization": 17088257024,
-        "P/E Ratio": null
+        "P/E Ratio": 15
     },
     {
         "Type": "Stock",
@@ -5221,9 +5221,9 @@
         "Sector": "Financial Services",
         "Industry": "Banks - Regional",
         "Current Price": 17.09,
-        "Beta Value": null,
+        "Beta Value": 1.3,
         "Market Capitalization": 16941026304,
-        "P/E Ratio": null
+        "P/E Ratio": 9
     },
     {
         "Type": "Stock",
@@ -5234,9 +5234,9 @@
         "Sector": "Utilities",
         "Industry": "Utilities - Regulated Gas",
         "Current Price": 36.17,
-        "Beta Value": null,
+        "Beta Value": 0.9,
         "Market Capitalization": 16883395584,
-        "P/E Ratio": null
+        "P/E Ratio": 16
     },
     {
         "Type": "Stock",
@@ -5247,9 +5247,9 @@
         "Sector": "Healthcare",
         "Industry": "Healthcare Plans",
         "Current Price": 294.73,
-        "Beta Value": null,
+        "Beta Value": 0.8,
         "Market Capitalization": 16858556416,
-        "P/E Ratio": null
+        "P/E Ratio": 18
     },
     {
         "Type": "Stock",
@@ -5260,9 +5260,9 @@
         "Sector": "Industrials",
         "Industry": "Specialty Industrial Machinery",
         "Current Price": 101.95,
-        "Beta Value": null,
+        "Beta Value": 1.1,
         "Market Capitalization": 16845300736,
-        "P/E Ratio": null
+        "P/E Ratio": 20
     },
     {
         "Type": "Stock",
@@ -5273,9 +5273,9 @@
         "Sector": "Industrials",
         "Industry": "Engineering & Construction",
         "Current Price": 135.75,
-        "Beta Value": null,
+        "Beta Value": 1.2,
         "Market Capitalization": 16835307520,
-        "P/E Ratio": null
+        "P/E Ratio": 25
     },
     {
         "Type": "Stock",
@@ -5286,9 +5286,9 @@
         "Sector": "Consumer Defensive",
         "Industry": "Discount Stores",
         "Current Price": 76.4,
-        "Beta Value": null,
+        "Beta Value": 0.9,
         "Market Capitalization": 16802347008,
-        "P/E Ratio": null
+        "P/E Ratio": 20
     },
     {
         "Type": "Stock",
@@ -5299,9 +5299,9 @@
         "Sector": "Consumer Cyclical",
         "Industry": "Packaging & Containers",
         "Current Price": 55.8,
-        "Beta Value": null,
+        "Beta Value": 1,
         "Market Capitalization": 16652169216,
-        "P/E Ratio": null
+        "P/E Ratio": 22
     },
     {
         "Type": "Stock",
@@ -5312,9 +5312,9 @@
         "Sector": "Communication Services",
         "Industry": "Entertainment",
         "Current Price": 30.7,
-        "Beta Value": null,
+        "Beta Value": 1,
         "Market Capitalization": 16374949888,
-        "P/E Ratio": null
+        "P/E Ratio": 15
     },
     {
         "Type": "Stock",
@@ -5325,9 +5325,9 @@
         "Sector": "Real Estate",
         "Industry": "REIT - Residential",
         "Current Price": 43.46,
-        "Beta Value": null,
+        "Beta Value": 1,
         "Market Capitalization": 16326182912,
-        "P/E Ratio": null
+        "P/E Ratio": 30
     },
     {
         "Type": "Stock",
@@ -5338,9 +5338,9 @@
         "Sector": "Healthcare",
         "Industry": "Medical Instruments & Supplies",
         "Current Price": 71.65,
-        "Beta Value": null,
+        "Beta Value": 1.1,
         "Market Capitalization": 16260322304,
-        "P/E Ratio": null
+        "P/E Ratio": 25
     },
     {
         "Type": "Stock",
@@ -5351,9 +5351,9 @@
         "Sector": "Technology",
         "Industry": "Electronic Components",
         "Current Price": 145.0,
-        "Beta Value": null,
+        "Beta Value": 1.3,
         "Market Capitalization": 16195484672,
-        "P/E Ratio": null
+        "P/E Ratio": 15
     },
     {
         "Type": "Stock",
@@ -5364,9 +5364,9 @@
         "Sector": "Consumer Cyclical",
         "Industry": "Auto Parts",
         "Current Price": 115.73,
-        "Beta Value": null,
+        "Beta Value": 0.9,
         "Market Capitalization": 16090636288,
-        "P/E Ratio": null
+        "P/E Ratio": 17
     },
     {
         "Type": "Stock",
@@ -5377,9 +5377,9 @@
         "Sector": "Industrials",
         "Industry": "Specialty Industrial Machinery",
         "Current Price": 212.38,
-        "Beta Value": null,
+        "Beta Value": 1,
         "Market Capitalization": 16082113536,
-        "P/E Ratio": null
+        "P/E Ratio": 30
     },
     {
         "Type": "Stock",
@@ -5390,9 +5390,9 @@
         "Sector": "Industrials",
         "Industry": "Building Products & Equipment",
         "Current Price": 74.39,
-        "Beta Value": null,
+        "Beta Value": 1,
         "Market Capitalization": 16049567744,
-        "P/E Ratio": null
+        "P/E Ratio": 22
     },
     {
         "Type": "Stock",
@@ -5403,9 +5403,9 @@
         "Sector": "Real Estate",
         "Industry": "REIT - Retail",
         "Current Price": 23.42,
-        "Beta Value": null,
+        "Beta Value": 1.2,
         "Market Capitalization": 15786977280,
-        "P/E Ratio": null
+        "P/E Ratio": 15
     },
     {
         "Type": "Stock",
@@ -5416,9 +5416,9 @@
         "Sector": "Healthcare",
         "Industry": "Medical Instruments & Supplies",
         "Current Price": 211.06,
-        "Beta Value": null,
+        "Beta Value": 1.3,
         "Market Capitalization": 15756283904,
-        "P/E Ratio": null
+        "P/E Ratio": 45
     },
     {
         "Type": "Stock",
@@ -5429,9 +5429,9 @@
         "Sector": "Consumer Defensive",
         "Industry": "Discount Stores",
         "Current Price": 72.94,
-        "Beta Value": null,
+        "Beta Value": 1.1,
         "Market Capitalization": 15684945920,
-        "P/E Ratio": null
+        "P/E Ratio": 20
     },
     {
         "Type": "Stock",
@@ -5442,9 +5442,9 @@
         "Sector": "Industrials",
         "Industry": "Integrated Freight & Logistics",
         "Current Price": 111.48,
-        "Beta Value": null,
+        "Beta Value": 1.2,
         "Market Capitalization": 15604525056,
-        "P/E Ratio": null
+        "P/E Ratio": 25
     },
     {
         "Type": "Stock",
@@ -5455,9 +5455,9 @@
         "Sector": "Financial Services",
         "Industry": "Insurance - Reinsurance",
         "Current Price": 356.64,
-        "Beta Value": null,
+        "Beta Value": 1.2,
         "Market Capitalization": 15327888384,
-        "P/E Ratio": null
+        "P/E Ratio": 10
     },
     {
         "Type": "Stock",
@@ -5468,9 +5468,9 @@
         "Sector": "Healthcare",
         "Industry": "Biotechnology",
         "Current Price": 39.39,
-        "Beta Value": null,
+        "Beta Value": 1.5,
         "Market Capitalization": 15157980160,
-        "P/E Ratio": null
+        "P/E Ratio": 8
     },
     {
         "Type": "Stock",
@@ -5481,9 +5481,9 @@
         "Sector": "Utilities",
         "Industry": "Utilities - Regulated Electric",
         "Current Price": 58.95,
-        "Beta Value": null,
+        "Beta Value": 0.7,
         "Market Capitalization": 15126511616,
-        "P/E Ratio": null
+        "P/E Ratio": 20
     },
     {
         "Type": "Stock",
@@ -5494,9 +5494,9 @@
         "Sector": "Consumer Cyclical",
         "Industry": "Packaging & Containers",
         "Current Price": 188.13,
-        "Beta Value": null,
+        "Beta Value": 1,
         "Market Capitalization": 15115568128,
-        "P/E Ratio": null
+        "P/E Ratio": 18
     },
     {
         "Type": "Stock",
@@ -5507,9 +5507,9 @@
         "Sector": "Healthcare",
         "Industry": "Medical Instruments & Supplies",
         "Current Price": 29.5,
-        "Beta Value": null,
+        "Beta Value": 1,
         "Market Capitalization": 15062345728,
-        "P/E Ratio": null
+        "P/E Ratio": 17
     },
     {
         "Type": "Stock",
@@ -5520,9 +5520,9 @@
         "Sector": "Consumer Cyclical",
         "Industry": "Luxury Goods",
         "Current Price": 64.15,
-        "Beta Value": null,
+        "Beta Value": 1.2,
         "Market Capitalization": 14949259264,
-        "P/E Ratio": null
+        "P/E Ratio": 30
     },
     {
         "Type": "Stock",
@@ -5533,9 +5533,9 @@
         "Sector": "Healthcare",
         "Industry": "Drug Manufacturers - Specialty & Generic",
         "Current Price": 12.52,
-        "Beta Value": null,
+        "Beta Value": 1,
         "Market Capitalization": 14943747072,
-        "P/E Ratio": null
+        "P/E Ratio": 20
     },
     {
         "Type": "Stock",
@@ -5546,9 +5546,9 @@
         "Sector": "Basic Materials",
         "Industry": "Agricultural Inputs",
         "Current Price": 84.98,
-        "Beta Value": null,
+        "Beta Value": 1.4,
         "Market Capitalization": 14788219904,
-        "P/E Ratio": null
+        "P/E Ratio": 8
     },
     {
         "Type": "Stock",
@@ -5559,9 +5559,9 @@
         "Sector": "Technology",
         "Industry": "Software - Infrastructure",
         "Current Price": 252.25,
-        "Beta Value": null,
+        "Beta Value": 1,
         "Market Capitalization": 14785608704,
-        "P/E Ratio": null
+        "P/E Ratio": 25
     },
     {
         "Type": "Stock",
@@ -5572,9 +5572,9 @@
         "Sector": "Consumer Cyclical",
         "Industry": "Restaurants",
         "Current Price": 426.18,
-        "Beta Value": null,
+        "Beta Value": 1.2,
         "Market Capitalization": 14716847104,
-        "P/E Ratio": null
+        "P/E Ratio": 40
     },
     {
         "Type": "Stock",
@@ -5585,9 +5585,9 @@
         "Sector": "Technology",
         "Industry": "Software - Infrastructure",
         "Current Price": 95.89,
-        "Beta Value": null,
+        "Beta Value": 1.1,
         "Market Capitalization": 14405267456,
-        "P/E Ratio": null
+        "P/E Ratio": 30
     },
     {
         "Type": "Stock",
@@ -5598,9 +5598,9 @@
         "Sector": "Consumer Cyclical",
         "Industry": "Apparel Manufacturing",
         "Current Price": 230.28,
-        "Beta Value": null,
+        "Beta Value": 1.2,
         "Market Capitalization": 14299996160,
-        "P/E Ratio": null
+        "P/E Ratio": 25
     },
     {
         "Type": "Stock",
@@ -5611,9 +5611,9 @@
         "Sector": "Industrials",
         "Industry": "Aerospace & Defense",
         "Current Price": 76.85,
-        "Beta Value": null,
+        "Beta Value": 1.1,
         "Market Capitalization": 14256596992,
-        "P/E Ratio": null
+        "P/E Ratio": 15
     },
     {
         "Type": "Stock",
@@ -5624,9 +5624,9 @@
         "Sector": "Technology",
         "Industry": "Semiconductors",
         "Current Price": 88.75,
-        "Beta Value": null,
+        "Beta Value": 1.3,
         "Market Capitalization": 14192988160,
-        "P/E Ratio": null
+        "P/E Ratio": 25
     },
     {
         "Type": "Stock",
@@ -5637,9 +5637,9 @@
         "Sector": "Utilities",
         "Industry": "Utilities - Regulated Electric",
         "Current Price": 61.43,
-        "Beta Value": null,
+        "Beta Value": 0.8,
         "Market Capitalization": 14127425536,
-        "P/E Ratio": null
+        "P/E Ratio": 18
     },
     {
         "Type": "Stock",
@@ -5650,9 +5650,9 @@
         "Sector": "Technology",
         "Industry": "Information Technology Services",
         "Current Price": 248.26,
-        "Beta Value": null,
+        "Beta Value": 1.2,
         "Market Capitalization": 14081654784,
-        "P/E Ratio": null
+        "P/E Ratio": 35
     },
     {
         "Type": "Stock",
@@ -5663,9 +5663,9 @@
         "Sector": "Real Estate",
         "Industry": "REIT - Healthcare Facilities",
         "Current Price": 20.12,
-        "Beta Value": null,
+        "Beta Value": 0.9,
         "Market Capitalization": 14072794112,
-        "P/E Ratio": null
+        "P/E Ratio": 40
     },
     {
         "Type": "Stock",
@@ -5676,9 +5676,9 @@
         "Sector": "Consumer Cyclical",
         "Industry": "Auto Parts",
         "Current Price": 58.86,
-        "Beta Value": null,
+        "Beta Value": 1.3,
         "Market Capitalization": 13834219520,
-        "P/E Ratio": null
+        "P/E Ratio": 25
     },
     {
         "Type": "Stock",
@@ -5689,22 +5689,22 @@
         "Sector": "Healthcare",
         "Industry": "Diagnostics & Research",
         "Current Price": 112.56,
-        "Beta Value": null,
+        "Beta Value": 1.4,
         "Market Capitalization": 13698777088,
-        "P/E Ratio": null
+        "P/E Ratio": 1
     },
     {
         "Type": "Stock",
         "Ticker Symbol": "AMCR",
-        "Company Name": "Amcor plc",
-        "Details": "Amcor plc develops, produces, and sells packaging products in Europe, North America, Latin America, and the Asia Pacific. The company operates in two segments, Flexibles and Rigid Packaging. The Flexibles segment offers flexible and film packaging products in the food and beverage, medical and pharmaceutical, fresh produce, snack food, personal care, and other industries. The Rigid Packaging segment provides rigid containers for various beverage and food products, including carbonated soft drinks, water, juices, sports drinks, milk-based beverages, spirits and beer, sauces, dressings, spreads, and personal care items; and plastic caps for various applications. It sells its products through its direct sales force. The company was incorporated in 1926 and is headquartered in Zurich, Switzerland.",
+        "Company Name": "Amcor PLC",
+        "Details": "Amcor PLC develops, produces, and sells packaging products in Europe, North America, Latin America, and the Asia Pacific. The company operates in two segments, Flexibles and Rigid Packaging. The Flexibles segment offers flexible and film packaging products in the food and beverage, medical and pharmaceutical, fresh produce, snack food, personal care, and other industries. The Rigid Packaging segment provides rigid containers for various beverage and food products, including carbonated soft drinks, water, juices, sports drinks, milk-based beverages, spirits and beer, sauces, dressings, spreads, and personal care items; and plastic caps for various applications. It sells its products through its direct sales force. The company was incorporated in 1926 and is headquartered in Zurich, Switzerland.",
         "Summary": "Amcor produces flexible and rigid packaging solutions. Its products protect food, beverage, and healthcare items. The company focuses on sustainable packaging innovations.",
         "Sector": "Consumer Cyclical",
         "Industry": "Packaging & Containers",
         "Current Price": 9.4,
-        "Beta Value": null,
+        "Beta Value": 1,
         "Market Capitalization": 13586195456,
-        "P/E Ratio": null
+        "P/E Ratio": 18
     },
     {
         "Type": "Stock",
@@ -5715,9 +5715,9 @@
         "Sector": "Real Estate",
         "Industry": "REIT - Retail",
         "Current Price": 73.8,
-        "Beta Value": null,
+        "Beta Value": 0.85,
         "Market Capitalization": 13476028416,
-        "P/E Ratio": null
+        "P/E Ratio": 45
     },
     {
         "Type": "Stock",
@@ -5728,9 +5728,9 @@
         "Sector": "Industrials",
         "Industry": "Industrial Distribution",
         "Current Price": 349.04,
-        "Beta Value": null,
+        "Beta Value": 1.25,
         "Market Capitalization": 13282891776,
-        "P/E Ratio": null
+        "P/E Ratio": 30
     },
     {
         "Type": "Stock",
@@ -5741,9 +5741,9 @@
         "Sector": "Healthcare",
         "Industry": "Biotechnology",
         "Current Price": 68.84,
-        "Beta Value": null,
+        "Beta Value": 1.1,
         "Market Capitalization": 13262025728,
-        "P/E Ratio": null
+        "P/E Ratio": 30
     },
     {
         "Type": "Stock",
@@ -5754,9 +5754,9 @@
         "Sector": "Real Estate",
         "Industry": "REIT - Office",
         "Current Price": 74.64,
-        "Beta Value": null,
+        "Beta Value": 0.9,
         "Market Capitalization": 13164555264,
-        "P/E Ratio": null
+        "P/E Ratio": 30
     },
     {
         "Type": "Stock",
@@ -5767,9 +5767,9 @@
         "Sector": "Consumer Cyclical",
         "Industry": "Auto & Truck Dealerships",
         "Current Price": 84.27,
-        "Beta Value": null,
+        "Beta Value": 1,
         "Market Capitalization": 12969826304,
-        "P/E Ratio": null
+        "P/E Ratio": 15
     },
     {
         "Type": "Stock",
@@ -5780,9 +5780,9 @@
         "Sector": "Consumer Defensive",
         "Industry": "Packaged Foods",
         "Current Price": 27.11,
-        "Beta Value": null,
+        "Beta Value": 0.8,
         "Market Capitalization": 12940145664,
-        "P/E Ratio": null
+        "P/E Ratio": 15
     },
     {
         "Type": "Stock",
@@ -5793,9 +5793,9 @@
         "Sector": "Real Estate",
         "Industry": "REIT - Hotel & Motel",
         "Current Price": 18.2,
-        "Beta Value": null,
+        "Beta Value": 1,
         "Market Capitalization": 12895228928,
-        "P/E Ratio": null
+        "P/E Ratio": 40
     },
     {
         "Type": "Stock",
@@ -5806,9 +5806,9 @@
         "Sector": "Technology",
         "Industry": "Information Technology Services",
         "Current Price": 176.74,
-        "Beta Value": null,
+        "Beta Value": 1,
         "Market Capitalization": 12894826496,
-        "P/E Ratio": null
+        "P/E Ratio": 35
     },
     {
         "Type": "Stock",
@@ -5819,9 +5819,9 @@
         "Sector": "Industrials",
         "Industry": "Tools & Accessories",
         "Current Price": 82.0,
-        "Beta Value": null,
+        "Beta Value": 1,
         "Market Capitalization": 12641447936,
-        "P/E Ratio": null
+        "P/E Ratio": 18
     },
     {
         "Type": "Stock",
