@@ -2010,9 +2010,9 @@
         "Sector": "Real Estate",
         "Industry": "REIT - Retail",
         "Current Price": 171.61,
-        "Beta Value": null,
+        "Beta Value": 1,
         "Market Capitalization": 64434921472,
-        "P/E Ratio": null
+        "P/E Ratio": 22
     },
     {
         "Type": "Stock",
@@ -2023,9 +2023,9 @@
         "Sector": "Technology",
         "Industry": "Software - Application",
         "Current Price": 298.12,
-        "Beta Value": null,
+        "Beta Value": 1.2,
         "Market Capitalization": 64247537664,
-        "P/E Ratio": null
+        "P/E Ratio": 40
     },
     {
         "Type": "Stock",
@@ -2890,7 +2890,7 @@
         "Ticker Symbol": "PRU",
         "Company Name": "Prudential Financial, Inc.",
         "Details": "Prudential Financial, Inc., together with its subsidiaries, provides insurance, investment management, and other financial products and services in the United States and internationally. It operates through PGIM, Retirement Strategies, Group Insurance, Individual Life, and International Businesses segments. The PGIM segment offers investment management services and solutions related to public fixed income, public equity, real estate debt and equity, private credit and other alternatives, and multi-asset class strategies to institutional and retail clients, as well as its general account. The Retirement Strategies segment provides a range of retirement investment, and income products and services to retirement plan sponsors in the public, private, and not-for-profit sectors; develops and distributes individual variable and fixed annuity products. The Group Insurance segment offers various group life, and long-term and short-term group disability, as well as group corporate-, bank-, and trust-owned life insurance in the United States primarily for institutional clients for use in connection with employee and membership benefits plans; sells accidental death and dismemberment, and other supplemental health solutions; and plan administration services in connection with its insurance coverages. The Individual Life segment develops and distributes variable life, universal life, and term life insurance products. The International Businesses segment develops and distributes life insurance, retirement products, investment products, and certain accident and health products; and advisory services. The company provides its products and services to individual and institutional customers through its proprietary and third-party distribution networks. Prudential Financial, Inc. was founded in 1875 and is headquartered in Newark, New Jersey.",
-        "Summary": null,
+        "Summary": "Large insurance and financial services company. Offers life insurance and retirement products. Helps people plan for their financial future.",
         "Sector": "Financial Services",
         "Industry": "Insurance - Life",
         "Current Price": 117.83,
