@@ -60,6 +60,7 @@ def svd_sector_match(df, sector):
     query_svd = svd.transform(query_vec)
 
     similarities = cosine_similarity(query_svd, svd_matrix).flatten()
+    df = df.copy() 
     df['similarity'] = similarities
     return df.sort_values(by='similarity', ascending=False)
 
@@ -83,13 +84,13 @@ def search():
 
         df = df[~df['Ticker Symbol'].isin(rejected_tickers)]
 
+        if df.empty:
+            return jsonify({"message": "No matching investments found."})  # Clean response
+
         selected = df.head(5)
 
         rec1 = []
         rec2 = []
-
-        if selected.empty:
-            return jsonify([])
 
         equal_investment = amount / len(selected)
         total_beta = sum(selected['Beta Value'])
@@ -108,7 +109,7 @@ def search():
     
     except Exception as e:
         print("Error during search:", e)
-        return jsonify([])
+        return jsonify({"message": "Error processing request."})
 
 @app.route('/reject')
 def reject():
