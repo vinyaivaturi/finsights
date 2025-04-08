@@ -6485,5 +6485,115 @@
         "Beta Value": 1.2,
         "Market Capitalization": 4664099328,
         "P/E Ratio": 10
+    },
+    {
+        "Type": "ETF",
+        "Ticker Symbol": "SMH",
+        "Full Name": "VanEck Semiconductor ETF",
+        "Summary": "The fund normally invests at least 80% of its total assets in securities that comprise the fund's benchmark index. The index includes common stocks and depositary receipts of U.S. exchange-listed companies in the semiconductor industry. Such companies may include medium-capitalization companies and foreign companies that are listed on a U.S. exchange. The fund is non-diversified.",
+        "Sector": "Technology",
+        "Current Price": 184.90,
+        "Beta Value": 1.71,
+        "Market Capitalization": 16713112000,
+        "P/E Ratio": 36.37
+    },
+    {
+        "Type": "ETF",
+        "Ticker Symbol": "AOA",
+        "Full Name": "iShares Core Aggressive Allocation ETF",
+        "Summary": "The fund is a fund of funds and seeks its investment objective by investing primarily in underlying funds that themselves seek investment results corresponding to their own respective underlying indexes. It generally will invest at least 80% of its assets in the component securities of the underlying index. The index measures the performance of the S&P Dow Jones Indices LLC proprietary allocation model.",
+        "Sector": "Global Allocation",
+        "Current Price": 70.92,
+        "Beta Value": 1.14,
+        "Market Capitalization": 1983368000,
+        "P/E Ratio": 29.79
+    },
+    {
+        "Type": "ETF",
+        "Ticker Symbol": "BITB",
+        "Full Name": "Bitwise Bitcoin ETF",
+        "Summary": "In seeking to achieve its investment objective, the will trust will hold bitcoin and accrue the sponsor’s management fee (the “Sponsor Fee”) in U.S. dollars. The trust will value its bitcoin holdings, net assets and the shares daily based on the BRRNY. It is passively managed and does not pursue active management investment strategies, and the Sponsor does not actively manage the bitcoin held by the trust.",
+        "Sector": "Digital Assets",
+        "Current Price": 42.17,
+        "Beta Value": 1,
+        "Market Capitalization": 2985494000,
+        "P/E Ratio": 1
+    },
+    {
+        "Type": "ETF",
+        "Ticker Symbol": "BSJT",
+        "Full Name": "Invesco BulletShares 2029 High Yield Corporate Bond ETF",
+        "Summary": "The fund generally will invest at least 80% of its total assets in securities that comprise the underlying index. The underlying index seeks to measure the performance of a portfolio of U.S. dollar-denominated high yield corporate bonds (commonly known as “junk bonds”) with maturities or, in some cases, “effective maturities” in the year 2029 (collectively, “2029 Bonds”).",
+        "Sector": "Target Maturity",
+        "Current Price": 20.41,
+        "Beta Value": 1,
+        "Market Capitalization": 227787000,
+        "P/E Ratio": 1
+    },
+    {
+        "Type": "ETF",
+        "Ticker Symbol": "CCSO",
+        "Full Name": "CARBON COLLECTIVE CLIMATE SOLUTIONS U.S. EQUITY ETF ",
+        "Summary": "The fund is an actively-managed ETF that seeks to achieve its investment objective by investing primarily in U.S.-listed equity securities of companies that, in the Sub-Adviser’s opinion, are primarily focused on building solutions to address climate change. It may invest in international companies, including those in emerging markets, through U.S. exchange-tradedADRs, however, they will not be considered U.S. equity securities for purposes of the fund’s 80% policy.",
+        "Sector": "Mid-Cap Growth",
+        "Current Price": 17.90,
+        "Beta Value": 1,
+        "Market Capitalization": 25866000,
+        "P/E Ratio": 24.45
+    },
+    {
+        "Type": "ETF",
+        "Ticker Symbol": "COWG",
+        "Full Name": "PACER US LARGE CAP CASH COWS GROWTH LEADERS ETF",
+        "Summary": "The index uses a rules-based methodology that seeks to provide exposure to large-capitalization U.S. companies with above average free cash flow margins. Under normal circumstances, the fund will seek to invest at least 80% of its net assets, plus the amount of any borrowings for investment purposes, in securities of large-capitalization companies (“large cap”) that are principally traded in the United States. It is non-diversified.",
+        "Sector": "Mid-Cap Growth",
+        "Current Price": 28.02,
+        "Beta Value": 1,
+        "Market Capitalization": 1119895000,
+        "P/E Ratio": 31.66
+    },
+    {
+        "Type": "ETF",
+        "Ticker Symbol": "DEED",
+        "Full Name": "FIRST TRUST TCW SECURITIZED PLUS ETF",
+        "Summary": "Under normal market conditions, the fund invests at least 80% of its net assets (including investment borrowings) in securitized debt securities, including asset-backed securities, residential and commercial mortgage-backed securities and collateralized loan obligations (CLOs). It will invest at least 50% of its total assets in securities issued or guaranteed by the U.S. government, its agencies or instrumentalities (such as Ginnie Mae), and U.S. government-sponsored entities (such as Fannie Mae and Freddie Mac).",
+        "Sector": "Multisector bond",
+        "Current Price": 21.03,
+        "Beta Value": 1.16,
+        "Market Capitalization": 72556000,
+        "P/E Ratio": 1
+    },
+    {
+        "Type": "ETF",
+        "Ticker Symbol": "DMCY",
+        "Full Name": "Democracy International Fund",
+        "Summary": "The index construction process begins with the universe of companies that are current members of the Solactive GBS Global Markets ex United States Large & Mid Cap USD Index NTR. In constructing the fund's portfolio, the Adviser generally will use a representative sampling investment approach designed to achieve the fund's investment objective.",
+        "Sector": "Foreign Large Blend",
+        "Current Price": 23.76,
+        "Beta Value": 1.01,
+        "Market Capitalization": 8313000,
+        "P/E Ratio": 21.54
+    },
+    {
+        "Type": "ETF",
+        "Ticker Symbol": "EBND",
+        "Full Name": "SPDR Bloomberg Emerging Markets Local Bond ETF",
+        "Summary": "The fund generally invests substantially all, but at least 80%, of its total assets in the securities comprising the index and in securities that the Adviser/Sub-Adviser determines have economic characteristics that are substantially identical to the economic characteristics of the securities that comprise the index. The index is designed to measure the performance of the fixed-rate local currency sovereign debt of emerging market countries. It is non-diversified.",
+        "Sector": "Emerging-Markets Local-Currency Bond",
+        "Current Price": 19.67,
+        "Beta Value": 1.25,
+        "Market Capitalization": 1812527000,
+        "P/E Ratio": 1
+    },
+    {
+        "Type": "ETF",
+        "Ticker Symbol": "FDMO",
+        "Full Name": "Fidelity Momentum Factor ETF",
+        "Summary": "The fund normally invests at least 80% of assets in securities included in the Fidelity U.S. Momentum Factor Index?, which is designed to reflect the performance of stocks of large and mid-capitalization U.S. companies that exhibit positive momentum signals. It invests in lending securities to earn income for the fund.",
+        "Sector": "Large Growth",
+        "Current Price": 59.26,
+        "Beta Value": 1.02,
+        "Market Capitalization": 532842000,
+        "P/E Ratio": 24.13
     }
 ]
