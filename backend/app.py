@@ -8,22 +8,35 @@ from sklearn.decomposition import TruncatedSVD
 from sklearn.metrics.pairwise import cosine_similarity
 import random
 
+print("DEBUG: Current working directory:", os.getcwd())
+print("DEBUG: List of files:", os.listdir(os.getcwd()))
+
 # Load Data
 current_directory = os.path.dirname(os.path.abspath(__file__))
 json_file_path = os.path.join(current_directory, 'init.json')
+print(f"DEBUG: Attempting to load JSON from {json_file_path}")
 
 # Safely load JSON
 try:
     with open(json_file_path, 'r') as file:
         stocks_data = json.load(file)
+    print(f"DEBUG: Loaded init.json successfully. Number of records: {len(stocks_data)}")
 except Exception as e:
-    print("Error loading init.json:", e)
+    print("ERROR: Failed to load init.json:", e)
     stocks_data = []
 
 stocks_df = pd.DataFrame(stocks_data)
 
-# Fill missing Beta Values with a safe default (like 1.0)
+# Create DataFrame
+try:
+    stocks_df = pd.DataFrame(stocks_data)
+    print(f"DEBUG: Created DataFrame. Columns are: {stocks_df.columns.tolist()}")
+except Exception as e:
+    print("ERROR: Failed to create DataFrame from JSON:", e)
+
+# Fill missing Beta Values with a safe default
 if 'Beta Value' not in stocks_df.columns:
+    print("WARNING: 'Beta Value' column missing. Adding default Beta = 1.0")
     stocks_df['Beta Value'] = 1.0
 else:
     stocks_df['Beta Value'] = stocks_df['Beta Value'].fillna(1.0)
@@ -41,6 +54,7 @@ CORS(app)
 rejected_tickers = set()
 
 def filter_by_risk(df, risk):
+    print(f"DEBUG: Filtering stocks by risk level: {risk}")
     if risk <= 3:
         return df[(df['Beta Value'] < 0.9)]
     elif risk <= 7:
@@ -49,16 +63,14 @@ def filter_by_risk(df, risk):
         return df[(df['Beta Value'] > 1.2) & (df['Type'] == 'Stock')]
 
 def svd_sector_match(df, sector):
+    print(f"DEBUG: Running SVD + TF-IDF for sector matching: {sector}")
     combined = df['Details'] + " " + df['Sector'] + " " + df['Industry']
     vectorizer = TfidfVectorizer(stop_words='english')
     tfidf_matrix = vectorizer.fit_transform(combined)
-
     svd = TruncatedSVD(n_components=40, random_state=42)
     svd_matrix = svd.fit_transform(tfidf_matrix)
-
     query_vec = vectorizer.transform([sector])
     query_svd = svd.transform(query_vec)
-
     similarities = cosine_similarity(query_svd, svd_matrix).flatten()
     df = df.copy() 
     df['similarity'] = similarities
@@ -66,6 +78,7 @@ def svd_sector_match(df, sector):
 
 @app.route('/')
 def home():
+    print("DEBUG: Serving Home Page")
     return render_template('base.html')
 
 @app.route('/search')
@@ -74,6 +87,7 @@ def search():
         risk = int(request.args.get('risk', 5))
         sector = request.args.get('sector', 'No Preference')
         amount = float(request.args.get('amount', 1000))
+        print(f"DEBUG: Received search request with risk={risk}, sector={sector}, amount={amount}")
 
         df = filter_by_risk(stocks_df, risk)
 
@@ -105,6 +119,7 @@ def search():
             info2['Investment'] = weighted_investment
             rec2.append(info2)
 
+        print("DEBUG: Successfully generated 2 recommendation sets.")
         return jsonify([rec1, rec2])
     
     except Exception as e:
@@ -115,7 +130,9 @@ def search():
 def reject():
     ticker = request.args.get('ticker')
     rejected_tickers.add(ticker)
+    print(f"DEBUG: Ticker rejected: {ticker}")
     return '', 204
 
 if __name__ == '__main__':
+    print("DEBUG: Starting Flask app on port 5000...")
     app.run(debug=True)
