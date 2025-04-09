@@ -33,6 +33,8 @@
       const sector = document.getElementById('sector-input').value;
       const amount = document.getElementById('amount-input').value;
 
+      msg("is this working??")
+
       fetch(`/search?risk=${risk}&sector=${sector}&amount=${amount}`)
         .then(response => response.json())
         .then(data => displayRecommendations(data))

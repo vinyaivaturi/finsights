@@ -89,9 +89,9 @@ def home():
 @app.route('/search')
 def search():
     try:
-        risk = int(request.args.get('risk-input', 5))
-        sector = request.args.get('sector-input', 'No Preference')
-        amount = float(request.args.get('amount-input', 1000))
+        risk = int(request.args.get('risk', default=5))
+        sector = request.args.get('sector', default='No Preference')
+        amount = float(request.args.get('amount', default=1000))
         print(f"DEBUG: Received search request with risk={risk}, sector={sector}, amount={amount}")
 
         df = filter_by_risk(stocks_df, risk)
