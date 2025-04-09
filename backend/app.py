@@ -41,11 +41,15 @@ if 'Beta Value' not in stocks_df.columns:
 else:
     stocks_df['Beta Value'] = stocks_df['Beta Value'].fillna(1.0)
 
+print("DEBUG: executed Beta block")
+
 # Fill other critical missing fields
 stocks_df['Sector'] = stocks_df['Sector'].fillna('Unknown')
 stocks_df['Details'] = stocks_df['Details'].fillna('')
 stocks_df['Industry'] = stocks_df['Industry'].fillna('')
 stocks_df['Type'] = stocks_df['Type'].fillna('Stock')
+
+print("DEBUG: filled missing fields if any")
 
 # Initialize app
 app = Flask(__name__)
