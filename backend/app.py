@@ -8,21 +8,21 @@ from sklearn.decomposition import TruncatedSVD
 from sklearn.metrics.pairwise import cosine_similarity
 import random
 
-print("DEBUG: Current working directory:", os.getcwd())
-print("DEBUG: List of files:", os.listdir(os.getcwd()))
+#print("DEBUG: Current working directory:", os.getcwd())
+#print("DEBUG: List of files:", os.listdir(os.getcwd()))
 
 # Load Data
 current_directory = os.path.dirname(os.path.abspath(__file__))
 json_file_path = os.path.join(current_directory, 'init.json')
-print(f"DEBUG: Attempting to load JSON from {json_file_path}")
+#print(f"DEBUG: Attempting to load JSON from {json_file_path}")
 
 # Safely load JSON
 try:
     with open(json_file_path, 'r') as file:
         stocks_data = json.load(file)
-    print(f"DEBUG: Loaded init.json successfully. Number of records: {len(stocks_data)}")
+    #print(f"DEBUG: Loaded init.json successfully. Number of records: {len(stocks_data)}")
 except Exception as e:
-    print("ERROR: Failed to load init.json:", e)
+    #print("ERROR: Failed to load init.json:", e)
     stocks_data = []
 
 stocks_df = pd.DataFrame(stocks_data)
@@ -55,6 +55,7 @@ rejected_tickers = set()
 
 def filter_by_risk(df, risk):
     print(f"DEBUG: Filtering stocks by risk level: {risk}")
+    
     if risk <= 3:
         return df[(df['Beta Value'] < 0.9)]
     elif risk <= 7:
