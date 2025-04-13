@@ -5,6 +5,10 @@ body {
     padding: 0;
   }
   
+  .input-form {
+    font-family: 'DM Sans', sans-serif;
+  }
+  
   .container {
     text-align: center;
     padding: 30px;
