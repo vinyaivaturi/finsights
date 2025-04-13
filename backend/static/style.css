@@ -5,10 +5,6 @@ body {
     padding: 0;
   }
   
-  .input-form {
-    font-family: 'DM Sans', sans-serif;
-  }
-  
   .container {
     text-align: center;
     padding: 30px;
@@ -36,6 +32,7 @@ body {
     flex-direction: column;
     gap: 10px;
     margin-bottom: 30px;
+    font-family: 'DM Sans', sans-serif;
   }
   
   .input-form input, .input-form button {
