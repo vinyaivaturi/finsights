@@ -188,7 +188,7 @@ body {
   .tooltip-investment {
     position: relative;
     display: inline-block;
-    cursor: help;
+    cursor: pointer;
   }
   
   .tooltip-investment .tooltip-text {
