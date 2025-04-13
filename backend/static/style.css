@@ -55,6 +55,7 @@ body {
   }
   
   .stock-card {
+    position: relative;
     background-color: white;
     padding: 20px;
     margin: 15px auto;
@@ -62,6 +63,8 @@ body {
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     width: 400px;
     text-align: left;
+    display: flex;
+    flex-direction: column;
   }
   
   .stock-card h3 {
@@ -156,7 +159,18 @@ body {
     transform: translateY(-50%);
     border-width: 6px;
     border-style: solid;
-    border-color: transparent #333 transparent transparent;
+    border-color: transparent #0d3b66 transparent transparent;
   }
   
+  .action-buttons {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .action-buttons button {
+    margin-right: 0; 
+  }
   
