@@ -91,39 +91,6 @@
       });
     }
 
-    function displayRecommendations(data) {
-      const container = document.getElementById('recommendations');
-      container.innerHTML = "";
-
-      if (!Array.isArray(data)) {
-        container.innerHTML = "<p>No matching investments found!</p>";
-        return;
-      }
-
-      data.forEach((recommendationGroup, index) => {
-        const recDiv = document.createElement('div');
-        recDiv.className = "recommendation-group";
-
-        recDiv.innerHTML = `<h2>Recommendation ${index + 1}</h2>`;
-
-        recommendationGroup.forEach(item => {
-          recDiv.innerHTML += `
-        <div class="stock-card">
-          <h3>${item['Ticker Symbol']} - ${item['Company Name']}</h3>
-          <p><strong>Sector:</strong> ${item['Sector']}</p>
-          <p><strong>Beta Value:</strong> ${item['Beta Value']}</p>
-          <p><strong>Investment:</strong> $${item['Investment'].toFixed(2)}</p>
-          <button onclick="handleGood()">✅</button>
-          <button onclick="handleReject('${item['Ticker Symbol']}')">❌</button>
-        </div>
-      `;
-        });
-
-        container.appendChild(recDiv);
-      });
-    }
-
-
     function handleGood() {
       alert("Good luck investing!");
     }
