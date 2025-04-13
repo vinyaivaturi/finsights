@@ -61,13 +61,27 @@
           recDiv.innerHTML += `
             <div class="stock-card">
               <h3>${item['Ticker Symbol']} - ${item['Company Name']}</h3>
-              <p><strong>Sector:</strong> ${item['Sector']}</p>
-              <p title="Beta measures volatility compared to the overall market. A beta > 1 is more volatile.">
-            <strong>Beta Value:</strong> ${item['Beta Value']}
-          </p>
-              <p><strong>Investment:</strong> $${item['Investment'].toFixed(2)}</p>
-              <button onclick="handleGood()" title="I like this recommendation">✅</button>
-          <button onclick="handleReject('${item['Ticker Symbol']}')" title="I want to reject this suggestion">❌</button>
+      <p><strong>Sector:</strong> ${item['Sector']}</p>
+      <p>
+        <strong>Beta Value:</strong>
+        <span class="tooltip">${item['Beta Value']}
+          <span class="tooltip-text">
+            Beta measures a stock's volatility relative to the market.
+            A beta above 1 indicates higher volatility; below 1 means more stability.
+          </span>
+        </span>
+      </p>
+      <p><strong>Investment:</strong> $${item['Investment'].toFixed(2)}</p>
+
+      <span class="tooltip">
+        <button onclick="handleGood()">✅</button>
+        <span class="tooltip-text">I like this recommendation</span>
+      </span>
+
+      <span class="tooltip">
+        <button onclick="handleReject('${item['Ticker Symbol']}')">❌</button>
+        <span class="tooltip-text">I want to reject this suggestion</span>
+    </span>
             </div>
           `;
         });
