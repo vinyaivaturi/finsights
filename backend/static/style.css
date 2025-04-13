@@ -86,7 +86,7 @@ body {
     background-color: #c8c8c8;
   }
 
-  
+
   .tooltip {
     position: relative;
     display: inline-block;
@@ -100,10 +100,10 @@ body {
     padding: 8px 10px;
     border-radius: 5px;
     font-size: 13px;
-    max-width: 250px;
+    max-width: 350px;
     z-index: 100;
     white-space: normal;
-    top: -110%; /* adjust as needed */
+    top: -140%; 
     left: 50%;
     transform: translateX(-50%);
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
