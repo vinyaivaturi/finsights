@@ -101,7 +101,7 @@ body {
     padding: 10px 14px;
     border-radius: 6px;
     font-size: 13px;
-    width: 250px;  
+    width: 150px;  
     max-width: none; 
     z-index: 100;
     white-space: normal;
@@ -126,12 +126,12 @@ body {
   .tooltip-beta .tooltip-text {
     display: none;
     position: absolute;
-    background-color: #333;
+    background-color: #0d3b66;
     color: #fff;
     padding: 10px 14px;
     border-radius: 6px;
     font-size: 13px;
-    width: 300px;
+    width: 400px;
     max-width: none;
     z-index: 100;
     white-space: normal;
