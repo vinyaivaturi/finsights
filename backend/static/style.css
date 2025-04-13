@@ -63,10 +63,8 @@ body {
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     width: 400px;
     text-align: left;
-
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
   }
   
   .stock-card h3 {
@@ -165,9 +163,14 @@ body {
   }
   
   .action-buttons {
+    position: absolute;
+    top: 20px;
+    right: 20px;
     display: flex;
-    justify-content: flex-end;
     gap: 10px;
-    margin-top: 20px;
+  }
+  
+  .action-buttons button {
+    margin-right: 0; 
   }
   
