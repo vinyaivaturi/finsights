@@ -59,31 +59,32 @@
 
         recommendationGroup.forEach(item => {
           recDiv.innerHTML += `
-            <div class="stock-card">
-              <h3>${item['Ticker Symbol']} - ${item['Company Name']}</h3>
-      <p><strong>Sector:</strong> ${item['Sector']}</p>
-      <p>
-        <strong>Beta Value:</strong>
-        <span class="tooltip">${item['Beta Value']}
-          <span class="tooltip-text">
-            Beta measures a stock's volatility relative to the market.
-            A beta above 1 indicates higher volatility; below 1 means more stability.
+        <div class="stock-card">
+          <h3>${item['Ticker Symbol']} - ${item['Company Name']}</h3>
+          <p><strong>Sector:</strong> ${item['Sector']}</p>
+          <p>
+            <strong>Beta Value:</strong>
+            <span class="tooltip">
+              ${item['Beta Value']}
+              <span class="tooltip-text">
+                Beta measures a stock's volatility relative to the market. 
+                A beta above 1 indicates higher volatility, below 1 indicates lower volatility.
+              </span>
+            </span>
+          </p>
+          <p><strong>Investment:</strong> $${item['Investment'].toFixed(2)}</p>
+
+          <span class="tooltip">
+            <button onclick="handleGood()">✅</button>
+            <span class="tooltip-text">I like this recommendation</span>
           </span>
-        </span>
-      </p>
-      <p><strong>Investment:</strong> $${item['Investment'].toFixed(2)}</p>
 
-      <span class="tooltip">
-        <button onclick="handleGood()">✅</button>
-        <span class="tooltip-text">I like this recommendation</span>
-      </span>
-
-      <span class="tooltip">
-        <button onclick="handleReject('${item['Ticker Symbol']}')">❌</button>
-        <span class="tooltip-text">I want to reject this suggestion</span>
-    </span>
-            </div>
-          `;
+          <span class="tooltip">
+            <button onclick="handleReject('${item['Ticker Symbol']}')">❌</button>
+            <span class="tooltip-text">I want to reject this suggestion</span>
+          </span>
+        </div>
+      `;
         });
 
         container.appendChild(recDiv);
