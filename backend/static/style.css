@@ -96,12 +96,12 @@ body {
   .tooltip .tooltip-text {
     display: none;
     position: absolute;
-    background-color: #222;
+    background-color: #0d3b66;
     color: #fff;
     padding: 10px 14px;
     border-radius: 6px;
     font-size: 13px;
-    width: 300px;  
+    width: 250px;  
     max-width: none; 
     z-index: 100;
     white-space: normal;
@@ -135,15 +135,27 @@ body {
     max-width: none;
     z-index: 100;
     white-space: normal;
-    top: -180%;  
-    left: 50%;
-    transform: translateX(-50%);
+    top: 50%;
+    left: 105%; 
+    transform: translateY(-50%);
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.25);
     line-height: 1.4;
   }
   
+  
   .tooltip-beta:hover .tooltip-text {
     display: block;
+  }
+
+  .tooltip-beta .tooltip-text::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    transform: translateY(-50%);
+    border-width: 6px;
+    border-style: solid;
+    border-color: transparent #333 transparent transparent;
   }
   
   
