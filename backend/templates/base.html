@@ -62,13 +62,14 @@
         <div class="stock-card">
           <h3>${item['Ticker Symbol']} - ${item['Company Name']}</h3>
           <p><strong>Sector:</strong> ${item['Sector']}</p>
-          <p class="tooltip">
+          <p class="tooltip-beta">
           <strong>Beta Value:</strong> ${item['Beta Value']}
           <span class="tooltip-text">
             Beta measures how volatile this stock is compared to the market.
             A beta above 1 means it's more volatile; below 1 is less volatile.
           </span>
         </p>
+
           <p><strong>Investment:</strong> $${item['Investment'].toFixed(2)}</p>
 
           <span class="tooltip">
