@@ -27,11 +27,13 @@ h1 {
   margin-bottom: 20px;
 }
 
+/* ✨ Shrink the input boxes */
 .input-form {
   display: flex;
   flex-direction: column;
   gap: 10px;
   margin-bottom: 30px;
+  align-items: center; /* center them */
 }
 
 .input-form input, .input-form button {
@@ -40,6 +42,8 @@ h1 {
   border-radius: 5px;
   border: 1px solid #ccc;
   font-family: 'DM Sans', sans-serif;
+  width: 300px; /* ✨ make inputs narrow */
+  max-width: 80%;
 }
 
 .input-form button {
@@ -52,23 +56,34 @@ h1 {
   background-color: #145da0;
 }
 
-.recommendation-group {
+/* ✨ Side-by-side Recommendations */
+.recommendations-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
   margin-top: 40px;
+  flex-wrap: wrap; /* mobile responsive */
 }
 
+.recommendation-group {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Each Stock Card */
 .stock-card {
   position: relative;
   background-color: white;
   padding: 20px;
-  margin: 15px auto;
+  margin-top: 15px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  width: 400px;
   text-align: left;
-
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
 
 .stock-card h3 {
@@ -93,7 +108,7 @@ h1 {
   background-color: #c8c8c8;
 }
 
-
+/* Tooltip Style */
 .tooltip {
   position: relative;
   display: inline-block;
@@ -108,90 +123,29 @@ h1 {
   padding: 10px 14px;
   border-radius: 6px;
   font-size: 13px;
-  width: 100px;  
-  max-width: none; 
+  width: 100px;
   z-index: 100;
   white-space: normal;
-  top: -195%; 
+  top: -195%;
   left: 40%;
   transform: translateX(-50%);
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 2px 10px rgba(0,0,0,0.25);
   line-height: 1.4;
   text-align: center;
 }
-
 
 .tooltip:hover .tooltip-text {
   display: block;
 }
 
-.tooltip-beta {
+/* Beta tooltip and investment tooltip (keeping your style) */
+.tooltip-beta, .tooltip-investment {
   position: relative;
   display: inline-block;
   cursor: pointer;
 }
 
-.tooltip-beta .tooltip-text {
-  display: none;
-  position: absolute;
-  background-color: #0d3b66;
-  color: #fff;
-  padding: 10px 14px;
-  border-radius: 6px;
-  font-size: 13px;
-  width: 400px;
-  max-width: none;
-  z-index: 100;
-  white-space: normal;
-  top: 50%;
-  left: 105%; 
-  transform: translateY(-50%);
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.25);
-  line-height: 1.4;
-  margin-left: 5px;
-}
-
-
-.tooltip-beta:hover .tooltip-text {
-  display: block;
-}
-
-.tooltip-beta .tooltip-text::before {
-  content: "";
-  position: absolute;
-  top: 50%;
-  right: 100%;
-  transform: translateY(-50%);
-  border-width: 6px;
-  border-style: solid;
-  border-color: transparent #0d3b66 transparent transparent;
-}
-
-.action-buttons {
-  align-self: flex-end;
-  display: flex;
-  gap: 10px;
-  margin-top: auto;
-  margin-top: 20px;
-}
-
-.tooltip .tooltip-text::before {
-  content: "";
-  position: absolute;
-  top: 100%; 
-  left: 50%;
-  transform: translateX(-50%);
-  border-width: 6px;
-  border-style: solid;
-  border-color: #0d3b66 transparent transparent transparent; 
-}
-
-.tooltip-investment {
-  position: relative;
-  display: inline-block;
-  cursor: pointer;
-}
-
+.tooltip-beta .tooltip-text,
 .tooltip-investment .tooltip-text {
   display: none;
   position: absolute;
@@ -201,20 +155,21 @@ h1 {
   border-radius: 6px;
   font-size: 13px;
   width: 400px;
-  max-width: none;
   z-index: 100;
   white-space: normal;
   top: 50%;
   left: 105%;
   transform: translateY(-50%);
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 2px 10px rgba(0,0,0,0.25);
   line-height: 1.4;
 }
 
+.tooltip-beta:hover .tooltip-text,
 .tooltip-investment:hover .tooltip-text {
   display: block;
 }
 
+.tooltip-beta .tooltip-text::before,
 .tooltip-investment .tooltip-text::before {
   content: "";
   position: absolute;
@@ -226,29 +181,20 @@ h1 {
   border-color: transparent #0d3b66 transparent transparent;
 }
 
-.modal {
-  display: none; 
-  position: fixed; 
-  z-index: 1000; 
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  overflow: auto; 
-  background-color: rgba(0,0,0,0.4);
+/* Action Buttons aligned */
+.action-buttons {
+  align-self: flex-end;
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
 }
-.modal-content {
-  background-color: #fefefe;
-  margin: 15% auto;
-  padding: 20px;
-  border: 1px solid #888;
-  width: 80%;
-  max-width: 500px;
-  border-radius: 4px;
-}
-.close {
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
-  cursor: pointer;
+
+/* Summary text (after clicking 💡) */
+.summary-text {
+  background-color: #f1f1f1;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 0.9em;
+  color: #333;
 }

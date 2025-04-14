@@ -24,7 +24,7 @@
       <button onclick="submitQuery()">Submit</button>
     </div> 
 
-    <div id="recommendations"></div>
+    <div class="recommendations-container" id="recommendations"></div>
   </div>
 
   <script>
@@ -139,6 +139,24 @@
         parentCard.appendChild(summaryPara);
       }
     }
+
+    function openModal(ticker, summary) {
+      document.getElementById('modal-ticker').innerText = ticker;
+      document.getElementById('modal-summary').innerText = summary;
+      document.getElementById('modal').style.display = 'block';
+    }
+
+    function closeModal() {
+      document.getElementById('modal').style.display = 'none';
+    }
+
+    window.onclick = function(event) {
+      const modal = document.getElementById('modal');
+      if (event.target == modal) {
+        closeModal();
+      }
+    }
+
   </script>
 </body>
 
