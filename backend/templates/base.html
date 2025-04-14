@@ -84,7 +84,7 @@
             <div class="action-buttons">
               <span class="tooltip">
                 <button onclick="showSummary(this)">💡</button>
-                <span class="tooltip-text">Learn More About Investment</span>
+                <span class="tooltip-text">Learn more about the investment</span>
               </span>
               
               <span class="tooltip">
@@ -122,21 +122,23 @@
         .then(() => submitQuery()); 
     }
 
-    function showSummary(button, summaryText) {
+    // Revised function: retrieves summary from the card's data-summary attribute.
+    function showSummary(button) {
       const parentCard = button.closest('.stock-card');
       let existingSummary = parentCard.querySelector('.summary-text');
 
       if (existingSummary) {
-        // If already shown, remove it (toggle behavior)
+        // Toggle behavior: if already shown, remove it.
         existingSummary.remove();
       } else {
+        // Retrieve the summary from the card's data-summary attribute.
+        const summaryText = parentCard.getAttribute("data-summary");
         const summaryPara = document.createElement('p');
         summaryPara.className = "summary-text";
         summaryPara.innerText = summaryText;
         parentCard.appendChild(summaryPara);
       }
     }
-
   </script>
 </body>
 
