@@ -27,14 +27,6 @@
     <div id="recommendations"></div>
   </div>
 
-  <div id="stockModal" class="modal">
-    <div class="modal-content">
-      <span class="close-button" onclick="closeModal()">×</span>
-      <h2 id="modal-title"></h2>
-      <p id="modal-summary"></p>
-    </div>
-  </div>
-
   <script>
     function submitQuery() {
       const risk = document.getElementById('risk-input').value;
@@ -89,6 +81,11 @@
             </p>
             <div class="action-buttons">
               <span class="tooltip">
+                <button onclick="showSummary(this, \`${item['Summary'] || 'No summary available.'}\`)">💡</button>
+                <span class="tooltip-text">Learn More About Investment</span>
+              </span>
+              
+              <span class="tooltip">
                 <button onclick="handleGood()">✅</button>
                 <span class="tooltip-text">I like this recommendation</span>
               </span>
@@ -122,16 +119,21 @@
         .then(() => submitQuery()); 
     }
 
-    function openModal(title, summary) {
-      document.getElementById('modal-title').innerText = title;
-      document.getElementById('modal-summary').innerText = summary;
-      document.getElementById('stockModal').style.display = "block";
+    function showSummary(button, summaryText) {
+      const parentCard = button.closest('.stock-card');
+      let existingSummary = parentCard.querySelector('.summary-text');
+
+      if (existingSummary) {
+        // If already shown, remove it (toggle behavior)
+        existingSummary.remove();
+      } else {
+        const summaryPara = document.createElement('p');
+        summaryPara.className = "summary-text";
+        summaryPara.innerText = summaryText;
+        parentCard.appendChild(summaryPara);
+      }
     }
 
-    function closeModal() {
-      document.getElementById('stockModal').style.display = "none";
-    }
-    
   </script>
 </body>
 
