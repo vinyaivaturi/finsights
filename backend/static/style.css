@@ -131,8 +131,23 @@ h1 {
   text-align: center;
 }
 
+.tooltip .tooltip-text::before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-width: 6px;
+    border-style: solid;
+    border-color: #0d3b66 transparent transparent transparent; 
+  }
+  
 .tooltip:hover .tooltip-text {
   display: block;
+}
+.tooltip:hover,
+.tooltip:hover button {
+  cursor: pointer;
 }
 
 .tooltip-beta, .tooltip-investment {
