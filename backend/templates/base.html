@@ -19,12 +19,21 @@
 
     <div class="input-form">
       <input type="number" id="risk-input" placeholder="Risk Appetite (1-10)">
-      <input type="text" id="sector-input" placeholder="Preferred Sector (or type 'No Preference')">
+      <input type="text" id="sector-input" placeholder="Preferred Sector (eg. Technology, Financial Services OR No Preference)">
       <input type="number" id="amount-input" placeholder="Investment Amount ($)">
       <button onclick="submitQuery()">Submit</button>
     </div>
 
     <div id="recommendations"></div>
+  </div>
+
+  <!-- Modal Popup -->
+  <div id="stockModal" class="modal">
+    <div class="modal-content">
+      <span class="close-button" onclick="closeModal()">×</span>
+      <h2 id="modal-title"></h2>
+      <p id="modal-summary"></p>
+    </div>
   </div>
 
   <script>
@@ -66,7 +75,7 @@
           <span class="tooltip-beta">
             <strong>Beta Value:</strong> ${item['Beta Value']}
             <span class="tooltip-text">
-              Beta measures how volatile this stock is compared to the market (a beta above 1 means it's more volatile; below 1 is less volatile)
+              Beta Value measures how volatile a stock is compared to the market (a beta value greater than 1 means it is more volatile; below 1 is less volatile)
             </span>
           </span>
         </p>
@@ -76,7 +85,7 @@
           <span class="tooltip-investment">
             <strong>Investment:</strong> $${item['Investment'].toFixed(2)}
             <span class="tooltip-text">
-              This is the dollar amount we recommend you invest in this stock based on your inputs
+              This is the dollar amount we recommend you invest in this stock based on your inputs. 
             </span>
           </span>
         </p>
