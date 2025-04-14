@@ -57,8 +57,10 @@
         recDiv.innerHTML = `<h2>Recommendation ${index + 1}</h2>`;
 
         recommendationGroup.forEach(item => {
+          // Create the card and set the summary in a data attribute for easy access
           const card = document.createElement('div');
           card.className = "stock-card";
+          card.setAttribute("data-summary", item['Summary'] || "No summary available.");
 
           card.innerHTML = `
             <h3>${item['Ticker Symbol']} - ${item['Company Name'] || item['Full Name']}</h3>
@@ -81,7 +83,7 @@
             </p>
             <div class="action-buttons">
               <span class="tooltip">
-                <button onclick="showSummary(this, \`${item['Summary'] || 'No summary available.'}\`)">💡</button>
+                <button onclick="showSummary(this)">💡</button>
                 <span class="tooltip-text">Learn More About Investment</span>
               </span>
               
@@ -97,6 +99,7 @@
             </div>
           `;
 
+          // Open modal when clicking anywhere on the card except buttons.
           card.addEventListener('click', (event) => {
             if (event.target.tagName.toLowerCase() !== 'button') {
               openModal(item['Ticker Symbol'], item['Summary'] || "No summary available.");
