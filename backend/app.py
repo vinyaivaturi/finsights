@@ -106,7 +106,18 @@ def search():
         if df.empty:
             return jsonify({"message": "No matching investments found."})  # Clean response
 
-        selected = df.head(5)
+        # Dynamically determine number of recommendations, so they could be 5, 4, 3, 2, or 1 recommendations
+        if risk <= 3:
+            num_recommendations = min(2, len(df))  # Conservative: fewer investments
+        elif risk <= 6:
+            num_recommendations = min(3, len(df))  # Moderate: 3 recommendations
+        elif risk <= 8:
+            num_recommendations = min(4, len(df))  # Higher risk: 4 recommendations
+        else:
+            num_recommendations = min(5, len(df))  # Very high risk: up to 5 recommendations
+
+        selected = df.head(num_recommendations)
+
 
         rec1 = []
         rec2 = []
