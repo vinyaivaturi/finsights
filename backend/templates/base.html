@@ -54,7 +54,18 @@
       data.forEach((recommendationGroup, index) => {
         const recDiv = document.createElement('div');
         recDiv.className = "recommendation-group";
-        recDiv.innerHTML = `<h2>Recommendation ${index + 1}</h2>`;
+        const tooltipText = index === 0
+          ? "This recommendation splits your investment evenly across the selected stocks."
+          : "This recommendation adjusts investment amounts based on beta — higher beta stocks get higher allocations due to their volatility.";
+
+        recDiv.innerHTML = `
+          <h2>
+            <span class="tooltip">
+              Recommendation ${index + 1}
+              <span class="tooltip-text">${tooltipText}</span>
+            </span>
+          </h2>
+        `;
 
         recommendationGroup.forEach(item => {
           // Create the card and set the summary in a data attribute for easy access
@@ -97,7 +108,7 @@
                 <span class="tooltip-text">I want to reject this suggestion</span>
               </span>
             </div>
-          `;
+          `
 
           // Open modal when clicking anywhere on the card except buttons.
           card.addEventListener('click', (event) => {
