@@ -55,12 +55,12 @@
         const recDiv = document.createElement('div');
         recDiv.className = "recommendation-group";
         const tooltipText = index === 0
-          ? "This recommendation splits your investment evenly across the selected stocks."
-          : "This recommendation adjusts investment amounts based on beta — higher beta stocks get higher allocations due to their volatility.";
+          ? "This recommendation splits your investment evenly across selected stocks. The number of stocks varies based on your risk level — lower risk means fewer, more stable stocks."
+          : "This recommendation adjusts investment amounts based on beta — higher beta stocks receive more. The number of stocks varies based on your risk level.";
 
         recDiv.innerHTML = `
           <h2>
-            <span class="tooltip">
+            <span class="tooltip tooltip-recommendation">
               Recommendation ${index + 1}
               <span class="tooltip-text">${tooltipText}</span>
             </span>
