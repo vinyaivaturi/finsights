@@ -84,10 +84,13 @@
                 </span>
               </span>
             </p>
-            <p><strong>User Beta Value:</strong> ${ item['User Beta Value'] !== null ? item['User Beta Value'].toFixed(2) : 'N/A' }
+            <p>
+              <span class="tooltip-beta">
+                <strong>User Beta Value:</strong> ${item['User Beta Value'].toFixed(2)}
                 <span class="tooltip-text">
-                  User Beta Value is the AVERAGE value calculated based on user sentiment from different articles. Again, a beta value greater than 1 means it is more volatile; below 1 means less volatile)
+                  Beta Value measures how volatile a stock is compared to the market (a beta value greater than 1 means it is more volatile than the market; below 1 means less volatile)
                 </span>
+              </span>
             </p>
               <span class="tooltip-investment">
                 <strong>Investment:</strong> $${item['Investment'].toFixed(2)}

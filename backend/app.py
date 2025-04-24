@@ -138,21 +138,15 @@ def search():
 
         for _, row in selected.iterrows():
             weighted_investment = (row['Beta Value'] / total_beta) * amount
-            
-            for invest_amt, target in [(equal_investment, rec1), (weighted_investment, rec2)]:
-                info = row.to_dict()
-                info['Investment'] = invest_amt
+            info = row.to_dict()
+            info['User Beta Value'] = user_sentiment.get(row['Ticker Symbol'], {}).get('user_beta_value',1.0)
+            info['Investment'] = equal_investment
+            rec1.append(info)
 
-                # Compute User Beta Value
-                sources = user_sentiment.get(row['Ticker Symbol'], {})
-                beta_list = [src.get('beta') for src in sources.values() if src.get('beta') is not None]
-                if beta_list:
-                    info['User Beta Value'] = round(sum(beta_list) / len(beta_list), 2)
-                else:
-                    info['User Beta Value'] = None
-
-                target.append(info)
-
+            info2 = row.to_dict()
+            info2['Investment'] = weighted_investment
+            info2['User Beta Value'] = user_sentiment.get(row['Ticker Symbol'], {}).get('user_beta_value',1.0)
+            rec2.append(info2)
 
         print("DEBUG: Successfully generated 2 recommendation sets.")
         return jsonify([rec1, rec2])

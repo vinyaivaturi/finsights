@@ -4,2951 +4,3466 @@
         "link": "https://finance.yahoo.com/quote/AAPL",
         "beta": 1.259
       },
-      "finviz": {
-        "link": "https://finviz.com/quote.ashx?t=AAPL",
-        "beta": 1.29
-      }
+      "user_beta_value": 1.26
     },
     "NVDA": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/NVDA",
         "beta": 1.958
       },
-      "finviz": {
-        "link": "https://finviz.com/quote.ashx?t=NVDA",
-        "beta": 2.11
-      }
+      "user_beta_value": 1.96
     },
     "MSFT": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/MSFT",
         "beta": 1.0
       },
-      "finviz": {
-        "link": "https://finviz.com/quote.ashx?t=MSFT",
-        "beta": 0.98
-      }
+      "user_beta_value": 1.0
     },
     "AMZN": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/AMZN",
         "beta": 1.393
       },
-      "finviz": {
-        "link": "https://finviz.com/quote.ashx?t=AMZN",
-        "beta": 1.31
-      }
+      "user_beta_value": 1.39
     },
     "GOOG": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/GOOG",
         "beta": 1.035
       },
-      "finviz": {
-        "link": "https://finviz.com/quote.ashx?t=GOOG",
-        "beta": 1.0
-      }
+      "user_beta_value": 1.03
     },
     "META": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/META",
         "beta": 1.279
       },
-      "finviz": {
-        "link": "https://finviz.com/quote.ashx?t=META",
-        "beta": 1.27
-      }
+      "user_beta_value": 1.28
     },
     "TSLA": {
-      "finviz": {
-        "link": "https://finviz.com/quote.ashx?t=TSLA",
-        "beta": 2.42
-      }
+      "user_beta_value": 1.0
     },
     "AVGO": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/AVGO",
         "beta": 1.068
       },
-      "finviz": {
-        "link": "https://finviz.com/quote.ashx?t=AVGO",
-        "beta": 1.05
-      }
+      "user_beta_value": 1.07
     },
     "BRK-B": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/BRK-B",
         "beta": 0.802
       },
-      "finviz": {
-        "link": "https://finviz.com/quote.ashx?t=BRK-B",
-        "beta": 0.87
-      }
+      "user_beta_value": 0.8
     },
     "WMT": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/WMT",
         "beta": 0.693
       },
-      "finviz": {
-        "link": "https://finviz.com/quote.ashx?t=WMT",
-        "beta": 0.65
-      }
+      "user_beta_value": 0.69
     },
     "LLY": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/LLY",
         "beta": 0.504
-      }
+      },
+      "user_beta_value": 0.5
     },
     "JPM": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/JPM",
         "beta": 1.005
-      }
+      },
+      "user_beta_value": 1.0
     },
     "V": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/V",
         "beta": 0.943
-      }
+      },
+      "user_beta_value": 0.94
     },
     "MA": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/MA",
         "beta": 1.064
-      }
+      },
+      "user_beta_value": 1.06
     },
     "ORCL": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/ORCL",
         "beta": 1.221
-      }
+      },
+      "user_beta_value": 1.22
     },
     "XOM": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/XOM",
         "beta": 0.579
-      }
+      },
+      "user_beta_value": 0.58
     },
     "UNH": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/UNH",
         "beta": 0.618
-      }
+      },
+      "user_beta_value": 0.62
     },
     "COST": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/COST",
         "beta": 0.939
-      }
+      },
+      "user_beta_value": 0.94
     },
     "PG": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/PG",
         "beta": 0.419
-      }
+      },
+      "user_beta_value": 0.42
     },
     "HD": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/HD",
         "beta": 1.091
-      }
+      },
+      "user_beta_value": 1.09
     },
     "NFLX": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/NFLX",
         "beta": 1.547
-      }
+      },
+      "user_beta_value": 1.55
     },
     "JNJ": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/JNJ",
         "beta": 0.48
-      }
+      },
+      "user_beta_value": 0.48
     },
     "BAC": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/BAC",
         "beta": 1.254
-      }
+      },
+      "user_beta_value": 1.25
     },
     "CRM": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/CRM",
         "beta": 1.381
-      }
+      },
+      "user_beta_value": 1.38
     },
     "ABBV": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/ABBV",
         "beta": 0.538
-      }
+      },
+      "user_beta_value": 0.54
     },
     "KO": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/KO",
         "beta": 0.454
-      }
+      },
+      "user_beta_value": 0.45
     },
     "TMUS": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/TMUS",
         "beta": 0.627
-      }
+      },
+      "user_beta_value": 0.63
     },
     "CVX": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/CVX",
         "beta": 0.913
-      }
+      },
+      "user_beta_value": 0.91
     },
     "MRK": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/MRK",
         "beta": 0.416
-      }
+      },
+      "user_beta_value": 0.42
     },
     "WFC": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/WFC",
         "beta": 1.012
-      }
+      },
+      "user_beta_value": 1.01
     },
     "CSCO": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/CSCO",
         "beta": 0.854
-      }
+      },
+      "user_beta_value": 0.85
     },
     "ACN": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/ACN",
         "beta": 1.315
-      }
+      },
+      "user_beta_value": 1.31
     },
     "NOW": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/NOW",
         "beta": 1.081
-      }
+      },
+      "user_beta_value": 1.08
     },
     "AXP": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/AXP",
         "beta": 1.159
-      }
+      },
+      "user_beta_value": 1.16
     },
     "MCD": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/MCD",
         "beta": 0.619
-      }
+      },
+      "user_beta_value": 0.62
     },
     "PEP": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/PEP",
         "beta": 0.503
-      }
+      },
+      "user_beta_value": 0.5
     },
     "BX": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/BX",
         "beta": 1.601
-      }
+      },
+      "user_beta_value": 1.6
     },
     "IBM": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/IBM",
         "beta": 0.662
-      }
+      },
+      "user_beta_value": 0.66
     },
     "DIS": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/DIS",
         "beta": 1.442
-      }
+      },
+      "user_beta_value": 1.44
     },
     "LIN": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/LIN",
         "beta": 0.947
-      }
+      },
+      "user_beta_value": 0.95
     },
     "TMO": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/TMO",
         "beta": 0.869
-      }
+      },
+      "user_beta_value": 0.87
     },
     "MS": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/MS",
         "beta": 1.289
-      }
+      },
+      "user_beta_value": 1.29
     },
     "ABT": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/ABT",
         "beta": 0.801
-      }
+      },
+      "user_beta_value": 0.8
     },
     "ADBE": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/ADBE",
         "beta": 1.492
-      }
+      },
+      "user_beta_value": 1.49
     },
     "AMD": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/AMD",
         "beta": 1.885
-      }
+      },
+      "user_beta_value": 1.89
     },
     "PM": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/PM",
         "beta": 0.491
-      }
+      },
+      "user_beta_value": 0.49
+    },
+    "ISRG": {
+      "user_beta_value": 1.0
     },
     "PLTR": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/PLTR",
         "beta": 2.741
-      }
+      },
+      "user_beta_value": 2.74
+    },
+    "GE": {
+      "user_beta_value": 1.0
     },
     "INTU": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/INTU",
         "beta": 1.256
-      }
+      },
+      "user_beta_value": 1.26
     },
     "GS": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/GS",
         "beta": 1.323
-      }
+      },
+      "user_beta_value": 1.32
     },
     "CAT": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/CAT",
         "beta": 1.198
-      }
+      },
+      "user_beta_value": 1.2
     },
     "TXN": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/TXN",
         "beta": 0.976
-      }
+      },
+      "user_beta_value": 0.98
     },
     "QCOM": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/QCOM",
         "beta": 1.287
-      }
+      },
+      "user_beta_value": 1.29
     },
     "VZ": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/VZ",
         "beta": 0.402
-      }
+      },
+      "user_beta_value": 0.4
     },
     "BKNG": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/BKNG",
         "beta": 1.371
-      }
+      },
+      "user_beta_value": 1.37
     },
     "DHR": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/DHR",
         "beta": 0.895
-      }
+      },
+      "user_beta_value": 0.9
     },
     "T": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/T",
         "beta": 0.589
-      }
+      },
+      "user_beta_value": 0.59
     },
     "BLK": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/BLK",
         "beta": 1.394
-      }
+      },
+      "user_beta_value": 1.39
     },
     "RTX": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/RTX",
         "beta": 0.263
-      }
+      },
+      "user_beta_value": 0.26
     },
     "SPGI": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/SPGI",
         "beta": 1.261
-      }
+      },
+      "user_beta_value": 1.26
     },
     "PFE": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/PFE",
         "beta": 0.597
-      }
+      },
+      "user_beta_value": 0.6
     },
     "HON": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/HON",
         "beta": 1.002
-      }
+      },
+      "user_beta_value": 1.0
     },
     "NEE": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/NEE",
         "beta": 0.577
-      }
+      },
+      "user_beta_value": 0.58
     },
     "CMCSA": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/CMCSA",
         "beta": 0.943
-      }
+      },
+      "user_beta_value": 0.94
     },
     "ANET": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/ANET",
         "beta": 1.304
-      }
+      },
+      "user_beta_value": 1.3
     },
     "AMGN": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/AMGN",
         "beta": 0.581
-      }
+      },
+      "user_beta_value": 0.58
     },
     "PGR": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/PGR",
         "beta": 0.382
-      }
+      },
+      "user_beta_value": 0.38
     },
     "LOW": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/LOW",
         "beta": 1.06
-      }
+      },
+      "user_beta_value": 1.06
     },
     "SYK": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/SYK",
         "beta": 0.937
-      }
+      },
+      "user_beta_value": 0.94
     },
     "UNP": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/UNP",
         "beta": 1.059
-      }
+      },
+      "user_beta_value": 1.06
     },
     "TJX": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/TJX",
         "beta": 0.865
-      }
+      },
+      "user_beta_value": 0.86
     },
     "KKR": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/KKR",
         "beta": 1.769
-      }
+      },
+      "user_beta_value": 1.77
     },
     "SCHW": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/SCHW",
         "beta": 0.903
-      }
+      },
+      "user_beta_value": 0.9
     },
     "ETN": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/ETN",
         "beta": 1.078
-      }
+      },
+      "user_beta_value": 1.08
     },
     "AMAT": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/AMAT",
         "beta": 1.603
-      }
+      },
+      "user_beta_value": 1.6
     },
     "BA": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/BA",
         "beta": 1.236
-      }
+      },
+      "user_beta_value": 1.24
     },
     "BSX": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/BSX",
         "beta": 0.731
-      }
+      },
+      "user_beta_value": 0.73
     },
     "C": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/C",
         "beta": 1.277
-      }
+      },
+      "user_beta_value": 1.28
     },
     "UBER": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/UBER",
         "beta": 1.366
-      }
+      },
+      "user_beta_value": 1.37
     },
     "COP": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/COP",
         "beta": 0.841
-      }
+      },
+      "user_beta_value": 0.84
     },
     "PANW": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/PANW",
         "beta": 1.074
-      }
+      },
+      "user_beta_value": 1.07
     },
     "ADP": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/ADP",
         "beta": 0.749
-      }
+      },
+      "user_beta_value": 0.75
     },
     "DE": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/DE",
         "beta": 1.012
-      }
+      },
+      "user_beta_value": 1.01
     },
     "FI": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/FI",
         "beta": 0.916
-      }
+      },
+      "user_beta_value": 0.92
     },
     "BMY": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/BMY",
         "beta": 0.411
-      }
+      },
+      "user_beta_value": 0.41
     },
     "LMT": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/LMT",
         "beta": 0.388
-      }
+      },
+      "user_beta_value": 0.39
     },
     "GILD": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/GILD",
         "beta": 0.343
-      }
+      },
+      "user_beta_value": 0.34
     },
     "NKE": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/NKE",
         "beta": 1.152
-      }
+      },
+      "user_beta_value": 1.15
+    },
+    "CB": {
+      "user_beta_value": 1.0
     },
     "UPS": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/UPS",
         "beta": 1.09
-      }
+      },
+      "user_beta_value": 1.09
     },
     "ADI": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/ADI",
         "beta": 1.059
-      }
+      },
+      "user_beta_value": 1.06
     },
     "MMC": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/MMC",
         "beta": 0.845
-      }
+      },
+      "user_beta_value": 0.84
     },
     "MDT": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/MDT",
         "beta": 0.814
-      }
+      },
+      "user_beta_value": 0.81
     },
     "VRTX": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/VRTX",
         "beta": 0.506
-      }
+      },
+      "user_beta_value": 0.51
     },
     "MU": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/MU",
         "beta": 1.183
-      }
+      },
+      "user_beta_value": 1.18
     },
     "SBUX": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/SBUX",
         "beta": 0.997
-      }
+      },
+      "user_beta_value": 1.0
     },
     "PLD": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/PLD",
         "beta": 1.224
-      }
+      },
+      "user_beta_value": 1.22
+    },
+    "GEV": {
+      "user_beta_value": 1.0
     },
     "LRCX": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/LRCX",
         "beta": 1.531
-      }
+      },
+      "user_beta_value": 1.53
     },
     "MO": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/MO",
         "beta": 0.583
-      }
+      },
+      "user_beta_value": 0.58
     },
     "SO": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/SO",
         "beta": 0.372
-      }
+      },
+      "user_beta_value": 0.37
     },
     "EQIX": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/EQIX",
         "beta": 0.945
-      }
+      },
+      "user_beta_value": 0.94
     },
     "CRWD": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/CRWD",
         "beta": 1.276
-      }
+      },
+      "user_beta_value": 1.28
     },
     "PYPL": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/PYPL",
         "beta": 1.609
-      }
+      },
+      "user_beta_value": 1.61
     },
     "SHW": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/SHW",
         "beta": 1.256
-      }
+      },
+      "user_beta_value": 1.26
     },
     "ICE": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/ICE",
         "beta": 1.103
-      }
+      },
+      "user_beta_value": 1.1
     },
     "CME": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/CME",
         "beta": 0.447
-      }
+      },
+      "user_beta_value": 0.45
     },
     "AMT": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/AMT",
         "beta": 0.878
-      }
+      },
+      "user_beta_value": 0.88
     },
     "APH": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/APH",
         "beta": 1.178
-      }
+      },
+      "user_beta_value": 1.18
     },
     "ELV": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/ELV",
         "beta": 0.782
-      }
+      },
+      "user_beta_value": 0.78
     },
     "TT": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/TT",
         "beta": 1.085
-      }
+      },
+      "user_beta_value": 1.08
     },
     "MCO": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/MCO",
         "beta": 1.384
-      }
+      },
+      "user_beta_value": 1.38
     },
     "CMG": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/CMG",
         "beta": 1.273
-      }
+      },
+      "user_beta_value": 1.27
     },
     "INTC": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/INTC",
         "beta": 1.122
-      }
+      },
+      "user_beta_value": 1.12
     },
     "KLAC": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/KLAC",
         "beta": 1.364
-      }
+      },
+      "user_beta_value": 1.36
     },
     "ABNB": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/ABNB",
         "beta": 1.152
-      }
+      },
+      "user_beta_value": 1.15
     },
     "DUK": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/DUK",
         "beta": 0.372
-      }
+      },
+      "user_beta_value": 0.37
     },
     "PH": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/PH",
         "beta": 1.383
-      }
+      },
+      "user_beta_value": 1.38
     },
     "CDNS": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/CDNS",
         "beta": 1.138
-      }
+      },
+      "user_beta_value": 1.14
     },
     "WM": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/WM",
         "beta": 0.671
-      }
+      },
+      "user_beta_value": 0.67
     },
     "DELL": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/DELL",
         "beta": 1.015
-      }
+      },
+      "user_beta_value": 1.01
     },
     "MDLZ": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/MDLZ",
         "beta": 0.481
-      }
+      },
+      "user_beta_value": 0.48
     },
     "MAR": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/MAR",
         "beta": 1.418
-      }
+      },
+      "user_beta_value": 1.42
     },
     "MSI": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/MSI",
         "beta": 0.946
-      }
+      },
+      "user_beta_value": 0.95
     },
     "WELL": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/WELL",
         "beta": 0.918
-      }
+      },
+      "user_beta_value": 0.92
     },
     "AON": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/AON",
         "beta": 0.816
-      }
+      },
+      "user_beta_value": 0.82
     },
     "REGN": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/REGN",
         "beta": 0.435
-      }
+      },
+      "user_beta_value": 0.43
     },
     "CI": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/CI",
         "beta": 0.516
-      }
+      },
+      "user_beta_value": 0.52
     },
     "HCA": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/HCA",
         "beta": 1.492
-      }
+      },
+      "user_beta_value": 1.49
     },
     "PNC": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/PNC",
         "beta": 1.037
-      }
+      },
+      "user_beta_value": 1.04
     },
     "ITW": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/ITW",
         "beta": 1.139
-      }
+      },
+      "user_beta_value": 1.14
     },
     "SNPS": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/SNPS",
         "beta": 1.226
-      }
+      },
+      "user_beta_value": 1.23
     },
     "CTAS": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/CTAS",
         "beta": 1.194
-      }
+      },
+      "user_beta_value": 1.19
     },
     "CL": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/CL",
         "beta": 0.396
-      }
+      },
+      "user_beta_value": 0.4
     },
     "USB": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/USB",
         "beta": 0.938
-      }
+      },
+      "user_beta_value": 0.94
     },
     "FTNT": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/FTNT",
         "beta": 1.097
-      }
+      },
+      "user_beta_value": 1.1
     },
     "ZTS": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/ZTS",
         "beta": 0.925
-      }
+      },
+      "user_beta_value": 0.93
     },
     "MCK": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/MCK",
         "beta": 0.492
-      }
+      },
+      "user_beta_value": 0.49
     },
     "GD": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/GD",
         "beta": 0.429
-      }
+      },
+      "user_beta_value": 0.43
     },
     "TDG": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/TDG",
         "beta": 1.079
-      }
+      },
+      "user_beta_value": 1.08
     },
     "CEG": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/CEG",
         "beta": 1.021
-      }
+      },
+      "user_beta_value": 1.02
     },
     "AJG": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/AJG",
         "beta": 0.646
-      }
+      },
+      "user_beta_value": 0.65
     },
     "EMR": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/EMR",
         "beta": 1.275
-      }
+      },
+      "user_beta_value": 1.27
     },
     "MMM": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/MMM",
         "beta": 1.06
-      }
+      },
+      "user_beta_value": 1.06
     },
     "ORLY": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/ORLY",
         "beta": 0.788
-      }
+      },
+      "user_beta_value": 0.79
     },
     "NOC": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/NOC",
         "beta": 0.193
-      }
+      },
+      "user_beta_value": 0.19
+    },
+    "COF": {
+      "user_beta_value": 1.0
     },
     "ECL": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/ECL",
         "beta": 1.148
-      }
+      },
+      "user_beta_value": 1.15
     },
     "EOG": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/EOG",
         "beta": 0.943
-      }
+      },
+      "user_beta_value": 0.94
     },
     "FDX": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/FDX",
         "beta": 1.254
-      }
+      },
+      "user_beta_value": 1.25
     },
     "BDX": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/BDX",
         "beta": 0.376
-      }
+      },
+      "user_beta_value": 0.38
     },
     "APD": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/APD",
         "beta": 0.897
-      }
+      },
+      "user_beta_value": 0.9
     },
     "WMB": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/WMB",
         "beta": 0.898
-      }
+      },
+      "user_beta_value": 0.9
     },
     "SPG": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/SPG",
         "beta": 1.48
-      }
+      },
+      "user_beta_value": 1.48
     },
     "ADSK": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/ADSK",
         "beta": 1.498
-      }
+      },
+      "user_beta_value": 1.5
     },
     "RCL": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/RCL",
         "beta": 2.271
-      }
+      },
+      "user_beta_value": 2.27
     },
     "RSG": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/RSG",
         "beta": 0.625
-      }
+      },
+      "user_beta_value": 0.62
     },
     "CARR": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/CARR",
         "beta": 1.208
-      }
+      },
+      "user_beta_value": 1.21
     },
     "CSX": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/CSX",
         "beta": 1.223
-      }
+      },
+      "user_beta_value": 1.22
     },
     "HLT": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/HLT",
         "beta": 1.189
-      }
+      },
+      "user_beta_value": 1.19
     },
     "DLR": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/DLR",
         "beta": 0.94
-      }
+      },
+      "user_beta_value": 0.94
     },
     "TGT": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/TGT",
         "beta": 1.283
-      }
+      },
+      "user_beta_value": 1.28
     },
     "KMI": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/KMI",
         "beta": 0.726
-      }
+      },
+      "user_beta_value": 0.73
     },
     "OKE": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/OKE",
         "beta": 1.166
-      }
+      },
+      "user_beta_value": 1.17
     },
     "TFC": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/TFC",
         "beta": 0.891
-      }
+      },
+      "user_beta_value": 0.89
     },
     "AFL": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/AFL",
         "beta": 0.803
-      }
+      },
+      "user_beta_value": 0.8
     },
     "GM": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/GM",
         "beta": 1.277
-      }
+      },
+      "user_beta_value": 1.28
     },
     "BK": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/BK",
         "beta": 1.024
-      }
+      },
+      "user_beta_value": 1.02
     },
     "ROP": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/ROP",
         "beta": 1.04
-      }
+      },
+      "user_beta_value": 1.04
     },
     "MET": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/MET",
         "beta": 0.878
-      }
+      },
+      "user_beta_value": 0.88
     },
     "CPRT": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/CPRT",
         "beta": 1.222
-      }
+      },
+      "user_beta_value": 1.22
     },
     "FCX": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/FCX",
         "beta": 1.708
-      }
+      },
+      "user_beta_value": 1.71
     },
     "CVS": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/CVS",
         "beta": 0.569
-      }
+      },
+      "user_beta_value": 0.57
     },
     "PCAR": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/PCAR",
         "beta": 0.962
-      }
+      },
+      "user_beta_value": 0.96
     },
     "SRE": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/SRE",
         "beta": 0.664
-      }
+      },
+      "user_beta_value": 0.66
     },
     "AZO": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/AZO",
         "beta": 0.544
-      }
+      },
+      "user_beta_value": 0.54
     },
     "TRV": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/TRV",
         "beta": 0.494
-      }
+      },
+      "user_beta_value": 0.49
     },
     "NXPI": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/NXPI",
         "beta": 1.409
-      }
+      },
+      "user_beta_value": 1.41
     },
     "JCI": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/JCI",
         "beta": 1.233
-      }
+      },
+      "user_beta_value": 1.23
     },
     "GWW": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/GWW",
         "beta": 1.194
-      }
+      },
+      "user_beta_value": 1.19
     },
     "NSC": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/NSC",
         "beta": 1.301
-      }
+      },
+      "user_beta_value": 1.3
     },
     "PSA": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/PSA",
         "beta": 0.757
-      }
+      },
+      "user_beta_value": 0.76
     },
     "SLB": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/SLB",
         "beta": 1.119
-      }
+      },
+      "user_beta_value": 1.12
     },
     "AMP": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/AMP",
         "beta": 1.225
-      }
+      },
+      "user_beta_value": 1.23
     },
     "ALL": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/ALL",
         "beta": 0.356
-      }
+      },
+      "user_beta_value": 0.36
     },
     "FICO": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/FICO",
         "beta": 1.369
-      }
+      },
+      "user_beta_value": 1.37
     },
     "MNST": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/MNST",
         "beta": 0.643
-      }
+      },
+      "user_beta_value": 0.64
     },
     "PAYX": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/PAYX",
         "beta": 0.879
-      }
+      },
+      "user_beta_value": 0.88
     },
     "CHTR": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/CHTR",
         "beta": 1.128
-      }
+      },
+      "user_beta_value": 1.13
     },
     "AEP": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/AEP",
         "beta": 0.421
-      }
+      },
+      "user_beta_value": 0.42
     },
     "ROST": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/ROST",
         "beta": 1.115
-      }
+      },
+      "user_beta_value": 1.11
     },
     "PWR": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/PWR",
         "beta": 1.038
-      }
+      },
+      "user_beta_value": 1.04
     },
     "CMI": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/CMI",
         "beta": 1.069
-      }
+      },
+      "user_beta_value": 1.07
     },
     "AXON": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/AXON",
         "beta": 1.134
-      }
+      },
+      "user_beta_value": 1.13
     },
     "VST": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/VST",
         "beta": 1.23
-      }
+      },
+      "user_beta_value": 1.23
     },
     "URI": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/URI",
         "beta": 1.719
-      }
+      },
+      "user_beta_value": 1.72
     },
     "MSCI": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/MSCI",
         "beta": 1.299
-      }
+      },
+      "user_beta_value": 1.3
     },
     "LULU": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/LULU",
         "beta": 1.313
-      }
+      },
+      "user_beta_value": 1.31
     },
     "O": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/O",
         "beta": 0.796
-      }
+      },
+      "user_beta_value": 0.8
     },
     "PSX": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/PSX",
         "beta": 1.157
-      }
+      },
+      "user_beta_value": 1.16
     },
     "AIG": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/AIG",
         "beta": 0.645
-      }
+      },
+      "user_beta_value": 0.65
     },
     "FANG": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/FANG",
         "beta": 1.423
-      }
+      },
+      "user_beta_value": 1.42
     },
     "D": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/D",
         "beta": 0.573
-      }
+      },
+      "user_beta_value": 0.57
     },
     "HWM": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/HWM",
         "beta": 1.066
-      }
+      },
+      "user_beta_value": 1.07
     },
     "DHI": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/DHI",
         "beta": 1.617
-      }
+      },
+      "user_beta_value": 1.62
     },
     "KR": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/KR",
         "beta": 0.593
-      }
+      },
+      "user_beta_value": 0.59
     },
     "NDAQ": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/NDAQ",
         "beta": 1.03
-      }
+      },
+      "user_beta_value": 1.03
     },
     "OXY": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/OXY",
         "beta": 1.034
-      }
+      },
+      "user_beta_value": 1.03
     },
     "EW": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/EW",
         "beta": 1.149
-      }
+      },
+      "user_beta_value": 1.15
     },
     "COR": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/COR",
         "beta": 0.544
-      }
+      },
+      "user_beta_value": 0.54
     },
     "KDP": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/KDP",
         "beta": 0.548
-      }
+      },
+      "user_beta_value": 0.55
     },
     "FIS": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/FIS",
         "beta": 1.078
-      }
+      },
+      "user_beta_value": 1.08
     },
     "KMB": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/KMB",
         "beta": 0.393
-      }
+      },
+      "user_beta_value": 0.39
     },
     "NEM": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/NEM",
         "beta": 0.559
-      }
+      },
+      "user_beta_value": 0.56
     },
     "DFS": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/DFS",
         "beta": 1.192
-      }
+      },
+      "user_beta_value": 1.19
     },
     "PCG": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/PCG",
         "beta": 0.703
-      }
+      },
+      "user_beta_value": 0.7
     },
     "TEL": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/TEL",
         "beta": 1.244
-      }
+      },
+      "user_beta_value": 1.24
     },
     "MPC": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/MPC",
         "beta": 1.018
-      }
+      },
+      "user_beta_value": 1.02
     },
     "FAST": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/FAST",
         "beta": 1.039
-      }
+      },
+      "user_beta_value": 1.04
     },
     "AME": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/AME",
         "beta": 1.141
-      }
+      },
+      "user_beta_value": 1.14
     },
     "PEG": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/PEG",
         "beta": 0.544
-      }
+      },
+      "user_beta_value": 0.54
     },
     "PRU": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/PRU",
         "beta": 1.089
-      }
+      },
+      "user_beta_value": 1.09
+    },
+    "KVUE": {
+      "user_beta_value": 1.0
     },
     "STZ": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/STZ",
         "beta": 0.789
-      }
+      },
+      "user_beta_value": 0.79
     },
     "GLW": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/GLW",
         "beta": 1.021
-      }
+      },
+      "user_beta_value": 1.02
     },
     "LHX": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/LHX",
         "beta": 0.717
-      }
+      },
+      "user_beta_value": 0.72
     },
     "GRMN": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/GRMN",
         "beta": 0.938
-      }
+      },
+      "user_beta_value": 0.94
+    },
+    "BKR": {
+      "user_beta_value": 1.0
     },
     "CBRE": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/CBRE",
         "beta": 1.267
-      }
+      },
+      "user_beta_value": 1.27
     },
     "CTVA": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/CTVA",
         "beta": 0.727
-      }
+      },
+      "user_beta_value": 0.73
     },
     "HES": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/HES",
         "beta": 0.888
-      }
+      },
+      "user_beta_value": 0.89
     },
     "CCI": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/CCI",
         "beta": 0.952
-      }
+      },
+      "user_beta_value": 0.95
     },
     "DAL": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/DAL",
         "beta": 1.233
-      }
+      },
+      "user_beta_value": 1.23
     },
     "CTSH": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/CTSH",
         "beta": 1.033
-      }
+      },
+      "user_beta_value": 1.03
     },
     "F": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/F",
         "beta": 1.433
-      }
+      },
+      "user_beta_value": 1.43
     },
     "VRSK": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/VRSK",
         "beta": 0.882
-      }
+      },
+      "user_beta_value": 0.88
     },
     "EA": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/EA",
         "beta": 0.786
-      }
+      },
+      "user_beta_value": 0.79
     },
     "ODFL": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/ODFL",
         "beta": 1.256
-      }
+      },
+      "user_beta_value": 1.26
     },
     "XEL": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/XEL",
         "beta": 0.402
-      }
+      },
+      "user_beta_value": 0.4
     },
     "TRGP": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/TRGP",
         "beta": 1.745
-      }
+      },
+      "user_beta_value": 1.75
     },
     "A": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/A",
         "beta": 1.191
-      }
+      },
+      "user_beta_value": 1.19
     },
     "IT": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/IT",
         "beta": 1.26
-      }
+      },
+      "user_beta_value": 1.26
     },
     "LVS": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/LVS",
         "beta": 0.99
-      }
+      },
+      "user_beta_value": 0.99
     },
     "SYY": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/SYY",
         "beta": 0.913
-      }
+      },
+      "user_beta_value": 0.91
     },
     "VLO": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/VLO",
         "beta": 1.147
-      }
+      },
+      "user_beta_value": 1.15
     },
     "OTIS": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/OTIS",
         "beta": 0.904
-      }
+      },
+      "user_beta_value": 0.9
     },
     "LEN": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/LEN",
         "beta": 1.53
-      }
+      },
+      "user_beta_value": 1.53
     },
     "EXC": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/EXC",
         "beta": 0.47
-      }
+      },
+      "user_beta_value": 0.47
     },
     "IR": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/IR",
         "beta": 1.405
-      }
+      },
+      "user_beta_value": 1.41
     },
     "YUM": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/YUM",
         "beta": 0.893
-      }
+      },
+      "user_beta_value": 0.89
     },
     "KHC": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/KHC",
         "beta": 0.418
-      }
+      },
+      "user_beta_value": 0.42
     },
     "GEHC": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/GEHC",
         "beta": 1.309
-      }
+      },
+      "user_beta_value": 1.31
     },
     "IQV": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/IQV",
         "beta": 1.462
-      }
+      },
+      "user_beta_value": 1.46
     },
     "GIS": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/GIS",
         "beta": 0.142
-      }
+      },
+      "user_beta_value": 0.14
     },
     "CCL": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/CCL",
         "beta": 2.422
-      }
+      },
+      "user_beta_value": 2.42
     },
     "RMD": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/RMD",
         "beta": 0.755
-      }
+      },
+      "user_beta_value": 0.76
     },
     "VMC": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/VMC",
         "beta": 0.799
-      }
+      },
+      "user_beta_value": 0.8
     },
     "HSY": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/HSY",
         "beta": 0.269
-      }
+      },
+      "user_beta_value": 0.27
     },
     "ACGL": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/ACGL",
         "beta": 0.342
-      }
+      },
+      "user_beta_value": 0.34
     },
     "IDXX": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/IDXX",
         "beta": 1.498
-      }
+      },
+      "user_beta_value": 1.5
     },
     "WAB": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/WAB",
         "beta": 1.142
-      }
+      },
+      "user_beta_value": 1.14
     },
     "ROK": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/ROK",
         "beta": 1.391
-      }
+      },
+      "user_beta_value": 1.39
     },
     "MLM": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/MLM",
         "beta": 0.807
-      }
+      },
+      "user_beta_value": 0.81
     },
     "EXR": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/EXR",
         "beta": 0.973
-      }
+      },
+      "user_beta_value": 0.97
     },
     "DD": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/DD",
         "beta": 1.243
-      }
+      },
+      "user_beta_value": 1.24
     },
     "ETR": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/ETR",
         "beta": 0.547
-      }
+      },
+      "user_beta_value": 0.55
     },
     "DECK": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/DECK",
         "beta": 1.068
-      }
+      },
+      "user_beta_value": 1.07
     },
     "EFX": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/EFX",
         "beta": 1.651
-      }
+      },
+      "user_beta_value": 1.65
     },
     "UAL": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/UAL",
         "beta": 1.198
-      }
+      },
+      "user_beta_value": 1.2
     },
     "WTW": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/WTW",
         "beta": 0.687
-      }
+      },
+      "user_beta_value": 0.69
     },
     "TTWO": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/TTWO",
         "beta": 1.01
-      }
+      },
+      "user_beta_value": 1.01
     },
     "HIG": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/HIG",
         "beta": 0.673
-      }
+      },
+      "user_beta_value": 0.67
     },
     "RJF": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/RJF",
         "beta": 0.959
-      }
+      },
+      "user_beta_value": 0.96
     },
     "AVB": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/AVB",
         "beta": 0.874
-      }
+      },
+      "user_beta_value": 0.87
     },
     "MTB": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/MTB",
         "beta": 0.57
-      }
+      },
+      "user_beta_value": 0.57
     },
     "DXCM": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/DXCM",
         "beta": 1.504
-      }
+      },
+      "user_beta_value": 1.5
     },
     "ED": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/ED",
         "beta": 0.255
-      }
+      },
+      "user_beta_value": 0.26
     },
     "EBAY": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/EBAY",
         "beta": 1.426
-      }
+      },
+      "user_beta_value": 1.43
     },
     "HPQ": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/HPQ",
         "beta": 1.109
-      }
+      },
+      "user_beta_value": 1.11
     },
     "IRM": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/IRM",
         "beta": 0.999
-      }
+      },
+      "user_beta_value": 1.0
     },
     "EIX": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/EIX",
         "beta": 0.743
-      }
+      },
+      "user_beta_value": 0.74
     },
     "LYV": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/LYV",
         "beta": 1.309
-      }
+      },
+      "user_beta_value": 1.31
     },
     "VICI": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/VICI",
         "beta": 0.725
-      }
+      },
+      "user_beta_value": 0.72
     },
     "CNC": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/CNC",
         "beta": 0.532
-      }
+      },
+      "user_beta_value": 0.53
     },
     "WEC": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/WEC",
         "beta": 0.43
-      }
+      },
+      "user_beta_value": 0.43
     },
     "MCHP": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/MCHP",
         "beta": 1.505
-      }
+      },
+      "user_beta_value": 1.5
     },
     "HUM": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/HUM",
         "beta": 0.63
-      }
+      },
+      "user_beta_value": 0.63
     },
     "ANSS": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/ANSS",
         "beta": 1.203
-      }
+      },
+      "user_beta_value": 1.2
     },
     "BRO": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/BRO",
         "beta": 0.75
-      }
+      },
+      "user_beta_value": 0.75
     },
     "CSGP": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/CSGP",
         "beta": 0.882
-      }
+      },
+      "user_beta_value": 0.88
     },
     "MPWR": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/MPWR",
         "beta": 1.21
-      }
+      },
+      "user_beta_value": 1.21
     },
     "GDDY": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/GDDY",
         "beta": 1.187
-      }
+      },
+      "user_beta_value": 1.19
     },
     "TSCO": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/TSCO",
         "beta": 0.875
-      }
+      },
+      "user_beta_value": 0.88
     },
     "STT": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/STT",
         "beta": 1.444
-      }
+      },
+      "user_beta_value": 1.44
     },
     "CAH": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/CAH",
         "beta": 0.625
-      }
+      },
+      "user_beta_value": 0.62
     },
     "GPN": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/GPN",
         "beta": 0.975
-      }
+      },
+      "user_beta_value": 0.97
     },
     "FITB": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/FITB",
         "beta": 1.013
-      }
+      },
+      "user_beta_value": 1.01
     },
     "XYL": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/XYL",
         "beta": 1.073
-      }
+      },
+      "user_beta_value": 1.07
     },
     "HPE": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/HPE",
         "beta": 1.218
-      }
+      },
+      "user_beta_value": 1.22
     },
     "KEYS": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/KEYS",
         "beta": 1.119
-      }
+      },
+      "user_beta_value": 1.12
     },
     "DOW": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/DOW",
         "beta": 1.042
-      }
+      },
+      "user_beta_value": 1.04
     },
     "EQR": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/EQR",
         "beta": 0.866
-      }
+      },
+      "user_beta_value": 0.87
     },
     "ON": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/ON",
         "beta": 1.474
-      }
+      },
+      "user_beta_value": 1.47
     },
     "PPG": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/PPG",
         "beta": 1.151
-      }
+      },
+      "user_beta_value": 1.15
     },
     "K": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/K",
         "beta": 0.35
-      }
+      },
+      "user_beta_value": 0.35
     },
     "SW": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/SW",
         "beta": 0.998
-      }
+      },
+      "user_beta_value": 1.0
     },
     "NUE": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/NUE",
         "beta": 1.68
-      }
+      },
+      "user_beta_value": 1.68
     },
     "EL": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/EL",
         "beta": 1.095
-      }
+      },
+      "user_beta_value": 1.09
     },
     "BR": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/BR",
         "beta": 1.069
-      }
+      },
+      "user_beta_value": 1.07
     },
     "WBD": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/WBD",
         "beta": 1.432
-      }
+      },
+      "user_beta_value": 1.43
     },
     "TPL": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/TPL",
         "beta": 1.455
-      }
+      },
+      "user_beta_value": 1.46
     },
     "CHD": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/CHD",
         "beta": 0.547
-      }
+      },
+      "user_beta_value": 0.55
     },
     "MTD": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/MTD",
         "beta": 1.284
-      }
+      },
+      "user_beta_value": 1.28
     },
     "DOV": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/DOV",
         "beta": 1.238
-      }
+      },
+      "user_beta_value": 1.24
     },
     "TYL": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/TYL",
         "beta": 0.844
-      }
+      },
+      "user_beta_value": 0.84
     },
     "FTV": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/FTV",
         "beta": 1.171
-      }
+      },
+      "user_beta_value": 1.17
     },
     "TROW": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/TROW",
         "beta": 1.527
-      }
+      },
+      "user_beta_value": 1.53
+    },
+    "VLTO": {
+      "user_beta_value": 1.0
+    },
+    "EQT": {
+      "user_beta_value": 1.0
     },
     "SYF": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/SYF",
         "beta": 1.449
-      }
+      },
+      "user_beta_value": 1.45
     },
     "NVR": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/NVR",
         "beta": 1.075
-      }
+      },
+      "user_beta_value": 1.07
     },
     "DTE": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/DTE",
         "beta": 0.494
-      }
+      },
+      "user_beta_value": 0.49
     },
     "VTR": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/VTR",
         "beta": 1.041
-      }
+      },
+      "user_beta_value": 1.04
     },
     "AWK": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/AWK",
         "beta": 0.671
-      }
+      },
+      "user_beta_value": 0.67
     },
     "ADM": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/ADM",
         "beta": 0.651
-      }
+      },
+      "user_beta_value": 0.65
     },
     "NTAP": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/NTAP",
         "beta": 1.297
-      }
+      },
+      "user_beta_value": 1.3
     },
     "WST": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/WST",
         "beta": 1.22
-      }
+      },
+      "user_beta_value": 1.22
     },
     "CPAY": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/CPAY",
         "beta": 1.109
-      }
+      },
+      "user_beta_value": 1.11
     },
     "PPL": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/PPL",
         "beta": 0.671
-      }
+      },
+      "user_beta_value": 0.67
     },
     "LYB": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/LYB",
         "beta": 0.915
-      }
+      },
+      "user_beta_value": 0.92
     },
     "AEE": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/AEE",
         "beta": 0.468
-      }
+      },
+      "user_beta_value": 0.47
     },
     "EXPE": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/EXPE",
         "beta": 1.657
-      }
+      },
+      "user_beta_value": 1.66
     },
     "HBAN": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/HBAN",
         "beta": 0.92
-      }
+      },
+      "user_beta_value": 0.92
     },
     "CDW": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/CDW",
         "beta": 0.97
-      }
+      },
+      "user_beta_value": 0.97
     },
     "FE": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/FE",
         "beta": 0.392
-      }
+      },
+      "user_beta_value": 0.39
     },
     "HUBB": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/HUBB",
         "beta": 0.941
-      }
+      },
+      "user_beta_value": 0.94
     },
     "HAL": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/HAL",
         "beta": 1.464
-      }
+      },
+      "user_beta_value": 1.46
     },
     "ROL": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/ROL",
         "beta": 0.798
-      }
+      },
+      "user_beta_value": 0.8
     },
     "PHM": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/PHM",
         "beta": 1.447
-      }
+      },
+      "user_beta_value": 1.45
     },
     "CINF": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/CINF",
         "beta": 0.546
-      }
+      },
+      "user_beta_value": 0.55
     },
     "PTC": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/PTC",
         "beta": 1.174
-      }
+      },
+      "user_beta_value": 1.17
     },
     "WRB": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/WRB",
         "beta": 0.411
-      }
+      },
+      "user_beta_value": 0.41
     },
     "DRI": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/DRI",
         "beta": 0.934
-      }
+      },
+      "user_beta_value": 0.93
     },
     "FOX": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/FOX",
         "beta": 0.52
-      }
+      },
+      "user_beta_value": 0.52
     },
     "IFF": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/IFF",
         "beta": 1.233
-      }
+      },
+      "user_beta_value": 1.23
     },
     "SBAC": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/SBAC",
         "beta": 0.828
-      }
+      },
+      "user_beta_value": 0.83
     },
     "WAT": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/WAT",
         "beta": 1.038
-      }
+      },
+      "user_beta_value": 1.04
     },
     "ERIE": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/ERIE",
         "beta": 0.46
-      }
+      },
+      "user_beta_value": 0.46
     },
     "TDY": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/TDY",
         "beta": 1.028
-      }
+      },
+      "user_beta_value": 1.03
     },
     "ATO": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/ATO",
         "beta": 0.68
-      }
+      },
+      "user_beta_value": 0.68
     },
     "RF": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/RF",
         "beta": 1.03
-      }
+      },
+      "user_beta_value": 1.03
     },
     "BIIB": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/BIIB",
         "beta": 0.057
-      }
+      },
+      "user_beta_value": 0.06
     },
     "ZBH": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/ZBH",
         "beta": 0.845
-      }
+      },
+      "user_beta_value": 0.84
     },
     "CNP": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/CNP",
         "beta": 0.636
-      }
+      },
+      "user_beta_value": 0.64
     },
     "MKC": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/MKC",
         "beta": 0.749
-      }
+      },
+      "user_beta_value": 0.75
     },
     "ES": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/ES",
         "beta": 0.594
-      }
+      },
+      "user_beta_value": 0.59
     },
     "WDC": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/WDC",
         "beta": 1.441
-      }
+      },
+      "user_beta_value": 1.44
     },
     "TSN": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/TSN",
         "beta": 0.615
-      }
+      },
+      "user_beta_value": 0.61
     },
     "TER": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/TER",
         "beta": 1.646
-      }
+      },
+      "user_beta_value": 1.65
     },
     "STE": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/STE",
         "beta": 0.875
-      }
+      },
+      "user_beta_value": 0.88
     },
     "PKG": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/PKG",
         "beta": 0.859
-      }
+      },
+      "user_beta_value": 0.86
     },
     "CLX": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/CLX",
         "beta": 0.603
-      }
+      },
+      "user_beta_value": 0.6
     },
     "NTRS": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/NTRS",
         "beta": 1.115
-      }
+      },
+      "user_beta_value": 1.11
     },
     "ZBRA": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/ZBRA",
         "beta": 1.766
-      }
+      },
+      "user_beta_value": 1.77
     },
     "DVN": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/DVN",
         "beta": 1.549
-      }
+      },
+      "user_beta_value": 1.55
     },
     "CBOE": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/CBOE",
         "beta": 0.468
-      }
+      },
+      "user_beta_value": 0.47
     },
     "WY": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/WY",
         "beta": 1.272
-      }
+      },
+      "user_beta_value": 1.27
     },
     "LUV": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/LUV",
         "beta": 0.942
-      }
+      },
+      "user_beta_value": 0.94
     },
     "ULTA": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/ULTA",
         "beta": 1.154
-      }
+      },
+      "user_beta_value": 1.15
     },
     "CMS": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/CMS",
         "beta": 0.341
-      }
+      },
+      "user_beta_value": 0.34
     },
     "INVH": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/INVH",
         "beta": 0.861
-      }
+      },
+      "user_beta_value": 0.86
     },
     "FSLR": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/FSLR",
         "beta": 1.481
-      }
+      },
+      "user_beta_value": 1.48
     },
     "BF-B": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/BF-B",
         "beta": 0.695
-      }
+      },
+      "user_beta_value": 0.69
     },
     "LDOS": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/LDOS",
         "beta": 0.67
-      }
+      },
+      "user_beta_value": 0.67
     },
     "CFG": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/CFG",
         "beta": 1.1
-      }
+      },
+      "user_beta_value": 1.1
     },
     "LH": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/LH",
         "beta": 0.973
-      }
+      },
+      "user_beta_value": 0.97
     },
     "VRSN": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/VRSN",
         "beta": 0.872
-      }
+      },
+      "user_beta_value": 0.87
     },
     "IP": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/IP",
         "beta": 0.948
-      }
+      },
+      "user_beta_value": 0.95
     },
     "ESS": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/ESS",
         "beta": 0.798
-      }
+      },
+      "user_beta_value": 0.8
     },
     "PODD": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/PODD",
         "beta": 1.303
-      }
+      },
+      "user_beta_value": 1.3
     },
     "COO": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/COO",
         "beta": 1.008
-      }
+      },
+      "user_beta_value": 1.01
     },
     "SMCI": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/SMCI",
         "beta": 1.219
-      }
+      },
+      "user_beta_value": 1.22
     },
     "STX": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/STX",
         "beta": 1.236
-      }
+      },
+      "user_beta_value": 1.24
     },
     "MAA": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/MAA",
         "beta": 0.785
-      }
+      },
+      "user_beta_value": 0.79
     },
     "FDS": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/FDS",
         "beta": 0.822
-      }
+      },
+      "user_beta_value": 0.82
     },
     "NRG": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/NRG",
         "beta": 1.096
-      }
+      },
+      "user_beta_value": 1.1
     },
     "BBY": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/BBY",
         "beta": 1.443
-      }
+      },
+      "user_beta_value": 1.44
     },
     "SNA": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/SNA",
         "beta": 0.831
-      }
+      },
+      "user_beta_value": 0.83
     },
     "L": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/L",
         "beta": 0.604
-      }
+      },
+      "user_beta_value": 0.6
     },
     "PFG": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/PFG",
         "beta": 1.014
-      }
+      },
+      "user_beta_value": 1.01
+    },
+    "STLD": {
+      "user_beta_value": 1.0
     },
     "TRMB": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/TRMB",
         "beta": 1.576
-      }
+      },
+      "user_beta_value": 1.58
     },
     "OMC": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/OMC",
         "beta": 0.893
-      }
+      },
+      "user_beta_value": 0.89
     },
     "CTRA": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/CTRA",
         "beta": 0.455
-      }
+      },
+      "user_beta_value": 0.46
     },
     "HRL": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/HRL",
         "beta": 0.313
-      }
+      },
+      "user_beta_value": 0.31
     },
     "ARE": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/ARE",
         "beta": 1.267
-      }
+      },
+      "user_beta_value": 1.27
     },
     "BLDR": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/BLDR",
         "beta": 1.991
-      }
+      },
+      "user_beta_value": 1.99
     },
     "JBHT": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/JBHT",
         "beta": 1.266
-      }
+      },
+      "user_beta_value": 1.27
     },
     "GEN": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/GEN",
         "beta": 1.004
-      }
+      },
+      "user_beta_value": 1.0
     },
     "DGX": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/DGX",
         "beta": 0.776
-      }
+      },
+      "user_beta_value": 0.78
     },
     "KEY": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/KEY",
         "beta": 1.048
-      }
+      },
+      "user_beta_value": 1.05
     },
     "NI": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/NI",
         "beta": 0.48
-      }
+      },
+      "user_beta_value": 0.48
     },
     "MOH": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/MOH",
         "beta": 0.704
-      }
+      },
+      "user_beta_value": 0.7
     },
     "PNR": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/PNR",
         "beta": 1.13
-      }
+      },
+      "user_beta_value": 1.13
     },
     "J": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/J",
         "beta": 0.727
-      }
+      },
+      "user_beta_value": 0.73
     },
     "DG": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/DG",
         "beta": 0.398
-      }
+      },
+      "user_beta_value": 0.4
     },
     "BALL": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/BALL",
         "beta": 1.016
-      }
+      },
+      "user_beta_value": 1.02
     },
     "NWS": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/NWS",
         "beta": 1.252
-      }
+      },
+      "user_beta_value": 1.25
     },
     "UDR": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/UDR",
         "beta": 0.773
-      }
+      },
+      "user_beta_value": 0.77
     },
     "HOLX": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/HOLX",
         "beta": 0.828
-      }
+      },
+      "user_beta_value": 0.83
     },
     "JBL": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/JBL",
         "beta": 1.121
-      }
+      },
+      "user_beta_value": 1.12
     },
     "GPC": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/GPC",
         "beta": 0.832
-      }
+      },
+      "user_beta_value": 0.83
     },
     "IEX": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/IEX",
         "beta": 1.047
-      }
+      },
+      "user_beta_value": 1.05
     },
     "MAS": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/MAS",
         "beta": 1.244
-      }
+      },
+      "user_beta_value": 1.24
     },
     "KIM": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/KIM",
         "beta": 1.248
-      }
+      },
+      "user_beta_value": 1.25
     },
     "ALGN": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/ALGN",
         "beta": 1.73
-      }
+      },
+      "user_beta_value": 1.73
     },
     "DLTR": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/DLTR",
         "beta": 0.869
-      }
+      },
+      "user_beta_value": 0.87
     },
     "EXPD": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/EXPD",
         "beta": 1.025
-      }
+      },
+      "user_beta_value": 1.02
     },
     "EG": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/EG",
         "beta": 0.429
-      }
+      },
+      "user_beta_value": 0.43
     },
     "MRNA": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/MRNA",
         "beta": 2.233
-      }
+      },
+      "user_beta_value": 2.23
     },
     "LNT": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/LNT",
         "beta": 0.517
-      }
+      },
+      "user_beta_value": 0.52
     },
     "AVY": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/AVY",
         "beta": 0.86
-      }
+      },
+      "user_beta_value": 0.86
     },
     "BAX": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/BAX",
         "beta": 0.647
-      }
+      },
+      "user_beta_value": 0.65
     },
     "TPR": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/TPR",
         "beta": 1.389
-      }
+      },
+      "user_beta_value": 1.39
     },
     "VTRS": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/VTRS",
         "beta": 0.908
-      }
+      },
+      "user_beta_value": 0.91
     },
     "CF": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/CF",
         "beta": 0.826
-      }
+      },
+      "user_beta_value": 0.83
     },
     "FFIV": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/FFIV",
         "beta": 1.141
-      }
+      },
+      "user_beta_value": 1.14
     },
     "DPZ": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/DPZ",
         "beta": 1.153
-      }
+      },
+      "user_beta_value": 1.15
     },
     "AKAM": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/AKAM",
         "beta": 0.802
-      }
+      },
+      "user_beta_value": 0.8
     },
     "RL": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/RL",
         "beta": 1.395
-      }
+      },
+      "user_beta_value": 1.4
     },
     "TXT": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/TXT",
         "beta": 1.064
-      }
+      },
+      "user_beta_value": 1.06
     },
     "SWKS": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/SWKS",
         "beta": 1.206
-      }
+      },
+      "user_beta_value": 1.21
     },
     "EVRG": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/EVRG",
         "beta": 0.505
-      }
+      },
+      "user_beta_value": 0.51
     },
     "EPAM": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/EPAM",
         "beta": 1.69
-      }
+      },
+      "user_beta_value": 1.69
     },
     "DOC": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/DOC",
         "beta": 0.994
-      }
+      },
+      "user_beta_value": 0.99
     },
     "APTV": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/APTV",
         "beta": 1.64
-      }
+      },
+      "user_beta_value": 1.64
     },
     "RVTY": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/RVTY",
         "beta": 1.07
-      }
+      },
+      "user_beta_value": 1.07
     },
     "AMCR": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/AMCR",
         "beta": 0.784
-      }
+      },
+      "user_beta_value": 0.78
     },
     "REG": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/REG",
         "beta": 1.04
-      }
+      },
+      "user_beta_value": 1.04
     },
     "POOL": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/POOL",
         "beta": 1.129
-      }
+      },
+      "user_beta_value": 1.13
     },
     "INCY": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/INCY",
         "beta": 0.898
-      }
+      },
+      "user_beta_value": 0.9
     },
     "BXP": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/BXP",
         "beta": 1.083
-      }
+      },
+      "user_beta_value": 1.08
     },
     "KMX": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/KMX",
         "beta": 1.586
-      }
+      },
+      "user_beta_value": 1.59
     },
     "CAG": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/CAG",
         "beta": 0.267
-      }
+      },
+      "user_beta_value": 0.27
     },
     "HST": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/HST",
         "beta": 1.283
-      }
+      },
+      "user_beta_value": 1.28
     },
     "JKHY": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/JKHY",
         "beta": 0.716
-      }
+      },
+      "user_beta_value": 0.72
     },
     "SWK": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/SWK",
         "beta": 1.137
-      }
+      },
+      "user_beta_value": 1.14
     },
     "DVA": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/DVA",
         "beta": 1.044
-      }
+      },
+      "user_beta_value": 1.04
     },
     "CPB": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/CPB",
         "beta": 0.183
-      }
+      },
+      "user_beta_value": 0.18
     },
     "CHRW": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/CHRW",
         "beta": 0.873
-      }
+      },
+      "user_beta_value": 0.87
     },
     "JNPR": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/JNPR",
         "beta": 0.835
-      }
+      },
+      "user_beta_value": 0.83
     },
     "CPT": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/CPT",
         "beta": 0.809
-      }
+      },
+      "user_beta_value": 0.81
     },
     "TAP": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/TAP",
         "beta": 0.696
-      }
+      },
+      "user_beta_value": 0.7
     },
     "NDSN": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/NDSN",
         "beta": 0.964
-      }
+      },
+      "user_beta_value": 0.96
     },
     "PAYC": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/PAYC",
         "beta": 0.973
-      }
+      },
+      "user_beta_value": 0.97
     },
     "UHS": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/UHS",
         "beta": 1.212
-      }
+      },
+      "user_beta_value": 1.21
     },
     "NCLH": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/NCLH",
         "beta": 2.274
-      }
+      },
+      "user_beta_value": 2.27
     },
     "DAY": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/DAY",
         "beta": 1.204
-      }
+      },
+      "user_beta_value": 1.2
     },
     "SJM": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/SJM",
         "beta": 0.336
-      }
+      },
+      "user_beta_value": 0.34
     },
     "TECH": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/TECH",
         "beta": 1.451
-      }
+      },
+      "user_beta_value": 1.45
+    },
+    "SOLV": {
+      "user_beta_value": 1.0
     },
     "ALLE": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/ALLE",
         "beta": 1.021
-      }
+      },
+      "user_beta_value": 1.02
     },
     "BG": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/BG",
         "beta": 0.569
-      }
+      },
+      "user_beta_value": 0.57
     },
     "AIZ": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/AIZ",
         "beta": 0.522
-      }
+      },
+      "user_beta_value": 0.52
     },
     "IPG": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/IPG",
         "beta": 1.002
-      }
+      },
+      "user_beta_value": 1.0
     },
     "BEN": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/BEN",
         "beta": 1.388
-      }
+      },
+      "user_beta_value": 1.39
     },
     "EMN": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/EMN",
         "beta": 1.401
-      }
+      },
+      "user_beta_value": 1.4
     },
     "ALB": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/ALB",
         "beta": 1.595
-      }
+      },
+      "user_beta_value": 1.59
     },
     "MGM": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/MGM",
         "beta": 1.964
-      }
+      },
+      "user_beta_value": 1.96
     },
     "AOS": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/AOS",
         "beta": 1.255
-      }
+      },
+      "user_beta_value": 1.25
     },
     "WYNN": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/WYNN",
         "beta": 1.534
-      }
+      },
+      "user_beta_value": 1.53
     },
     "PNW": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/PNW",
         "beta": 0.418
-      }
+      },
+      "user_beta_value": 0.42
+    },
+    "ENPH": {
+      "user_beta_value": 1.0
     },
     "LKQ": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/LKQ",
         "beta": 1.086
-      }
+      },
+      "user_beta_value": 1.09
     },
     "FRT": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/FRT",
         "beta": 1.103
-      }
+      },
+      "user_beta_value": 1.1
     },
     "CRL": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/CRL",
         "beta": 1.45
-      }
+      },
+      "user_beta_value": 1.45
     },
     "GNRC": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/GNRC",
         "beta": 1.584
-      }
+      },
+      "user_beta_value": 1.58
     },
     "AES": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/AES",
         "beta": 0.801
-      }
+      },
+      "user_beta_value": 0.8
     },
     "GL": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/GL",
         "beta": 0.604
-      }
+      },
+      "user_beta_value": 0.6
     },
     "LW": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/LW",
         "beta": 0.471
-      }
+      },
+      "user_beta_value": 0.47
     },
     "HSIC": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/HSIC",
         "beta": 0.846
-      }
+      },
+      "user_beta_value": 0.85
     },
     "MKTX": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/MKTX",
         "beta": 1.116
-      }
+      },
+      "user_beta_value": 1.12
     },
     "MTCH": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/MTCH",
         "beta": 1.381
-      }
+      },
+      "user_beta_value": 1.38
     },
     "TFX": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/TFX",
         "beta": 1.189
-      }
+      },
+      "user_beta_value": 1.19
     },
     "WBA": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/WBA",
         "beta": 0.644
-      }
+      },
+      "user_beta_value": 0.64
     },
     "HAS": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/HAS",
         "beta": 0.496
-      }
+      },
+      "user_beta_value": 0.5
     },
     "IVZ": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/IVZ",
         "beta": 1.238
-      }
+      },
+      "user_beta_value": 1.24
     },
     "APA": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/APA",
         "beta": 2.745
-      }
+      },
+      "user_beta_value": 2.75
     },
     "MOS": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/MOS",
         "beta": 1.053
-      }
+      },
+      "user_beta_value": 1.05
     },
     "PARA": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/PARA",
         "beta": 1.332
-      }
+      },
+      "user_beta_value": 1.33
     },
     "MHK": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/MHK",
         "beta": 1.233
-      }
+      },
+      "user_beta_value": 1.23
     },
     "CE": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/CE",
         "beta": 1.069
-      }
+      },
+      "user_beta_value": 1.07
     },
     "HII": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/HII",
         "beta": 0.33
-      }
+      },
+      "user_beta_value": 0.33
     },
     "CZR": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/CZR",
         "beta": 2.675
-      }
+      },
+      "user_beta_value": 2.67
     },
     "BWA": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/BWA",
         "beta": 1.103
-      }
+      },
+      "user_beta_value": 1.1
     },
     "QRVO": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/QRVO",
         "beta": 1.431
-      }
+      },
+      "user_beta_value": 1.43
     },
     "FMC": {
       "yahoo": {
         "link": "https://finance.yahoo.com/quote/FMC",
         "beta": 0.85
-      }
+      },
+      "user_beta_value": 0.85
+    },
+    "AMTM": {
+      "user_beta_value": 1.0
+    },
+    "SMH": {
+      "user_beta_value": 1.0
+    },
+    "AOA": {
+      "user_beta_value": 1.0
+    },
+    "BITB": {
+      "user_beta_value": 1.0
+    },
+    "BSJT": {
+      "user_beta_value": 1.0
+    },
+    "CCSO": {
+      "user_beta_value": 1.0
+    },
+    "COWG": {
+      "user_beta_value": 1.0
+    },
+    "DEED": {
+      "user_beta_value": 1.0
+    },
+    "DMCY": {
+      "user_beta_value": 1.0
+    },
+    "EBND": {
+      "user_beta_value": 1.0
+    },
+    "FDMO": {
+      "user_beta_value": 1.0
     }
   }
