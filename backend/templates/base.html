@@ -55,8 +55,8 @@
         const recDiv = document.createElement('div');
         recDiv.className = "recommendation-group";
         const tooltipText = index === 0
-          ? "This recommendation splits your investment evenly across selected stocks"
-          : "This recommendation adjusts investment amounts based on beta value";
+          ? "This recommendation splits your investment amount evenly across suggested investment stocks/ETFs"
+          : "This recommendation adjusts investment amounts based on beta value. The higher the beta value, the greater the investment amount (since there is greater potential for reward)";
 
         recDiv.innerHTML = `
           <h2>
@@ -80,11 +80,15 @@
               <span class="tooltip-beta">
                 <strong>Beta Value:</strong> ${item['Beta Value']}
                 <span class="tooltip-text">
-                  Beta Value measures how volatile a stock is compared to the market (a beta value greater than 1 means it is more volatile; below 1 is less volatile)
+                  Beta Value measures how volatile a stock is compared to the market (a beta value greater than 1 means it is more volatile than the market; below 1 means less volatile)
                 </span>
               </span>
             </p>
-            <p>
+            <p><strong>User Beta Value:</strong> ${ item['User Beta Value'] !== null ? item['User Beta Value'].toFixed(2) : 'N/A' }
+                <span class="tooltip-text">
+                  User Beta Value is the AVERAGE value calculated based on user sentiment from different articles. Again, a beta value greater than 1 means it is more volatile; below 1 means less volatile)
+                </span>
+            </p>
               <span class="tooltip-investment">
                 <strong>Investment:</strong> $${item['Investment'].toFixed(2)}
                 <span class="tooltip-text">

@@ -14,6 +14,7 @@ import random
 # Load Data
 current_directory = os.path.dirname(os.path.abspath(__file__))
 json_file_path = os.path.join(current_directory, 'init.json')
+
 #print(f"DEBUG: Attempting to load JSON from {json_file_path}")
 
 # Safely load JSON
@@ -54,6 +55,16 @@ print("DEBUG: filled missing fields if any")
 # Initialize app
 app = Flask(__name__)
 CORS(app)
+
+# Load user sentiment data 
+user_sentiment_path = os.path.join(current_directory, 'user_sentiment.json')
+try:
+    with open(user_sentiment_path, 'r') as f:
+        user_sentiment = json.load(f)
+    print(f"DEBUG: Loaded user_sentiment for {len(user_sentiment)} tickers")
+except Exception as e:
+    print(f"WARNING: Could not load user_sentiment.json: {e}")
+    user_sentiment = {}
 
 rejected_tickers = set()
 
@@ -127,13 +138,21 @@ def search():
 
         for _, row in selected.iterrows():
             weighted_investment = (row['Beta Value'] / total_beta) * amount
-            info = row.to_dict()
-            info['Investment'] = equal_investment
-            rec1.append(info)
+            
+            for invest_amt, target in [(equal_investment, rec1), (weighted_investment, rec2)]:
+                info = row.to_dict()
+                info['Investment'] = invest_amt
 
-            info2 = row.to_dict()
-            info2['Investment'] = weighted_investment
-            rec2.append(info2)
+                # Compute User Beta Value
+                sources = user_sentiment.get(row['Ticker Symbol'], {})
+                beta_list = [src.get('beta') for src in sources.values() if src.get('beta') is not None]
+                if beta_list:
+                    info['User Beta Value'] = round(sum(beta_list) / len(beta_list), 2)
+                else:
+                    info['User Beta Value'] = None
+
+                target.append(info)
+
 
         print("DEBUG: Successfully generated 2 recommendation sets.")
         return jsonify([rec1, rec2])
