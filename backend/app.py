@@ -137,8 +137,9 @@ def search():
         for _,row in selected.iterrows():
             base = row.to_dict()
             # Pull precomputed average directly, default 1.0
-            base['User Beta Value'] = user_sentiment.get(row['Ticker Symbol'], 1.0)
-
+            usr   = user_sentiment.get(row['Ticker Symbol'], {})
+            meanb = usr.get('user_beta_value', 1.0)
+            base['User Beta Value'] = meanb
             recs_equal.append({**base, "Investment": equal_amt})
             recs_weight.append({**base, "Investment": (row['Beta Value']/total_beta)*amount})
 
