@@ -129,28 +129,22 @@ def search():
 
         selected = df.head(num_recommendations)
 
+        recs_equal = []
+        recs_weight = []
+        equal_amt = amount / len(selected)
+        total_beta = selected['Beta Value'].sum()
 
-        rec1 = []
-        rec2 = []
+        for _,row in selected.iterrows():
+            base = row.to_dict()
+            # Pull precomputed average directly, default 1.0
+            base['User Beta Value'] = user_sentiment.get(row['Ticker Symbol'], 1.0)
 
-        equal_investment = amount / len(selected)
-        total_beta = sum(selected['Beta Value'])
-
-        for _, row in selected.iterrows():
-            weighted_investment = (row['Beta Value'] / total_beta) * amount
-            info = row.to_dict()
-            info['User Beta Value'] = user_sentiment.get(row['Ticker Symbol'], {}).get('user_beta_value',1.0)
-            info['Investment'] = equal_investment
-            rec1.append(info)
-
-            info2 = row.to_dict()
-            info2['Investment'] = weighted_investment
-            info2['User Beta Value'] = user_sentiment.get(row['Ticker Symbol'], {}).get('user_beta_value',1.0)
-            rec2.append(info2)
+            recs_equal.append({**base, "Investment": equal_amt})
+            recs_weight.append({**base, "Investment": (row['Beta Value']/total_beta)*amount})
 
         print("DEBUG: Successfully generated 2 recommendation sets.")
-        return jsonify([rec1, rec2])
-    
+        return jsonify([recs_equal, recs_weight])
+        
     except Exception as e:
         print("Error during search:", e)
         return jsonify({"message": "Error processing request."})
