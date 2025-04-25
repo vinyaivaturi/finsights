@@ -67,6 +67,7 @@ except Exception as e:
     user_sentiment = {}
 
 rejected_tickers = set()
+liked_tickers = set()
 
 def filter_by_risk(df, risk):
     print(f"DEBUG: Filtering stocks by risk level: {risk}")
@@ -87,6 +88,20 @@ def svd_sector_match(df, sector):
     svd_matrix = svd.fit_transform(tfidf_matrix)
     query_vec = vectorizer.transform([sector])
     query_svd = svd.transform(query_vec)
+    
+    alpha, beta, gamma = 1.0, 0.75, 0.25
+
+    liked_mask = df['Ticker Symbol'].isin(liked_tickers)
+    rejected_mask = df['Ticker Symbol'].isin(rejected_tickers)
+
+    if liked_mask.any():
+        liked_vecs = svd_matrix[liked_mask.values]
+        query_svd += beta * liked_vecs.mean(axis=0)
+
+    if rejected_mask.any():
+        rejected_vecs = svd_matrix[rejected_mask.values]
+        query_svd -= gamma * rejected_vecs.mean(axis=0)
+
     similarities = cosine_similarity(query_svd, svd_matrix).flatten()
     df = df.copy() 
     df['similarity'] = similarities
@@ -152,6 +167,13 @@ def search():
     except Exception as e:
         print("Error during search:", e)
         return jsonify({"message": "Error processing request."})
+
+@app.route('/like')
+def like():
+    ticker = request.args.get('ticker')
+    liked_tickers.add(ticker)
+    print(f"DEBUG: Ticker liked: {ticker}")
+    return '', 204
 
 @app.route('/reject')
 def reject():
