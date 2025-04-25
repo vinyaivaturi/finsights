@@ -76,6 +76,7 @@
           card.innerHTML = `
             <h3>${item['Ticker Symbol']} - ${item['Company Name'] || item['Full Name']}</h3>
             <p><strong>Sector:</strong> ${item['Sector']}</p>
+            <p><strong>Similarity Score:</strong> ${(item['Similarity Score'] * 100).toFixed(2)}%</p>
             <p>
               <span class="tooltip-beta">
                 <strong>Beta Value:</strong> ${item['Beta Value']}

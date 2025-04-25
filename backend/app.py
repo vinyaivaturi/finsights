@@ -152,6 +152,7 @@ def search():
         for _,row in selected.iterrows():
             base = row.to_dict()
             # Pull precomputed average directly, default 1.0
+            base['Similarity Score'] = float(row['similarity'])  # ADD similarity score here
             ticker = str(row['Ticker Symbol']).strip().upper()  # normalize key
             usr = user_sentiment.get(ticker, {})
             
