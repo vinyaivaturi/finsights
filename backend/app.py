@@ -139,8 +139,10 @@ def search():
             # Pull precomputed average directly, default 1.0
             ticker = str(row['Ticker Symbol']).strip().upper()  # normalize key
             usr = user_sentiment.get(ticker, {})
+            
             meanb = float(usr.get('user_beta_value', 1.0))
             base['User Beta Value'] = float(meanb)
+            
             recs_equal.append({**base, "Investment": equal_amt})
             recs_weight.append({**base, "Investment": (row['Beta Value']/total_beta)*amount})
 
