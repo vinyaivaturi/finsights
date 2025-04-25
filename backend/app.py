@@ -84,10 +84,16 @@ def svd_sector_match(df, sector):
     combined = df['Details'] + " " + df['Sector'] + " " + df['Industry']
     vectorizer = TfidfVectorizer(stop_words='english')
     tfidf_matrix = vectorizer.fit_transform(combined)
+    print(f"DEBUG: TF-IDF matrix shape: {tfidf_matrix.shape}")
+
     svd = TruncatedSVD(n_components=40, random_state=42)
     svd_matrix = svd.fit_transform(tfidf_matrix)
+    print(f"DEBUG: SVD matrix shape: {svd_matrix.shape}")
+    
     query_vec = vectorizer.transform([sector])
+    print(f"DEBUG: Query vector shape BEFORE SVD: {query_vec.shape}")
     query_svd = svd.transform(query_vec)
+    print(f"DEBUG: Query vector shape AFTER SVD: {query_svd.shape}")
     
     alpha, beta, gamma = 1.0, 0.75, 0.25
 
@@ -103,6 +109,7 @@ def svd_sector_match(df, sector):
         query_svd -= gamma * rejected_vecs.mean(axis=0)
 
     similarities = cosine_similarity(query_svd, svd_matrix).flatten()
+    print(f"DEBUG: Example similarity scores: {similarities[:5]}")
     df = df.copy() 
     df['similarity'] = similarities
     return df.sort_values(by='similarity', ascending=False)
@@ -132,6 +139,8 @@ def search():
         if df.empty:
             return jsonify({"message": "No matching investments found."})  # Clean response
 
+        df = df.sort_values(by='similarity', ascending=False)
+
         # Dynamically determine number of recommendations, so they could be 5, 4, 3, 2, or 1 recommendations
         if risk <= 3:
             num_recommendations = min(2, len(df))  # Conservative: fewer investments
@@ -143,7 +152,9 @@ def search():
             num_recommendations = min(5, len(df))  # Very high risk: up to 5 recommendations
 
         selected = df.head(num_recommendations)
-
+        print("DEBUG: Selected recommendations with similarities:")
+        print(selected[['Ticker Symbol', 'similarity']])
+        
         recs_equal = []
         recs_weight = []
         equal_amt = amount / len(selected)
@@ -151,7 +162,6 @@ def search():
 
         for _,row in selected.iterrows():
             base = row.to_dict()
-            # Pull precomputed average directly, default 1.0
             base['Similarity Score'] = float(row['similarity'])  # ADD similarity score here
             ticker = str(row['Ticker Symbol']).strip().upper()  # normalize key
             usr = user_sentiment.get(ticker, {})
